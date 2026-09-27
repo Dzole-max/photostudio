@@ -179,8 +179,6 @@ class _EditorScreenState extends ConsumerState<EditorScreen> {
                         overflow: TextOverflow.ellipsis,
                       ),
                     ),
-                    const SizedBox(width: Space.xxs),
-                    Icon(Icons.edit_outlined, size: 16, color: c.textSecondary),
                   ],
                 ),
               ),

@@ -5,7 +5,6 @@
     "description": "App name. Also defined in AppConfig.brandName; keep both in sync when renaming."
   },
   "commonContinue": "Continue",
-  "commonBack": "Back",
   "commonSkip": "Skip",
   "commonDone": "Done",
   "commonCancel": "Cancel",
@@ -14,20 +13,13 @@
   "commonClose": "Close",
   "commonDelete": "Delete",
   "commonEdit": "Edit",
-  "commonComingSoon": "Coming soon",
   "commonMore": "More",
   "errorGenericTitle": "Something went wrong",
   "errorGenericBody": "We couldn't finish that. Your book is safe — please try again.",
-  "errorOfflineTitle": "You're offline",
-  "errorOfflineBody": "Connect to the internet to continue. Your work is saved on this phone.",
   "devBanner": "DEV",
   "onboardingHeroTitle": "Your moments, bound beautifully.",
   "onboardingHeroBody": "Turn the photos on your phone into a designed book you can hold.",
   "onboardingGetStarted": "Get started",
-  "onboardingArrangeTitle": "We arrange. You decide.",
-  "onboardingStepPick": "Pick your photos",
-  "onboardingStepDesign": "We design every page",
-  "onboardingStepPrint": "You print and hold it",
   "onboardingPrivacyTitle": "Your photos stay yours",
   "onboardingPrivacyBody": "Your photos stay on your phone while we design. We only upload what goes into your book.",
   "onboardingPrivacyTraining": "We never use your photos to train AI models.",
@@ -52,43 +44,12 @@
   "permissionLater": "Not now",
   "permissionLimitedBody": "You've shared some of your photos with Memoria.",
   "permissionSelectMore": "Select more photos",
-  "permissionDeniedBody": "Photo access is off. Turn it on in Settings, or try a sample book first.",
   "permissionOpenSettings": "Open Settings",
   "navHome": "Home",
   "navOrders": "Orders",
   "navSettings": "Settings",
-  "homeGreetingMorning": "Good morning, {name}",
-  "@homeGreetingMorning": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
-  "homeGreetingAfternoon": "Good afternoon, {name}",
-  "@homeGreetingAfternoon": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
-  "homeGreetingEvening": "Good evening, {name}",
-  "@homeGreetingEvening": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
-  "homeGreetingDefault": "Your books",
-  "homeCreateTitle": "Create a new book",
-  "homeCreateBody": "Choose your photos. We'll design the pages.",
   "homeTrySample": "Try a sample book",
   "homeYourBooks": "Your books",
-  "homeStartFromOccasion": "Start from an occasion",
-  "homeEmptyTitle": "Your first book is a few taps away.",
-  "homeEmptyBody": "Start with a trip, a wedding or a whole year.",
   "occasionWedding": "Wedding",
   "occasionTravel": "Trip",
   "occasionBaby": "Baby",
@@ -103,8 +64,8 @@
   "settingsLanguage": "Language",
   "settingsAppearance": "Appearance",
   "themeSystem": "System",
-  "themeLight": "Light",
-  "themeDark": "Dark",
+  "themeLight": "Sky",
+  "themeDark": "Ocean",
   "settingsBookSection": "Book and preview",
   "settingsPageTurnSound": "Page-turn sound",
   "settingsAccount": "Account",
@@ -120,7 +81,6 @@
   "settingsSignOut": "Sign out",
   "settingsPrivacy": "Privacy and data",
   "settingsExportData": "Export my data",
-  "settingsExportDone": "Your data is ready to share.",
   "settingsDeleteData": "Delete my account and uploads",
   "settingsDeleteConfirmTitle": "Delete everything?",
   "settingsDeleteConfirmBody": "This removes your account, your books and every uploaded photo. Orders already at the bindery will still arrive. This can't be undone.",
@@ -142,7 +102,6 @@
   "ordersEmptyBody": "When you order a book, you can follow it here from the bindery to your door.",
   "homeSampleWedding": "A wedding in Ohrid",
   "homeSampleTravel": "A trip to Zanzibar",
-  "homeSampleBody": "See how it works with photos we brought along.",
   "homeBookPages": "{count, plural, one{1 page} other{{count} pages}}",
   "@homeBookPages": {
     "placeholders": {
@@ -168,7 +127,6 @@
       }
     }
   },
-  "homeLoadingBooks": "Opening your shelf…",
   "importTitle": "Choose your photos",
   "importSelectedCount": "{count, plural, =0{Nothing selected} one{1 selected} other{{count} selected}}",
   "@importSelectedCount": {
@@ -236,7 +194,6 @@
       }
     }
   },
-  "photoSelected": "Selected",
   "progressReading": "Reading your photos… {done} of {total}",
   "@progressReading": {
     "placeholders": {
@@ -364,7 +321,6 @@
   "designingChapters": "Arranging the chapters",
   "designingWords": "Writing a few words",
   "designingPages": "Laying out the pages",
-  "designingDone": "Your book is ready to hold.",
   "editorPreview": "Preview",
   "editorUndo": "Undo",
   "editorRedo": "Redo",
@@ -374,8 +330,6 @@
   "editorPrintCheck": "Print check",
   "editorShuffle": "Shuffle design",
   "editorShuffleDone": "A fresh arrangement. Undo brings the last one back.",
-  "editorSaved": "Saved",
-  "editorSaving": "Saving…",
   "editorIssues": "{count, plural, =0{Print-ready} one{1 print check} other{{count} print checks}}",
   "@editorIssues": {
     "placeholders": {
@@ -581,11 +535,8 @@
   "previewTable": "Size on a table",
   "previewBook": "Book",
   "previewOpen": "Tap to open",
-  "previewClose": "Close the book",
   "previewTurnOver": "Turn over",
   "previewTurnHint": "Drag the page corners, or tap the edges to turn.",
-  "previewNextPage": "Next page",
-  "previewPreviousPage": "Previous page",
   "previewCupHint": "Shown next to a coffee cup for scale.",
   "editionTitle": "Choose your edition",
   "editionIntro": "Every edition starts from your book. You can add the others later.",
@@ -634,13 +585,10 @@
       }
     }
   },
-  "homeSampleBadge": "Sample",
   "memoriesPreparing": "Getting your book ready",
   "memoriesIntro": "A short film of your book: the cover, a few pages turning and your best photos brought to life.",
-  "memoriesFormat": "Format",
   "memoriesStories": "Stories 9:16",
   "memoriesSquare": "Square 1:1",
-  "memoriesMusic": "Music",
   "memoriesTrackWarm": "Warm piano",
   "memoriesTrackWander": "Wanderlust guitar",
   "memoriesTrackLight": "Music box",
@@ -669,8 +617,6 @@
   },
   "memoriesFailed": "The video couldn't be made. Try again.",
   "memoriesMakeAgain": "Make a new version",
-  "memoriesPlay": "Play",
-  "memoriesPause": "Pause",
   "memoriesPreviewLabel": "Preview of your video",
   "illustratedIntro": "Pick a style. We redraw your photos and keep everyone looking like themselves on every page.",
   "illustratedPreparing": "Preparing the styles",
@@ -734,5 +680,98 @@
   },
   "seriesHint": "Books in a series share one spine design, so they line up on the shelf as a set.",
   "seriesName": "Series name",
-  "seriesRemove": "Remove from series"
+  "seriesRemove": "Remove from series",
+  "onboardingEditionsTitle": "One story, three ways to keep it",
+  "onboardingEditionsBody": "Every book can also become a short film or an illustrated edition.",
+  "permissionSampleBody": "No problem. See how it works with photos we brought along, and allow access whenever you like.",
+  "navBooks": "Books",
+  "homeSearch": "Search",
+  "homeProfile": "Profile",
+  "homeHeroLabel": "Printed photo books",
+  "homeHeroTitle": "Stories worth holding.",
+  "homeHeroBody": "Pick the photos. We design every page, you hold the book.",
+  "homeCreateBook": "Create a book",
+  "homeHowItWorks": "See how it works",
+  "homeAboutTitle": "What is it about?",
+  "homeStepOf": "Step {step} of {total}",
+  "@homeStepOf": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "homeWaysTitle": "Three ways to keep it",
+  "homeWayMain": "Main",
+  "homeWayAlbumBody": "Hardcover, lay-flat look, printed and delivered.",
+  "homeWayVideoBody": "A 30-second film of your book, ready for Reels.",
+  "homeWayCartoonName": "Cartoon Edition",
+  "homeWayCartoonBody": "Every page redrawn as an illustrated story.",
+  "homeShelfEmpty": "Your shelf is empty. Finished books line up here.",
+  "kindWedding": "Wedding",
+  "kindTravel": "Travel",
+  "kindBaby": "Baby",
+  "kindBirthday": "Birthday",
+  "kindYear": "Year",
+  "kindFamily": "Family",
+  "kindWeddingHint": "Names, date, vows",
+  "kindTravelHint": "Maps and routes",
+  "kindBabyHint": "First year",
+  "kindBirthdayHint": "Any age",
+  "kindYearHint": "Month by month",
+  "kindFamilyHint": "Together",
+  "kindWeddingTitle": "Wedding book",
+  "kindTravelTitle": "Travel book",
+  "kindBabyTitle": "Baby book",
+  "kindBirthdayTitle": "Birthday book",
+  "kindYearTitle": "Year book",
+  "kindFamilyTitle": "Family book",
+  "kindWeddingAbout": "Getting ready, ceremony, portraits, party. We sort it into chapters for you.",
+  "kindTravelAbout": "Day by day, place by place, with a map of your route. We sort it into chapters for you.",
+  "kindBabyAbout": "First days, first smiles, first steps. We sort it into chapters for you.",
+  "kindBirthdayAbout": "The people, the cake, the whole day. We sort it into chapters for you.",
+  "kindYearAbout": "Twelve months of everyday moments. We sort it into chapters for you.",
+  "kindFamilyAbout": "Gatherings, holidays and the people you love. We sort it into chapters for you.",
+  "kindWeddingAction": "Choose wedding photos",
+  "kindTravelAction": "Choose travel photos",
+  "kindBabyAction": "Choose baby photos",
+  "kindBirthdayAction": "Choose birthday photos",
+  "kindYearAction": "Choose photos from the year",
+  "kindFamilyAction": "Choose family photos",
+  "occasionHowItGoes": "How it goes",
+  "occasionStep1": "Pick your photos",
+  "occasionStep1Hint": "Up to 800, we set aside blurry ones",
+  "occasionStep2": "Tell us your story",
+  "occasionStep2Hint": "Names, date, place, one favourite moment",
+  "occasionStep3": "Choose a cover",
+  "occasionStep3Hint": "Monogram, photo, map or illustrated",
+  "occasionStep4": "Hold it",
+  "occasionStep4Hint": "Preview in 3D, then print",
+  "explainerScene1": "Pick the photos",
+  "explainerScene1Body": "We set aside blurry shots and near-duplicates.",
+  "explainerScene2": "We design every page",
+  "explainerScene2Body": "Chapters, layouts and a few warm words, in seconds.",
+  "explainerScene3": "Choose your cover",
+  "explainerScene3Body": "Four covers made from your own photos.",
+  "explainerScene4": "Hold your book",
+  "explainerScene4Body": "Printed on real paper and delivered to your door.",
+  "onboardingSeeExample": "See an example book",
+  "settingsExampleBooks": "Example books",
+  "settingsExampleBooksHint": "Two finished books made with our photos.",
+  "examplePreparing": "Preparing the example book",
+  "exampleMakeYourOwn": "Make one with our photos",
+  "searchHint": "Search your books",
+  "searchNoResults": "No books match “{query}”.",
+  "@searchNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "demoCoverSummer": "Summer",
+  "demoCoverStory": "Your story"
 }

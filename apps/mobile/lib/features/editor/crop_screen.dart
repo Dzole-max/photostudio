@@ -95,10 +95,10 @@ class _CropScreenState extends ConsumerState<CropScreen> {
         : (c.secondary, Icons.check_circle_outline_rounded, l.cropSharp);
 
     return Scaffold(
-      backgroundColor: const Color(0xFF15130F),
+      backgroundColor: const Color(0xFF06101F),
       appBar: AppBar(
-        backgroundColor: const Color(0xFF15130F),
-        foregroundColor: const Color(0xFFF2ECE2),
+        backgroundColor: const Color(0xFF06101F),
+        foregroundColor: const Color(0xFFF4F7FC),
         title: Text(l.photoCrop),
         actions: [
           TextButton(
@@ -106,7 +106,7 @@ class _CropScreenState extends ConsumerState<CropScreen> {
                 setState(() => _crop = smartCrop(photo, aspect).crop),
             child: Text(
               l.cropReset,
-              style: const TextStyle(color: Color(0xFFF2ECE2)),
+              style: const TextStyle(color: Color(0xFFF4F7FC)),
             ),
           ),
         ],
@@ -164,7 +164,7 @@ class _CropScreenState extends ConsumerState<CropScreen> {
             ),
             Text(
               l.cropHint,
-              style: t.bodySmall?.copyWith(color: const Color(0xFFA89E91)),
+              style: t.bodySmall?.copyWith(color: const Color(0xFFA9BEE3)),
             ),
             const SizedBox(height: Space.sm),
             Semantics(
@@ -219,7 +219,7 @@ class _CropPainter extends CustomPainter {
     final dst = Offset.zero & size;
     final img = image;
     if (img == null) {
-      canvas.drawRect(dst, Paint()..color = const Color(0xFF2C2822));
+      canvas.drawRect(dst, Paint()..color = const Color(0xFF123067));
       return;
     }
     final src = Rect.fromLTWH(

@@ -120,6 +120,7 @@ class _MaterialPickerState extends State<MaterialPicker>
                             : finishName(l, f),
                       ),
                       selected: f == selected,
+                      side: BorderSide(color: c.divider),
                       onSelected: available
                           ? (_) {
                               HapticFeedback.selectionClick();

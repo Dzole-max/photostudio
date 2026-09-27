@@ -15,15 +15,17 @@ abstract final class Space {
 }
 
 abstract final class Radii {
-  static const double input = 8;
-  static const double chip = 8;
-  static const double card = 14;
-  static const double sheet = 24;
+  static const double input = 14;
+  static const double chip = 12;
+  static const double card = 20;
+  static const double hero = 28;
+  static const double sheet = 28;
   static const double pill = 999;
   static const double paper = 2;
 
   static const BorderRadius inputAll = BorderRadius.all(Radius.circular(input));
   static const BorderRadius cardAll = BorderRadius.all(Radius.circular(card));
+  static const BorderRadius heroAll = BorderRadius.all(Radius.circular(hero));
   static const BorderRadius paperAll = BorderRadius.all(Radius.circular(paper));
   static const BorderRadius pillAll = BorderRadius.all(Radius.circular(pill));
   static const BorderRadius sheetTop = BorderRadius.vertical(
@@ -31,27 +33,32 @@ abstract final class Radii {
   );
 }
 
-/// Very soft, warm shadows. No hard Material elevation.
+/// Soft, blue-tinted shadows (navy at 8–14 %, blur 24–40). No hard
+/// Material elevation.
 abstract final class Shadows {
   static List<BoxShadow> soft(MemoriaColors c) => [
     BoxShadow(
-      color: c.shadow.withValues(alpha: 0.07),
-      blurRadius: 18,
-      offset: const Offset(0, 5),
+      color: c.shadow.withValues(alpha: 0.08),
+      blurRadius: 24,
+      offset: const Offset(0, 8),
     ),
   ];
 
   static List<BoxShadow> raised(MemoriaColors c) => [
     BoxShadow(
-      color: c.shadow.withValues(alpha: 0.10),
-      blurRadius: 24,
-      offset: const Offset(0, 8),
+      color: c.shadow.withValues(alpha: 0.14),
+      blurRadius: 40,
+      offset: const Offset(0, 14),
     ),
   ];
 }
 
 abstract final class Motion {
   static const Duration short = Duration(milliseconds: 300);
+
+  /// Section entry: fade in and rise 12 px, 60 ms apart.
+  static const Duration entry = Duration(milliseconds: 350);
+  static const Duration stagger = Duration(milliseconds: 60);
   static const Duration medium = Duration(milliseconds: 360);
   static const Duration long = Duration(milliseconds: 400);
   static const Curve curve = Curves.easeOutCubic;

@@ -6,7 +6,6 @@ import 'package:memoria/app.dart';
 import 'package:memoria/app_config.dart';
 import 'package:memoria/core/providers.dart';
 import 'package:memoria/data/db/app_database.dart';
-import 'package:memoria/data/samples/sample_books.dart';
 import 'package:memoria/data/services/photo_permission.dart';
 import 'package:memoria/data/services/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -16,6 +15,7 @@ Future<ProviderContainer> pumpMemoria(
   WidgetTester tester, {
   Map<String, Object> prefs = const {},
   List<Override> overrides = const [],
+  PhotoAccess photoAccess = PhotoAccess.granted,
 }) async {
   SharedPreferences.setMockInitialValues(prefs);
   final sp = await SharedPreferences.getInstance();
@@ -27,9 +27,9 @@ Future<ProviderContainer> pumpMemoria(
       appConfigProvider.overrideWithValue(const AppConfig.fakes()),
       sharedPreferencesProvider.overrideWithValue(sp),
       appDatabaseProvider.overrideWithValue(db),
-      photoPermissionProvider.overrideWithValue(FakePhotoPermissionService()),
-      // Building the demo books analyses 79 photos; widget tests skip it.
-      sampleBooksProvider.overrideWith((ref) async {}),
+      photoPermissionProvider.overrideWithValue(
+        FakePhotoPermissionService(photoAccess),
+      ),
       ...overrides,
     ],
   );

@@ -10,11 +10,11 @@ ThemeData buildMemoriaTheme(Brightness brightness) {
       ? MemoriaColors.light
       : MemoriaColors.dark;
   final scheme = c.toColorScheme(brightness);
-  final text = buildTextTheme(c.textPrimary, c.textSecondary);
+  final text = buildTextTheme(c.textPrimary, c.textBody, c.textSecondary);
 
-  const inputBorder = OutlineInputBorder(
+  final inputBorder = OutlineInputBorder(
     borderRadius: Radii.inputAll,
-    borderSide: BorderSide.none,
+    borderSide: BorderSide(color: c.border),
   );
 
   return ThemeData(
@@ -24,7 +24,7 @@ ThemeData buildMemoriaTheme(Brightness brightness) {
     scaffoldBackgroundColor: c.background,
     canvasColor: c.background,
     dividerColor: c.divider,
-    fontFamily: Fonts.inter,
+    fontFamily: Fonts.onest,
     textTheme: text,
     splashFactory: InkSparkle.splashFactory,
     extensions: [c],
@@ -44,16 +44,19 @@ ThemeData buildMemoriaTheme(Brightness brightness) {
       color: c.surface,
       elevation: 0,
       margin: EdgeInsets.zero,
-      shape: const RoundedRectangleBorder(borderRadius: Radii.cardAll),
+      shape: RoundedRectangleBorder(
+        borderRadius: Radii.cardAll,
+        side: BorderSide(color: c.border),
+      ),
     ),
     dividerTheme: DividerThemeData(color: c.divider, thickness: 1, space: 1),
     filledButtonTheme: FilledButtonThemeData(
       style: FilledButton.styleFrom(
         backgroundColor: c.primary,
         foregroundColor: c.onPrimary,
-        disabledBackgroundColor: c.divider,
+        disabledBackgroundColor: c.surfaceTint,
         disabledForegroundColor: c.textSecondary,
-        minimumSize: const Size(kMinTapTarget, 56),
+        minimumSize: const Size(kMinTapTarget, 54),
         padding: const EdgeInsets.symmetric(horizontal: Space.lg),
         shape: const StadiumBorder(),
         textStyle: text.labelLarge,
@@ -65,14 +68,15 @@ ThemeData buildMemoriaTheme(Brightness brightness) {
         foregroundColor: c.textPrimary,
         minimumSize: const Size(kMinTapTarget, 52),
         padding: const EdgeInsets.symmetric(horizontal: Space.lg),
-        side: BorderSide(color: c.textPrimary.withValues(alpha: 0.28)),
+        side: BorderSide(color: c.border, width: 1.5),
+        backgroundColor: c.surface,
         shape: const StadiumBorder(),
         textStyle: text.labelLarge,
       ),
     ),
     textButtonTheme: TextButtonThemeData(
       style: TextButton.styleFrom(
-        foregroundColor: c.info,
+        foregroundColor: c.primary,
         minimumSize: const Size(kMinTapTarget, kMinTapTarget),
         textStyle: text.labelMedium,
         shape: const StadiumBorder(),
@@ -81,7 +85,8 @@ ThemeData buildMemoriaTheme(Brightness brightness) {
     iconButtonTheme: IconButtonThemeData(
       style: IconButton.styleFrom(
         foregroundColor: c.textPrimary,
-        minimumSize: const Size(kMinTapTarget, kMinTapTarget),
+        minimumSize: const Size(44, 44),
+        shape: const CircleBorder(),
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
@@ -90,7 +95,7 @@ ThemeData buildMemoriaTheme(Brightness brightness) {
       border: inputBorder,
       enabledBorder: inputBorder,
       focusedBorder: inputBorder.copyWith(
-        borderSide: BorderSide(color: c.info, width: 1.5),
+        borderSide: BorderSide(color: c.borderActive, width: 1.5),
       ),
       errorBorder: inputBorder.copyWith(
         borderSide: BorderSide(color: c.error, width: 1.5),
@@ -104,11 +109,11 @@ ThemeData buildMemoriaTheme(Brightness brightness) {
     ),
     chipTheme: ChipThemeData(
       backgroundColor: c.surface,
-      selectedColor: c.textPrimary,
+      selectedColor: c.primary,
       labelStyle: text.labelMedium,
-      secondaryLabelStyle: text.labelMedium?.copyWith(color: c.background),
-      side: BorderSide.none,
-      shape: const RoundedRectangleBorder(borderRadius: Radii.inputAll),
+      secondaryLabelStyle: text.labelMedium?.copyWith(color: c.onPrimary),
+      side: BorderSide(color: c.border),
+      shape: const StadiumBorder(),
       padding: const EdgeInsets.symmetric(horizontal: Space.sm, vertical: 10),
       showCheckmark: false,
     ),
@@ -118,26 +123,26 @@ ThemeData buildMemoriaTheme(Brightness brightness) {
       modalBackgroundColor: c.background,
       shape: const RoundedRectangleBorder(borderRadius: Radii.sheetTop),
       showDragHandle: true,
-      dragHandleColor: c.divider,
+      dragHandleColor: c.border,
     ),
     dialogTheme: DialogThemeData(
       backgroundColor: c.surfaceRaised,
       surfaceTintColor: Colors.transparent,
-      shape: const RoundedRectangleBorder(borderRadius: Radii.cardAll),
+      shape: const RoundedRectangleBorder(borderRadius: Radii.heroAll),
       titleTextStyle: text.headlineSmall,
       contentTextStyle: text.bodyMedium,
     ),
     navigationBarTheme: NavigationBarThemeData(
       backgroundColor: c.background,
       surfaceTintColor: Colors.transparent,
-      indicatorColor: c.surface,
+      indicatorColor: c.surfaceTint,
       elevation: 0,
       height: 68,
       labelTextStyle: WidgetStatePropertyAll(text.labelSmall),
       iconTheme: WidgetStateProperty.resolveWith(
         (states) => IconThemeData(
           color: states.contains(WidgetState.selected)
-              ? c.textPrimary
+              ? c.primary
               : c.textSecondary,
         ),
       ),
@@ -145,36 +150,35 @@ ThemeData buildMemoriaTheme(Brightness brightness) {
     segmentedButtonTheme: SegmentedButtonThemeData(
       style: ButtonStyle(
         backgroundColor: WidgetStateProperty.resolveWith(
-          (s) => s.contains(WidgetState.selected) ? c.textPrimary : null,
+          (s) => s.contains(WidgetState.selected) ? c.primary : c.surface,
         ),
         foregroundColor: WidgetStateProperty.resolveWith(
-          (s) =>
-              s.contains(WidgetState.selected) ? c.background : c.textPrimary,
+          (s) => s.contains(WidgetState.selected) ? c.onPrimary : c.textPrimary,
         ),
-        side: WidgetStatePropertyAll(BorderSide(color: c.divider)),
+        side: WidgetStatePropertyAll(BorderSide(color: c.border)),
         minimumSize: const WidgetStatePropertyAll(Size(0, kMinTapTarget)),
         textStyle: WidgetStatePropertyAll(text.labelMedium),
       ),
     ),
     progressIndicatorTheme: ProgressIndicatorThemeData(
       color: c.primary,
-      linearTrackColor: c.surface,
-      circularTrackColor: c.surface,
+      linearTrackColor: c.surfaceTint,
+      circularTrackColor: c.surfaceTint,
     ),
     switchTheme: SwitchThemeData(
       thumbColor: WidgetStateProperty.resolveWith(
         (s) => s.contains(WidgetState.selected) ? c.onPrimary : c.textSecondary,
       ),
       trackColor: WidgetStateProperty.resolveWith(
-        (s) => s.contains(WidgetState.selected) ? c.secondary : c.surface,
+        (s) => s.contains(WidgetState.selected) ? c.primary : c.surfaceTint,
       ),
-      trackOutlineColor: WidgetStatePropertyAll(c.divider),
+      trackOutlineColor: WidgetStatePropertyAll(c.border),
     ),
     snackBarTheme: SnackBarThemeData(
       backgroundColor: c.textPrimary,
       contentTextStyle: text.bodyMedium?.copyWith(color: c.background),
       behavior: SnackBarBehavior.floating,
-      shape: const RoundedRectangleBorder(borderRadius: Radii.inputAll),
+      shape: const RoundedRectangleBorder(borderRadius: Radii.cardAll),
     ),
     listTileTheme: ListTileThemeData(
       iconColor: c.textSecondary,
@@ -185,10 +189,10 @@ ThemeData buildMemoriaTheme(Brightness brightness) {
       ),
     ),
     tabBarTheme: TabBarThemeData(
-      labelColor: c.textPrimary,
+      labelColor: c.primary,
       unselectedLabelColor: c.textSecondary,
-      indicatorColor: c.textPrimary,
-      dividerColor: c.divider,
+      indicatorColor: c.primary,
+      dividerColor: c.border,
       labelStyle: text.labelMedium,
     ),
     pageTransitionsTheme: const PageTransitionsTheme(

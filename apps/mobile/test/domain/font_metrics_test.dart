@@ -24,7 +24,7 @@ void main() {
         ..sort((a, b) => a.path.compareTo(b.path));
 
   test('fonts are bundled', () {
-    expect(fonts, hasLength(18));
+    expect(fonts, hasLength(23));
   });
 
   for (final font in fonts) {

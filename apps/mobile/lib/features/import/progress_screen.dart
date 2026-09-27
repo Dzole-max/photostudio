@@ -66,7 +66,8 @@ class ProgressScreen extends ConsumerWidget {
                                       2 * Space.lg) /
                                   2 -
                               36 +
-                              (i - latest.length + 1) * 26.0,
+                              // The fan is centred as it grows.
+                              (i - (latest.length - 1) / 2) * 26.0,
                           top: 12 + (i.isEven ? 0 : 6),
                           child: AnimatedOpacity(
                             duration: Motion.long,

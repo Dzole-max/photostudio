@@ -8,6 +8,7 @@ import '../../core/l10n.dart';
 import '../../data/settings/settings.dart';
 import '../../design/design.dart';
 import '../../router/app_router.dart';
+import '../shell/app_shell.dart';
 import 'account_section.dart';
 import 'privacy_section.dart';
 
@@ -33,10 +34,10 @@ class SettingsScreen extends ConsumerWidget {
     final version = ref.watch(_versionProvider).value ?? '';
 
     return Scaffold(
-      appBar: AppBar(title: Text(l.settingsTitle)),
       body: ListView(
-        padding: const EdgeInsets.only(bottom: Space.xxl),
+        padding: EdgeInsets.only(bottom: navClearance(context)),
         children: [
+          TabHeader(l.settingsTitle),
           SectionHeader(l.settingsLanguage),
           _Group(
             children: [
@@ -94,6 +95,14 @@ class SettingsScreen extends ConsumerWidget {
                 ),
                 value: settings.usePhotosForCaptions,
                 onChanged: notifier.setUsePhotosForCaptions,
+              ),
+              const Divider(indent: Space.md, endIndent: Space.md),
+              ListTile(
+                leading: const Icon(Icons.auto_stories_outlined),
+                title: Text(l.settingsExampleBooks),
+                subtitle: Text(l.settingsExampleBooksHint, style: t.bodySmall),
+                trailing: const Icon(Icons.chevron_right_rounded),
+                onTap: () => context.push(Routes.exampleBooks),
               ),
             ],
           ),

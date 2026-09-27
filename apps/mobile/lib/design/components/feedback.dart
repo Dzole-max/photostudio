@@ -3,7 +3,6 @@ import 'package:material_ui/material_ui.dart';
 import '../colors.dart';
 import '../tokens.dart';
 import 'buttons.dart';
-import 'illustrations.dart';
 
 /// Thin calm progress bar with an optional label ("312 of 540").
 class CalmProgress extends StatelessWidget {
@@ -42,7 +41,7 @@ class CalmProgress extends StatelessWidget {
   }
 }
 
-/// Empty state: open-book illustration, Cormorant title, short body, action.
+/// Empty state: a tinted icon badge, title, short body, optional action.
 class EmptyState extends StatelessWidget {
   const EmptyState({
     required this.title,
@@ -50,9 +49,11 @@ class EmptyState extends StatelessWidget {
     this.actionLabel,
     this.onAction,
     this.illustration,
+    this.icon = Icons.photo_library_outlined,
     super.key,
   });
 
+  final IconData icon;
   final String title;
   final String? body;
   final String? actionLabel;
@@ -70,13 +71,17 @@ class EmptyState extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             illustration ??
-                const SizedBox(
-                  width: 180,
-                  height: 120,
-                  child: OpenBookIllustration(),
+                Container(
+                  width: 72,
+                  height: 72,
+                  decoration: BoxDecoration(
+                    color: c.surfaceTint,
+                    borderRadius: Radii.cardAll,
+                  ),
+                  child: Icon(icon, size: 32, color: c.primary),
                 ),
             const SizedBox(height: Space.lg),
-            Text(title, style: t.displaySmall, textAlign: TextAlign.center),
+            Text(title, style: t.titleLarge, textAlign: TextAlign.center),
             if (body != null) ...[
               const SizedBox(height: Space.xs),
               Text(
@@ -123,7 +128,15 @@ class ErrorState extends StatelessWidget {
       body: body,
       actionLabel: retryLabel,
       onAction: onRetry,
-      illustration: Icon(Icons.cloud_off_rounded, size: 56, color: c.error),
+      illustration: Container(
+        width: 72,
+        height: 72,
+        decoration: BoxDecoration(
+          color: c.error.withValues(alpha: 0.12),
+          borderRadius: Radii.cardAll,
+        ),
+        child: Icon(Icons.cloud_off_rounded, size: 32, color: c.error),
+      ),
     );
   }
 }

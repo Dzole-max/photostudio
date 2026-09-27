@@ -3,7 +3,7 @@ import 'package:material_ui/material_ui.dart';
 import '../colors.dart';
 import '../tokens.dart';
 
-/// Linen card with a soft warm shadow when [raised].
+/// White card with a 1 px border; a soft blue shadow when [raised].
 class MemoriaCard extends StatelessWidget {
   const MemoriaCard({
     required this.child,
@@ -25,7 +25,7 @@ class MemoriaCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final c = MemoriaColors.of(context);
-    final bg = color ?? (raised ? c.surfaceRaised : c.surface);
+    final bg = color ?? c.surface;
     Widget content = Padding(padding: padding, child: child);
     if (onTap != null) {
       content = InkWell(
@@ -42,6 +42,7 @@ class MemoriaCard extends StatelessWidget {
         decoration: BoxDecoration(
           color: bg,
           borderRadius: Radii.cardAll,
+          border: color == null ? Border.all(color: c.border) : null,
           boxShadow: raised ? Shadows.soft(c) : null,
         ),
         child: Material(
@@ -55,7 +56,7 @@ class MemoriaCard extends StatelessWidget {
   }
 }
 
-/// Selectable chip: Linen when idle, Ink when selected.
+/// Selectable pill chip: white with a border when idle, primary when selected.
 class MemoriaChip extends StatelessWidget {
   const MemoriaChip({
     required this.label,
@@ -77,15 +78,11 @@ class MemoriaChip extends StatelessWidget {
       label: Text(label),
       avatar: icon == null
           ? null
-          : Icon(
-              icon,
-              size: 18,
-              color: selected ? c.background : c.textPrimary,
-            ),
+          : Icon(icon, size: 18, color: selected ? c.onPrimary : c.textPrimary),
       selected: selected,
       onSelected: onSelected,
       labelStyle: Theme.of(context).textTheme.labelMedium
-          ?.copyWith(color: selected ? c.background : c.textPrimary),
+          ?.copyWith(color: selected ? c.onPrimary : c.textPrimary),
       materialTapTargetSize: MaterialTapTargetSize.padded,
     );
   }
@@ -130,7 +127,7 @@ class StatusPill extends StatelessWidget {
   }
 }
 
-/// Opens a bottom sheet in the house style (24 radius, Paper background).
+/// Opens a bottom sheet in the house style (28 radius).
 Future<T?> showMemoriaSheet<T>(
   BuildContext context, {
   required WidgetBuilder builder,
@@ -175,8 +172,8 @@ class SectionHeader extends StatelessWidget {
               header: true,
               child: Text(
                 text,
-                style: Theme.of(context).textTheme.labelMedium
-                    ?.copyWith(color: c.textSecondary),
+                style: Theme.of(context).textTheme.titleSmall
+                    ?.copyWith(color: c.textPrimary),
               ),
             ),
           ),

@@ -37,3 +37,7 @@ supabase/.temp/
 Thumbs.db
 .idea/
 *.swp
+
+# Temporary leftovers from local fixes
+apps/mobile/android_old/
+*.bak

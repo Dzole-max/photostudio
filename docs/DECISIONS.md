@@ -49,3 +49,27 @@ One line each: decision — reason.
 - Hybrid scope: the cover plus, per chapter, the page with the most people.
 - Consent is required before redrawing (checkbox); the style list never names a studio ("3D animated look").
 - Artwork is generated at 2400 px on the long side (≥ 200 dpi on every format), three photos at a time in isolates; on the emulator a 37-photo book takes about two minutes.
+- Reveal: a 2.4 s route (`/album/:id/reveal`, no page transition) between "Designing your book…" and the chosen edition; tap anywhere skips; light haptic when the book lands, medium when it opens; gold-tone light band for weddings, white otherwise; reduced motion shows the open book for 0.7 s.
+- Material picker: Linen, Leather-look, Matte, Gloss on a slowly turning `Book3D` (drag to turn) in the Format panel; each option shows its surcharge from the catalog; linen and leather-look are hardcover-only, and changing to a size that can't take the chosen finish falls back to matte.
+- "Enhance for print" appears on low-resolution issues in the print check (not on photos already enhanced); the enhanced photo replaces the original everywhere (`replacePhoto`) and is a normal book photo linked by `sourceId`. The before/after compares a 2.2× zoom of the centre, where the difference shows.
+- Handwritten dedication: finger strokes are stored as vector path ornaments (quadratic smoothing through midpoints, 0.35 mm jitter filter) tagged `params.dedication = 1` on the first page, in fountain-pen blue-black (#1E2A44, 1.1 pt). It is kept (rescaled) through re-layout and format changes.
+- Series spines: `Album.series` + `Album.seriesVolume`. Every book in a series gets the same book-cloth spine colour (stable hash of the series name over six colours), the series name at the head, the title in the middle and the volume number at the foot; spines under 6 mm carry the colour only (no text), as with regular spines. Volumes are numbered in the order books join the series.
+- Re-layout now keeps album flags (edition, sample, video, illustration style), the series and the dedication; before this, a format change reset them.
+- Onboarding screen 2 shows the three editions as looping tiles made from the bundled Zanzibar sample photos (no photo permission is needed yet); the Living Memories and Cartoon tiles reuse the Edition picker's previews.
+- Photo access denied (onboarding or import): "Try a sample book" is the main action and opens the Zanzibar sample flow; "Open settings" is secondary. Limited access (Android 14+ "selected photos", iOS limited library) keeps the "Select more photos" action, which calls the system picker through photo_manager.
+- Known limit: re-laying out a Cartoon & Comic album (format change, shuffle) rebuilds pages with the regular templates, so comic panels become regular layouts with the redrawn photos. Comic re-layout is left for later.
+
+## App redesign — Sky / Ocean (owner brief, 2026-09-28)
+
+- The app interface moved from the warm "paper" theme to Sky (light, default) and Ocean (dark). `MemoriaColors` kept its field names so every screen picked up the new palette; new tokens were added (surfaceTint, border, hero gradient, on-dark text, primaryOnDark, navBar). Printed book themes are untouched.
+- Fonts: Unbounded 600 (wordmark, 28–32 sp headlines) and Onest 400–700 (all other UI) are bundled as static instances with Cyrillic, made by `tools/fonts/instance_fonts.py Unbounded Onest`. Cormorant Garamond left the app UI; it stays a book font (and is used where a cover is depicted).
+- Appearance setting: System (default, so Sky in light mode and Ocean in dark mode) / Sky / Ocean. The enum values stay `system/light/dark` to keep stored preferences valid; only the labels changed.
+- Home order: header (wordmark, Search, Profile) → hero card (three fanned covers, "Stories worth holding.", Create a book, See how it works) → "What is it about?" 3 × 2 occasion grid → "Three ways to keep it" rail → "Your books" shelf. Search filters the user's books by title; Profile opens Settings.
+- Occasion tiles: Wedding, Travel, Baby, Birthday, Year, Family (`BookKind`). "Year" maps to the domain's whole-year occasion (`Occasion.family`) and "Family" to the open occasion (`Occasion.other`), so no domain or print-spec change was needed.
+- Container transform is a `Hero` with a custom flight: the tile's white card morphs into the occasion header gradient (radius 20 → bottom corners 32) while the rest of the screen cross-fades (`CustomTransitionPage`, 420 ms). Reduced motion turns the Hero off.
+- The hero shows the user's three latest books; with fewer, designed demo covers fill in (gold-tone monogram, summer sea, "Your story").
+- "See how it works" is a 20-second, four-scene explainer (story-style progress, tap to skip) drawn in the app from bundled sample photos, so it needs no video file.
+- Example books are no longer made on first launch or shown on the shelf; they are built on demand (`exampleBookProvider`) from onboarding ("See an example book") and Settings → Example books. Books with the example ids are filtered from Home and Books.
+- A fourth tab, Books, lists all the user's books (grid of 3D covers). `AlbumStatus` gained `delivered` for the "Delivered" chip.
+- Tab screens use a large Unbounded title (`TabHeader`) and leave room for the floating navigation; a status-bar scrim keeps scrolled content from running under the clock.
+- 33 strings no longer used by any screen were removed from all six ARB files.

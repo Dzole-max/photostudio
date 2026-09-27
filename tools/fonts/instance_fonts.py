@@ -27,6 +27,9 @@ JOBS = [
     ("lora/Lora-Italic%5Bwght%5D.ttf", "Lora-Italic", [400], {}),
     ("manrope/Manrope%5Bwght%5D.ttf", "Manrope", [400, 600, 700], {}),
     ("nunito/Nunito%5Bwght%5D.ttf", "Nunito", [400, 700, 800], {}),
+    # App interface (not printed): wordmark/headlines and UI text.
+    ("unbounded/Unbounded%5Bwght%5D.ttf", "Unbounded", [600], {}),
+    ("onest/Onest%5Bwght%5D.ttf", "Onest", [400, 500, 600, 700], {}),
 ]
 STATIC = [("greatvibes/GreatVibes-Regular.ttf", "GreatVibes-400.ttf")]
 WEIGHT_NAMES = {400: "Regular", 500: "Medium", 600: "SemiBold", 700: "Bold", 800: "ExtraBold"}
@@ -36,6 +39,8 @@ FAMILY_NAMES = {
     "Lora": "Lora",
     "Manrope": "Manrope",
     "Nunito": "Nunito",
+    "Unbounded": "Unbounded",
+    "Onest": "Onest",
 }
 SAMPLE = "Александар & Елена · Охрид ЃѓЌќЉљЊњЏџЅѕЈј"
 
@@ -74,10 +79,15 @@ def set_names(font: TTFont, file_family: str, weight: int, italic: bool) -> None
 
 
 def main() -> None:
+    import sys
+
+    only = set(sys.argv[1:])  # e.g. `Unbounded Onest` to add fonts without refetching all
     OUT.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:
         tmpdir = Path(tmp)
         for src, name, weights, pins in JOBS:
+            if only and name not in only:
+                continue
             local = tmpdir / f"{name}.var.ttf"
             fetch(src, local)
             for w in weights:
@@ -86,9 +96,10 @@ def main() -> None:
                 )
                 set_names(inst, name.split("-")[0], w, name.endswith("Italic"))
                 inst.save(OUT / f"{name}-{w}.ttf")
-        for src, out_name in STATIC:
-            fetch(src, OUT / out_name)
-        fetch("inter/OFL.txt", OUT / "OFL.txt")
+        if not only:
+            for src, out_name in STATIC:
+                fetch(src, OUT / out_name)
+            fetch("inter/OFL.txt", OUT / "OFL.txt")
 
     failed = False
     for font in sorted(OUT.glob("*.ttf")):

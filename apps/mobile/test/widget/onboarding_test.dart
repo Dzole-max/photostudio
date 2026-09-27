@@ -1,5 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
+import 'package:memoria/data/services/photo_permission.dart';
 import 'package:memoria/data/settings/settings.dart';
 import 'package:memoria/design/design.dart';
 import 'package:memoria/features/home/home_screen.dart';
@@ -24,10 +25,15 @@ void main() {
     final l = lookupAppLocalizations(const Locale('en'));
 
     await tester.tap(find.text(l.onboardingGetStarted));
-    await tester.pumpAndSettle();
-    expect(find.text(l.onboardingArrangeTitle), findsOneWidget);
+    // The edition tiles loop, so this page never settles.
+    await tester.pump(const Duration(seconds: 1));
+    await tester.pump(const Duration(seconds: 1));
+    expect(find.text(l.onboardingEditionsTitle), findsOneWidget);
+    expect(find.text(l.editionVideoName), findsOneWidget);
+    expect(find.text(l.editionCartoonName), findsOneWidget);
 
     await tester.tap(find.text(l.commonContinue));
+    await tester.pump(const Duration(seconds: 1));
     await tester.pumpAndSettle();
     expect(find.text(l.onboardingPrivacyTitle), findsOneWidget);
 
@@ -58,7 +64,9 @@ void main() {
     expect(find.text(de.permissionTitle), findsOneWidget);
 
     await tester.tap(find.text(de.permissionAllow));
-    await tester.pumpAndSettle();
+    // Home's cover fan floats continuously, so pump fixed steps.
+    await tester.pump(const Duration(seconds: 1));
+    await tester.pump(const Duration(seconds: 1));
     expect(find.byType(HomeScreen), findsOneWidget);
     expect(container.read(settingsControllerProvider).onboardingDone, isTrue);
   });
@@ -75,8 +83,36 @@ void main() {
     await container
         .read(settingsControllerProvider.notifier)
         .setThemeMode(AppThemeMode.dark);
-    await tester.pumpAndSettle();
+    await tester.pump(const Duration(seconds: 1));
+    await tester.pump(const Duration(seconds: 1));
     expect(Theme.of(ctx()).brightness, Brightness.dark);
     expect(MemoriaColors.of(ctx()).background, MemoriaColors.dark.background);
+  });
+
+  testWidgets('photo access denied: the sample book is the main action', (
+    tester,
+  ) async {
+    await pumpMemoria(
+      tester,
+      prefs: {'language': 'en'},
+      photoAccess: PhotoAccess.denied,
+    );
+    final l = lookupAppLocalizations(const Locale('en'));
+    await tester.tap(find.text(l.onboardingGetStarted));
+    await tester.pump(const Duration(seconds: 1));
+    await tester.pump(const Duration(seconds: 1));
+    await tester.tap(find.text(l.commonContinue));
+    await tester.pump(const Duration(seconds: 1));
+    await tester.pumpAndSettle();
+    for (var i = 0; i < 2; i++) {
+      await tester.tap(find.text(l.commonContinue));
+      await tester.pumpAndSettle();
+    }
+    await tester.tap(find.text(l.permissionAllow));
+    await tester.pumpAndSettle();
+    expect(find.text(l.permissionSampleBody), findsOneWidget);
+    final sample = find.widgetWithText(PrimaryButton, l.homeTrySample);
+    expect(sample, findsOneWidget);
+    expect(find.text(l.permissionOpenSettings), findsOneWidget);
   });
 }

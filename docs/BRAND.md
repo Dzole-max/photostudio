@@ -1,11 +1,13 @@
-# Brand — "The quiet bookbinder"
+# Brand — Memoria
 
-A small premium bindery: paper, ink, linen, a touch of gold. Photos are the colour;
-the interface is neutral and warm. Warm, crafted, calm, quietly confident — never loud,
-never childish by default.
+A polished streaming-app feel in dark blue and blue (never black): a light "Sky" interface by
+default, a dark "Ocean" one with system dark mode or by choice. Photos and printed books are
+the colour; the interface frames them like prints on a light table. Printed book themes are
+separate and unchanged (books are printed on paper).
 
-Code: `apps/mobile/lib/design/` (`MemoriaColors` ThemeExtension, `buildMemoriaTheme`,
-type scale, spacing/radii/shadows/motion tokens, components, illustrations).
+Code: `apps/mobile/lib/design/` (`MemoriaColors` ThemeExtension, `OccasionTone`,
+`buildMemoriaTheme`, type scale, spacing/radii/shadows/motion tokens, components).
+Screens: `docs/screens/`.
 
 ## Voice
 
@@ -18,51 +20,46 @@ type scale, spacing/radii/shadows/motion tokens, components, illustrations).
 
 ## Colour (app UI)
 
-| Token | Light | Dark | Use |
-|---|---|---|---|
-| background | `#F7F3EC` Paper | `#15130F` | app background |
-| surface | `#EDE6DA` Linen | `#221F1A` | cards, sheets, inputs |
-| surfaceRaised | `#FFFFFF` | `#2C2822` | page thumbnails, dialogs |
-| textPrimary | `#1F1B17` Ink | `#F2ECE2` | headlines, body |
-| textSecondary | `#6B635A` Stone | `#A89E91` | captions, hints |
-| primary | `#B04E2B` Clay | `#E0845F` | the one main action per screen |
-| onPrimary | `#FFFFFF` | `#15130F` | text on Clay |
-| secondary | `#5E7160` Sage | `#9BB09C` | success, print-ready |
-| accent | `#8C6A2E` Gold tone | `#D4B06A` | premium labels, wedding accents |
-| info | `#2E3A52` Dusk | `#9FB2D6` | links, selection |
-| warning | `#C98A1B` Amber | `#E3A63A` | warning icons only, never text |
-| error | `#A3322A` Brick | `#E57368` | errors, destructive |
-| divider | `#DDD4C6` | `#3A352D` | 1 px lines |
+| Token | Sky (default) | Ocean |
+|---|---|---|
+| background | #EEF4FC | #0B2350 |
+| surface | #FFFFFF | #123067 |
+| surfaceTint (empty states, selected rows) | #DCE8FA | #1A3F80 |
+| border (1 px) | #D6E2F5 | #274886 (active #6CB8FF) |
+| hero gradient | #1E4FA8 → #0D2B5E | #1B4A9A → #10306B |
+| textPrimary / body / muted | #0B2350 / #3D5580 / #51698F | #F4F7FC / #C3D3EE / #A9BEE3 |
+| text on the hero | #F4F7FC / #C9D8F2 | same |
+| primary (text on it) | #1E5BD8 (white) | #6CB8FF (#0B2350) |
+| primary on the hero (text on it) | #6CB8FF (#06101F) | same |
+| success · warning · error | #137A5E · #8A6500 · #C23A3A | #7FE0C4 · #F2D27A · #FF8A8A |
 
-Clay is the only loud colour: one primary action per screen.
+Status is always icon + text. Occasion tiles (icon background / icon), Sky · Ocean:
+Wedding #EFE6FF/#7A4FC9 · #2A2140/#D9B8FF; Travel #E1F0FF/#1E5BD8 · #10304A/#7CC4FF;
+Baby #FFF4D6/#8A6500 · #2E2A1A/#F2D27A; Birthday #FFE6EC/#C23A5C · #3A1D24/#FF9DB0;
+Year #DFF7EF/#137A5E · #12312B/#7FE0C4; Family #E6EAFF/#3E4FC0 · #1E2440/#A9B8FF.
 
 ## Type
 
-| Role | Font | Sizes / weights |
-|---|---|---|
-| UI | Inter | 12/14/16/20 sp · 400/500/600 |
-| UI display | Cormorant Garamond | 28/34/44 sp · 500/600 |
-| Book body | Lora | captions, chapter text |
-| Book display | Cormorant Garamond | covers, chapter openers |
-| Book script | Great Vibes | wedding names / monograms only |
-| Book sans | Manrope | travel/minimal, dates, map labels, page numbers |
-| Book playful | Nunito | baby, birthday, illustrated edition |
-
-All fonts are bundled static instances (SIL OFL 1.1) in `apps/mobile/assets/fonts/`, cut
-from the Google Fonts variable files by `tools/fonts/instance_fonts.py`. A test
-(`test/domain/font_coverage_test.dart`) fails if any font cannot draw Latin or Macedonian
-Cyrillic. Manrope has no prime marks (′ ″), so coordinates are always written in decimal
-degrees (`6.1659° S, 39.2026° E`).
+- **Unbounded 600**: the wordmark "memoria." (dot in primary) and large headlines only,
+  28–32 sp, letter-spacing −2 %.
+- **Onest 400/500/600/700**: all other UI text, 11–18 sp (dialog titles 20).
+- Both are bundled static instances with Latin + Cyrillic (`tools/fonts/instance_fonts.py`).
+- Cormorant Garamond, Lora, Manrope, Nunito, Inter and Great Vibes are printed-book fonts
+  only; they appear in the app only where a book or cover is shown.
 
 ## Shape, spacing, motion
 
 - Spacing: 4, 8, 12, 16, 24, 32, 48, 64.
-- Radius: 8 inputs/chips · 14 cards · 24 sheets · 999 pills · 2 paper corners.
-- Shadows: Ink at 6–10 % opacity, blur 16–24, y 4–8. No hard Material elevation.
-- Motion: 300–400 ms `easeOutCubic`; page turns physical with a slight curl; reduce-motion
-  swaps curls for cross-fades.
-- Icons: rounded outline set. Haptics: light impact on page turn and on reorder drop.
-- Tap targets ≥ 48 × 48 dp.
+- Radius: cards and tiles 20 · hero 28 · sheets 28 · inputs 14 · pills = height / 2.
+  Primary buttons 52–56 high; icon buttons 44 × 44, round.
+- Shadows: soft and blue-tinted, #0B2350 at 8–14 %, blur 24–40. No hard elevation.
+- Motion: sections fade in and rise 12 px, 60 ms apart, 350 ms `easeOutCubic`; occasion
+  tiles press to 0.96 with a light haptic and grow into their screen (container transform);
+  hero covers float ±4 px over 6 s and lean ±6° with scroll; rails snap, centred card 1.0 vs
+  0.94. Reduce motion: cross-fades only.
+- Icons: rounded outline. No emoji. Tap targets ≥ 44 dp (48 where space allows).
+- Navigation: a floating pill, 68 high, 16 from the edges, white at 96 % (Ocean #123067 at
+  94 %): Home, Books, Orders, Settings.
 
 ## Mark
 

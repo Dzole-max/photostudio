@@ -48,4 +48,38 @@ void main() {
       );
     });
   }
+
+  for (final mode in ['light', 'dark']) {
+    testWidgets('home ($mode)', (tester) async {
+      await phone(tester);
+      await pumpMemoria(
+        tester,
+        prefs: {'language': 'en', 'onboardingDone': true, 'themeMode': mode},
+      );
+      // Entry motion and the first frames of the cover float.
+      await tester.pump(const Duration(seconds: 1));
+      await tester.pump(const Duration(seconds: 1));
+      await expectLater(
+        find.byType(MaterialApp),
+        matchesGoldenFile('goldens/home_$mode.png'),
+      );
+    });
+  }
+
+  testWidgets('occasion screen (wedding)', (tester) async {
+    await phone(tester);
+    await pumpMemoria(
+      tester,
+      prefs: {'language': 'en', 'onboardingDone': true, 'themeMode': 'light'},
+    );
+    await tester.pump(const Duration(seconds: 1));
+    await tester.tap(find.text('Wedding'));
+    for (var i = 0; i < 3; i++) {
+      await tester.pump(const Duration(seconds: 1));
+    }
+    await expectLater(
+      find.byType(MaterialApp),
+      matchesGoldenFile('goldens/occasion_wedding.png'),
+    );
+  });
 }

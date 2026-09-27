@@ -230,11 +230,36 @@ class _ImportScreenState extends ConsumerState<ImportScreen> {
     Widget body;
     if (access == PhotoAccess.denied) {
       final permission = ref.read(photoPermissionProvider);
-      body = EmptyState(
-        title: l.permissionTitle,
-        body: l.permissionDeniedBody,
-        actionLabel: l.permissionOpenSettings,
-        onAction: permission.openSystemSettings,
+      // Without photo access the sample book is the way in; settings second.
+      body = Center(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(Space.lg),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              EmptyState(
+                title: l.permissionTitle,
+                body: l.permissionSampleBody,
+              ),
+              const SizedBox(height: Space.md),
+              PrimaryButton(
+                label: l.homeTrySample,
+                icon: Icons.auto_stories_outlined,
+                onPressed: () async {
+                  context.pushReplacement(Routes.importProgress);
+                  await ref
+                      .read(creationControllerProvider.notifier)
+                      .startSample('travel');
+                },
+              ),
+              TextButton(
+                onPressed: permission.openSystemSettings,
+                child: Text(l.permissionOpenSettings),
+              ),
+            ],
+          ),
+        ),
       );
     } else if (photos == null) {
       body = const Center(child: CircularProgressIndicator());

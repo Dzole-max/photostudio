@@ -4,7 +4,12 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../data/settings/settings.dart';
 import '../domain/model/album.dart';
+import '../features/books/books_screen.dart';
 import '../features/check/check_screen.dart';
+import '../features/explainer/explainer_screen.dart';
+import '../features/occasion/book_kind.dart';
+import '../features/occasion/occasion_intro_screen.dart';
+import '../features/samples/example_books.dart';
 import '../features/create/cover_studio_screen.dart';
 import '../features/create/designing_screen.dart';
 import '../features/create/edition_screen.dart';
@@ -31,6 +36,10 @@ part 'app_router.g.dart';
 abstract final class Routes {
   static const onboarding = '/onboarding';
   static const home = '/home';
+  static const books = '/books';
+  static const explainer = '/explainer';
+  static const exampleBooks = '/settings/examples';
+  static String occasion(String kind) => '/occasion/$kind';
   static const orders = '/orders';
   static const settings = '/settings';
   static const settingsLanguage = '/settings/language';
@@ -129,6 +138,41 @@ GoRouter appRouter(Ref ref) {
         builder: (context, state) => const DesigningScreen(),
       ),
       GoRoute(
+        path: '/occasion/:kind',
+        parentNavigatorKey: _rootKey,
+        pageBuilder: (context, state) {
+          final kind =
+              BookKind.byName(state.pathParameters['kind']!) ??
+              BookKind.wedding;
+          return CustomTransitionPage(
+            key: state.pageKey,
+            transitionDuration: const Duration(milliseconds: 420),
+            reverseTransitionDuration: const Duration(milliseconds: 380),
+            child: OccasionIntroScreen(kind: kind),
+            // The tile grows into the header (Hero); the rest cross-fades.
+            transitionsBuilder: (context, animation, _, child) =>
+                FadeTransition(
+                  opacity: CurvedAnimation(
+                    parent: animation,
+                    curve: Curves.easeOutCubic,
+                  ),
+                  child: child,
+                ),
+          );
+        },
+      ),
+      GoRoute(
+        path: Routes.explainer,
+        parentNavigatorKey: _rootKey,
+        pageBuilder: (context, state) => CustomTransitionPage(
+          key: state.pageKey,
+          fullscreenDialog: true,
+          child: const ExplainerScreen(),
+          transitionsBuilder: (context, animation, _, child) =>
+              FadeTransition(opacity: animation, child: child),
+        ),
+      ),
+      GoRoute(
         path: '/album/:id',
         parentNavigatorKey: _rootKey,
         builder: (context, state) =>
@@ -193,6 +237,14 @@ GoRouter appRouter(Ref ref) {
           StatefulShellBranch(
             routes: [
               GoRoute(
+                path: Routes.books,
+                builder: (context, state) => const BooksScreen(),
+              ),
+            ],
+          ),
+          StatefulShellBranch(
+            routes: [
+              GoRoute(
                 path: Routes.orders,
                 builder: (context, state) => const OrdersScreen(),
               ),
@@ -208,6 +260,11 @@ GoRouter appRouter(Ref ref) {
                     path: 'language',
                     parentNavigatorKey: _rootKey,
                     builder: (context, state) => const LanguageScreen(),
+                  ),
+                  GoRoute(
+                    path: 'examples',
+                    parentNavigatorKey: _rootKey,
+                    builder: (context, state) => const ExampleBooksScreen(),
                   ),
                 ],
               ),

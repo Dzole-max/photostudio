@@ -3,7 +3,6 @@ import 'dart:isolate';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../app_config.dart';
-import '../../core/providers.dart';
 import '../../domain/captions/caption_request.dart';
 import '../../domain/cover/cover_studio.dart';
 import '../../domain/layout/chapters.dart';
@@ -25,8 +24,6 @@ part 'sample_books.g.dart';
 
 /// Ids of the two demo books on the shelf.
 const kSampleBookIds = {'wedding': 'sample_wedding', 'travel': 'sample_travel'};
-
-const _kSamplesMade = 'sampleBooksMade';
 
 String _moment(String lang) => switch (lang) {
   'de' => 'Die stille Minute auf dem Steg vor dem Fest',
@@ -126,17 +123,16 @@ Future<Album> buildSampleAlbum(Ref ref, String set, String lang) async {
   );
 }
 
-/// Makes the two sample books once, the first time the shelf is shown. If
-/// the user deletes them later they stay deleted.
+/// An example book ("wedding" or "travel"), built the first time it is
+/// asked for through the real pipeline and kept in the album store. Returns
+/// its album id. Example books appear in onboarding and Settings, never on
+/// the user's shelf.
 @Riverpod(keepAlive: true)
-Future<void> sampleBooks(Ref ref) async {
-  final prefs = ref.read(sharedPreferencesProvider);
-  if (prefs.getBool(_kSamplesMade) ?? false) return;
+Future<String> exampleBook(Ref ref, String set) async {
+  final id = kSampleBookIds[set]!;
   final repo = ref.read(albumRepositoryProvider);
+  if (await repo.load(id) != null) return id;
   final lang = ref.read(settingsControllerProvider).language.name;
-  for (final set in const ['travel', 'wedding']) {
-    if (await repo.load(kSampleBookIds[set]!) != null) continue;
-    await repo.save(await buildSampleAlbum(ref, set, lang));
-  }
-  await prefs.setBool(_kSamplesMade, true);
+  await repo.save(await buildSampleAlbum(ref, set, lang));
+  return id;
 }

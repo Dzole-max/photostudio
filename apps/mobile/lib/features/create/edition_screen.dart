@@ -98,10 +98,10 @@ class EditionScreen extends ConsumerWidget {
                           .setEdition(e),
                       preview: switch (e) {
                         Edition.album => const _AlbumPreview(),
-                        Edition.livingMemories => _MemoriesPreview(
+                        Edition.livingMemories => MemoriesPreview(
                           photos: photos.take(3).toList(),
                         ),
-                        Edition.illustrated => _CartoonPreview(
+                        Edition.illustrated => CartoonPreview(
                           photo:
                               photos
                                   .where((p) => p.faces.isNotEmpty)
@@ -364,16 +364,16 @@ class _AlbumPreviewState extends ConsumerState<_AlbumPreview>
 }
 
 /// Three of the user's photos drifting at different depths.
-class _MemoriesPreview extends ConsumerStatefulWidget {
-  const _MemoriesPreview({required this.photos});
+class MemoriesPreview extends ConsumerStatefulWidget {
+  const MemoriesPreview({required this.photos, super.key});
 
   final List<PhotoRef> photos;
 
   @override
-  ConsumerState<_MemoriesPreview> createState() => _MemoriesPreviewState();
+  ConsumerState<MemoriesPreview> createState() => _MemoriesPreviewState();
 }
 
-class _MemoriesPreviewState extends ConsumerState<_MemoriesPreview>
+class _MemoriesPreviewState extends ConsumerState<MemoriesPreview>
     with SingleTickerProviderStateMixin {
   late final AnimationController _c = AnimationController(
     vsync: this,
@@ -401,7 +401,7 @@ class _MemoriesPreviewState extends ConsumerState<_MemoriesPreview>
     final images = ref.watch(photoImagesProvider);
     final photos = widget.photos;
     return ColoredBox(
-      color: const Color(0xFF15130F),
+      color: const Color(0xFF0B2350),
       child: AnimatedBuilder(
         animation: _c,
         builder: (context, _) {
@@ -464,16 +464,16 @@ Uint8List _stylizePreview((Uint8List, int) args) => stylizeEncoded(
 );
 
 /// Before/after wipe of one photo into the illustrated style.
-class _CartoonPreview extends ConsumerStatefulWidget {
-  const _CartoonPreview({required this.photo});
+class CartoonPreview extends ConsumerStatefulWidget {
+  const CartoonPreview({required this.photo, super.key});
 
   final PhotoRef? photo;
 
   @override
-  ConsumerState<_CartoonPreview> createState() => _CartoonPreviewState();
+  ConsumerState<CartoonPreview> createState() => _CartoonPreviewState();
 }
 
-class _CartoonPreviewState extends ConsumerState<_CartoonPreview>
+class _CartoonPreviewState extends ConsumerState<CartoonPreview>
     with SingleTickerProviderStateMixin {
   late final AnimationController _c = AnimationController(
     vsync: this,

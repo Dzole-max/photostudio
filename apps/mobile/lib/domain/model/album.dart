@@ -10,7 +10,7 @@ const int kAlbumSchemaVersion = 1;
 
 enum Occasion { wedding, travel, baby, birthday, family, other }
 
-enum AlbumStatus { draft, ordered, archived }
+enum AlbumStatus { draft, ordered, delivered, archived }
 
 /// Cover material: printed matte/gloss laminate, or a linen / leather-look
 /// cloth cover (hardcover formats only).

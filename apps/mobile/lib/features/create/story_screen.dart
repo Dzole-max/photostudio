@@ -331,7 +331,7 @@ class _StoryScreenState extends ConsumerState<StoryScreen> {
                 Space.md,
               ),
               child: PrimaryButton(
-                label: last ? l.storyDesign : l.commonContinue,
+                label: last ? l.coverStudioTitle : l.commonContinue,
                 icon: last ? Icons.auto_stories_outlined : null,
                 onPressed: () => _next(qs.length),
               ),
