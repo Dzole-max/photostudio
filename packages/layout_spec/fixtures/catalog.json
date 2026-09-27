@@ -1,0 +1,147 @@
+{
+  "currency": "EUR",
+  "fetchedAt": "2026-09-01T00:00:00Z",
+  "note": "Fake-mode catalogue. Real prices and product UIDs come from the print provider at runtime.",
+  "products": [
+    {
+      "formatId": "mini_14",
+      "productUid": "fake-photobook-softcover-140x140",
+      "basePrice": 19.0,
+      "basePages": 30,
+      "perPage": 0.9,
+      "coverFinishSurcharge": {
+        "matte": 0,
+        "gloss": 0
+      }
+    },
+    {
+      "formatId": "classic_20",
+      "productUid": "fake-photobook-hardcover-200x200",
+      "basePrice": 39.0,
+      "basePages": 30,
+      "perPage": 0.9,
+      "coverFinishSurcharge": {
+        "matte": 0,
+        "gloss": 0,
+        "linen": 6.0,
+        "leather": 9.0
+      }
+    },
+    {
+      "formatId": "landscape_28",
+      "productUid": "fake-photobook-hardcover-11x8",
+      "basePrice": 49.0,
+      "basePages": 30,
+      "perPage": 0.9,
+      "coverFinishSurcharge": {
+        "matte": 0,
+        "gloss": 0,
+        "linen": 6.0,
+        "leather": 9.0
+      }
+    },
+    {
+      "formatId": "signature_30",
+      "productUid": "fake-photobook-layflat-300x300",
+      "basePrice": 89.0,
+      "basePages": 20,
+      "perPage": 2.5,
+      "coverFinishSurcharge": {
+        "matte": 0,
+        "gloss": 0,
+        "linen": 6.0,
+        "leather": 9.0
+      }
+    }
+  ],
+  "shipping": [
+    {
+      "id": "eu_standard",
+      "region": "EU",
+      "price": 6.9,
+      "minDays": 5,
+      "maxDays": 8
+    },
+    {
+      "id": "eu_express",
+      "region": "EU",
+      "price": 14.9,
+      "minDays": 2,
+      "maxDays": 4
+    },
+    {
+      "id": "world_standard",
+      "region": "WORLD",
+      "price": 12.9,
+      "minDays": 8,
+      "maxDays": 15
+    }
+  ],
+  "euCountries": [
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE"
+  ],
+  "supportedCountries": [
+    "AT",
+    "BE",
+    "BG",
+    "HR",
+    "CY",
+    "CZ",
+    "DK",
+    "EE",
+    "FI",
+    "FR",
+    "DE",
+    "GR",
+    "HU",
+    "IE",
+    "IT",
+    "LV",
+    "LT",
+    "LU",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SK",
+    "SI",
+    "ES",
+    "SE",
+    "GB",
+    "CH",
+    "NO",
+    "MK",
+    "RS",
+    "AL",
+    "US",
+    "CA",
+    "AU"
+  ]
+}

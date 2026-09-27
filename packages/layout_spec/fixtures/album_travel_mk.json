@@ -1,0 +1,4711 @@
+{
+  "schemaVersion": 1,
+  "id": "sample_travel",
+  "title": "Zanzibar",
+  "subtitle": "Јули 2026",
+  "occasion": "travel",
+  "themeId": "travel_lagoon",
+  "formatId": "landscape_28",
+  "coverFinish": "matte",
+  "language": "mk",
+  "createdAt": "2026-09-01T12:00:00.000Z",
+  "updatedAt": "2026-09-01T12:00:00.000Z",
+  "status": "draft",
+  "seed": 1,
+  "accentColor": "#1F6F8A",
+  "cover": {
+    "templateId": "cover_travel_coordinates",
+    "slots": {
+      "title": "Zanzibar",
+      "subtitle": "Јули 2026",
+      "date": "Јули 2026",
+      "location": "Stone Town",
+      "names": "Mia & Luka",
+      "monogram": "M & L",
+      "coordinates": "5.9877° Ј, 39.2956° И",
+      "heroPhotoId": "t05",
+      "photoIds": [
+        "t02",
+        "t06",
+        "t05",
+        "t33",
+        "t17",
+        "t16",
+        "t32",
+        "t35",
+        "t24"
+      ]
+    },
+    "spineText": "Zanzibar",
+    "backText": "Zanzibar · Јули 2026",
+    "spineMm": 3.8,
+    "front": {
+      "id": "cover_front",
+      "templateId": "cover_travel_coordinates",
+      "mirrored": false,
+      "frames": [
+        {
+          "id": "cover_hero",
+          "photoId": "t05",
+          "rectMm": {
+            "x": 0.0,
+            "y": -4.0,
+            "w": 283.4,
+            "h": 211.2
+          },
+          "crop": {
+            "x": 0.052714646464646464,
+            "y": 0.0,
+            "w": 0.8945707070707071,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "title",
+          "role": "title",
+          "text": "Zanzibar",
+          "fontFamily": "Manrope",
+          "sizePt": 76.11743794054551,
+          "weight": 700,
+          "italic": false,
+          "color": "#FFFFFF",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 27.939999999999998,
+            "y": 18.287999999999997,
+            "w": 223.51999999999998,
+            "h": 40.64
+          },
+          "trackingPct": 40.0,
+          "lineHeight": 1.05,
+          "uppercase": true,
+          "maxLines": 1,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "coordinates",
+          "role": "label",
+          "text": "5.9877° Ј, 39.2956° И",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 600,
+          "italic": false,
+          "color": "#FFFFFF",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 27.939999999999998,
+            "y": 180.84799999999998,
+            "w": 223.51999999999998,
+            "h": 4.068888888888889
+          },
+          "trackingPct": 12.0,
+          "lineHeight": 1.3,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "date",
+          "role": "date",
+          "text": "Јули 2026",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 600,
+          "italic": false,
+          "color": "#FFFFFF",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 27.939999999999998,
+            "y": 186.41688888888888,
+            "w": 223.51999999999998,
+            "h": 4.068888888888889
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "gradient",
+          "params": {
+            "x": 0.0,
+            "y": -4.0,
+            "w": 283.4,
+            "h": 73.15199999999999,
+            "o0": 0.38,
+            "o1": 0.0
+          },
+          "color": "#000000",
+          "color2": "#000000",
+          "opacity": 1.0,
+          "strokePt": 0.5,
+          "fill": false
+        },
+        {
+          "type": "gradient",
+          "params": {
+            "x": 0.0,
+            "y": 154.432,
+            "w": 283.4,
+            "h": 52.767999999999994,
+            "o0": 0.0,
+            "o1": 0.4
+          },
+          "color": "#000000",
+          "color2": "#000000",
+          "opacity": 1.0,
+          "strokePt": 0.5,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    "back": {
+      "id": "cover_back",
+      "templateId": "back",
+      "mirrored": false,
+      "frames": [],
+      "texts": [
+        {
+          "id": "back_text",
+          "role": "body",
+          "text": "Zanzibar · Јули 2026",
+          "fontFamily": "Lora",
+          "sizePt": 11.0,
+          "weight": 400,
+          "italic": true,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 55.879999999999995,
+            "y": 69.08800000000001,
+            "w": 167.64,
+            "h": 60.959999999999994
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 6,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "back_mark",
+          "role": "colophon",
+          "text": "MEMORIA",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 600,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.6,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 83.82,
+            "y": 185.2,
+            "w": 111.75999999999999,
+            "h": 5.0
+          },
+          "trackingPct": 30.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "line",
+          "params": {
+            "x1": 135.7,
+            "y1": 181.2,
+            "x2": 143.7,
+            "y2": 181.2
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    "spine": {
+      "id": "cover_spine",
+      "templateId": "spine",
+      "mirrored": false,
+      "frames": [],
+      "texts": [],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "templateId": "title_page",
+      "mirrored": false,
+      "frames": [],
+      "texts": [
+        {
+          "id": "title",
+          "role": "title",
+          "text": "Zanzibar",
+          "fontFamily": "Manrope",
+          "sizePt": 34.544,
+          "weight": 700,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 15.0,
+            "y": 72.28800000000001,
+            "w": 254.39999999999998,
+            "h": 44.544
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.12,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 18.9992,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "subtitle",
+          "role": "subtitle",
+          "text": "Јули 2026",
+          "fontFamily": "Lora",
+          "sizePt": 12.0,
+          "weight": 400,
+          "italic": true,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 40.44,
+            "y": 122.83200000000001,
+            "w": 203.51999999999998,
+            "h": 14.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "date",
+          "role": "date",
+          "text": "Јули 2026",
+          "fontFamily": "Manrope",
+          "sizePt": 8.5,
+          "weight": 600,
+          "italic": false,
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 140.832,
+            "w": 254.39999999999998,
+            "h": 6.0
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "circle",
+          "params": {
+            "cx": 142.2,
+            "cy": 62.28800000000001,
+            "r": 2.2
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        },
+        {
+          "type": "line",
+          "params": {
+            "x1": 142.2,
+            "y1": 58.76800000000001,
+            "x2": 142.2,
+            "y2": 61.40800000000001
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.6,
+          "fill": false
+        },
+        {
+          "type": "line",
+          "params": {
+            "x1": 142.2,
+            "y1": 63.16800000000001,
+            "x2": 142.2,
+            "y2": 65.14800000000001
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.3,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p2",
+      "templateId": "map_page",
+      "mirrored": false,
+      "frames": [],
+      "texts": [
+        {
+          "id": "title",
+          "role": "title",
+          "text": "Маршрутата",
+          "fontFamily": "Manrope",
+          "sizePt": 9.0,
+          "weight": 600,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 10.0,
+            "w": 254.39999999999998,
+            "h": 6.0
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "map_label_0",
+          "role": "label",
+          "text": "STONE TOWN",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 600,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "left",
+          "vAlign": "middle",
+          "rectMm": {
+            "x": 113.98967772148978,
+            "y": 143.69222652505093,
+            "w": 22.194422222222222,
+            "h": 3.6
+          },
+          "trackingPct": 12.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "maxLines": 1,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "map_label_1",
+          "role": "label",
+          "text": "NUNGWI",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 600,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "left",
+          "vAlign": "middle",
+          "rectMm": {
+            "x": 137.6469854718223,
+            "y": 44.65714285714298,
+            "w": 14.038199999999998,
+            "h": 3.6
+          },
+          "trackingPct": 12.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "maxLines": 1,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "map_label_2",
+          "role": "label",
+          "text": "JOZANI FOREST",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 600,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "left",
+          "vAlign": "middle",
+          "rectMm": {
+            "x": 164.81032227851017,
+            "y": 166.94285714285724,
+            "w": 25.9,
+            "h": 3.6
+          },
+          "trackingPct": 12.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "maxLines": 1,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "map_north",
+          "role": "label",
+          "text": "С",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 600,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "center",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 256.4,
+            "y": 21.5,
+            "w": 8.0,
+            "h": 4.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.1,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_1",
+          "role": "pageNumber",
+          "text": "2",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "path",
+          "params": {},
+          "path": "M119.33 56.05 L120.28 63.18 L122.13 65.99 L120.58 68.31 L122.00 75.75 L116.72 76.23 L116.69 57.91 L119.33 56.05 L119.33 56.05 M190.97 181.33 L197.38 193.20 M164.78 193.20 L161.79 180.21 L162.31 176.83 L157.25 178.38 L157.27 180.83 L160.77 186.91 L159.41 193.20 M159.29 193.20 L153.10 190.90 L154.09 186.55 L152.81 183.05 L136.13 162.76 L133.06 164.44 L134.59 169.21 L131.57 167.10 L130.62 170.64 L131.41 175.74 L133.82 178.38 L132.06 179.28 L127.93 177.06 L113.13 158.54 L108.25 144.27 L116.36 134.35 L114.53 121.23 L110.33 107.14 L111.28 88.96 L112.86 84.99 L115.95 89.75 L119.72 83.63 L131.50 72.57 L134.95 48.63 L139.06 44.52 L148.59 63.90 L149.96 71.89 L148.27 84.99 L152.40 101.80 L156.73 108.93 L159.22 119.32 L165.40 120.89 L163.96 136.19 L166.93 144.27 L162.31 152.03 L165.58 150.64 L171.56 156.54 L173.23 150.96 L175.04 150.80 L176.17 153.57 L177.75 152.03 L181.38 152.96 L180.82 136.53 L184.77 141.72 L186.77 148.17 L190.97 181.33 L190.97 181.33 M53.84 22.00 L27.68 81.20 L23.16 124.32 L38.96 183.32 L50.07 193.20",
+          "color": "#173B45",
+          "opacity": 0.7,
+          "strokePt": 0.5,
+          "fill": false
+        },
+        {
+          "type": "path",
+          "params": {},
+          "path": "M111.79 145.49 L135.45 46.46",
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 1.0,
+          "fill": false
+        },
+        {
+          "type": "path",
+          "params": {},
+          "path": "M135.45 46.46 L162.61 168.74",
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 1.0,
+          "fill": false
+        },
+        {
+          "type": "circle",
+          "params": {
+            "cx": 111.78967772148978,
+            "cy": 145.49222652505094,
+            "r": 1.1
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.5,
+          "fill": true
+        },
+        {
+          "type": "circle",
+          "params": {
+            "cx": 135.4469854718223,
+            "cy": 46.457142857142976,
+            "r": 1.1
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.5,
+          "fill": true
+        },
+        {
+          "type": "circle",
+          "params": {
+            "cx": 162.61032227851018,
+            "cy": 168.74285714285725,
+            "r": 1.1
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.5,
+          "fill": true
+        },
+        {
+          "type": "line",
+          "params": {
+            "x1": 260.4,
+            "y1": 32.0,
+            "x2": 260.4,
+            "y2": 26.5
+          },
+          "color": "#173B45",
+          "opacity": 0.7,
+          "strokePt": 0.6,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p3",
+      "templateId": "chapter_opener",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [],
+      "texts": [
+        {
+          "id": "label",
+          "role": "label",
+          "text": "3 јули 2026",
+          "fontFamily": "Manrope",
+          "sizePt": 8.5,
+          "weight": 600,
+          "italic": false,
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 68.624,
+            "w": 254.39999999999998,
+            "h": 6.0
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "title",
+          "role": "chapter",
+          "text": "Стоун Таун",
+          "fontFamily": "Manrope",
+          "sizePt": 26.416,
+          "weight": 700,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 77.624,
+            "w": 254.39999999999998,
+            "h": 32.416
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.12,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 14.528800000000002,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "intro",
+          "role": "body",
+          "text": "Нашите денови во Стоун Таун: стари улици, море и пазари.",
+          "fontFamily": "Lora",
+          "sizePt": 10.5,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 45.52799999999999,
+            "y": 118.03999999999999,
+            "w": 193.344,
+            "h": 71.16
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 6,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_2",
+          "role": "pageNumber",
+          "text": "3",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "circle",
+          "params": {
+            "cx": 142.2,
+            "cy": 112.03999999999999,
+            "r": 2.2
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        },
+        {
+          "type": "line",
+          "params": {
+            "x1": 142.2,
+            "y1": 108.52,
+            "x2": 142.2,
+            "y2": 111.16
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.6,
+          "fill": false
+        },
+        {
+          "type": "line",
+          "params": {
+            "x1": 142.2,
+            "y1": 112.91999999999999,
+            "x2": 142.2,
+            "y2": 114.89999999999999
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.3,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p4",
+      "templateId": "hero_centered",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p4_f0",
+          "photoId": "t01",
+          "rectMm": {
+            "x": 93.232,
+            "y": 35.647999999999996,
+            "w": 87.93599999999999,
+            "h": 131.904
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_3",
+          "role": "pageNumber",
+          "text": "4",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p5",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p5_f0",
+          "photoId": "t02",
+          "rectMm": {
+            "x": 82.28,
+            "y": 10.0,
+            "w": 119.83999999999999,
+            "h": 171.2
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.02380952380952378,
+            "w": 1.0,
+            "h": 0.9523809523809524
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "Стоун Таун, прв ден",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 82.28,
+            "y": 184.2,
+            "w": 119.83999999999999,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_4",
+          "role": "pageNumber",
+          "text": "5",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p6",
+      "templateId": "two_offset",
+      "mirrored": true,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p6_f0",
+          "photoId": "t03",
+          "rectMm": {
+            "x": 91.40799999999999,
+            "y": 10.0,
+            "w": 172.992,
+            "h": 91.6
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.10287180910099886,
+            "w": 1.0,
+            "h": 0.7942563817980023
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p6_f1",
+          "photoId": "t27",
+          "rectMm": {
+            "x": 10.0,
+            "y": 112.592,
+            "w": 106.84799999999998,
+            "h": 80.60799999999999
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.12279125486672654,
+            "w": 1.0,
+            "h": 0.7544174902665469
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_5",
+          "role": "pageNumber",
+          "text": "6",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p7",
+      "templateId": "hero_centered",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p7_f0",
+          "photoId": "t06",
+          "rectMm": {
+            "x": 102.232,
+            "y": 35.647999999999996,
+            "w": 79.93599999999999,
+            "h": 119.904
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "Стоун Таун наутро",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 102.232,
+            "y": 158.552,
+            "w": 79.93599999999999,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_6",
+          "role": "pageNumber",
+          "text": "7",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p8",
+      "templateId": "photo_with_text_below",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p8_f0",
+          "photoId": "t05",
+          "rectMm": {
+            "x": 38.27199999999999,
+            "y": 10.0,
+            "w": 197.856,
+            "h": 131.904
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "Старите улици во Стоун Таун",
+          "fontFamily": "Lora",
+          "sizePt": 10.5,
+          "weight": 400,
+          "italic": true,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 150.286,
+            "w": 183.16799999999998,
+            "h": 42.913999999999994
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_7",
+          "role": "pageNumber",
+          "text": "8",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p9",
+      "templateId": "three_one_big_two_small",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p9_f0",
+          "photoId": "t04",
+          "rectMm": {
+            "x": 15.0,
+            "y": 10.0,
+            "w": 149.28719999999998,
+            "h": 183.2
+          },
+          "crop": {
+            "x": 0.45674235807860264,
+            "y": 0.0,
+            "w": 0.5432576419213974,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p9_f1",
+          "photoId": "t28",
+          "rectMm": {
+            "x": 169.87519999999998,
+            "y": 10.0,
+            "w": 99.5248,
+            "h": 88.806
+          },
+          "crop": {
+            "x": 0.12643364937804497,
+            "y": 0.0,
+            "w": 0.7471327012439101,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p9_f2",
+          "photoId": "t08",
+          "rectMm": {
+            "x": 169.87519999999998,
+            "y": 104.39399999999999,
+            "w": 99.5248,
+            "h": 88.806
+          },
+          "crop": {
+            "x": 0.25286729875608993,
+            "y": 0.0,
+            "w": 0.7471327012439101,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_8",
+          "role": "pageNumber",
+          "text": "9",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p10",
+      "templateId": "two_offset",
+      "mirrored": true,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p10_f0",
+          "photoId": "t30",
+          "rectMm": {
+            "x": 91.40799999999999,
+            "y": 10.0,
+            "w": 172.992,
+            "h": 91.6
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.2057436182019977,
+            "w": 1.0,
+            "h": 0.7942563817980023
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p10_f1",
+          "photoId": "t29",
+          "rectMm": {
+            "x": 10.0,
+            "y": 112.592,
+            "w": 106.84799999999998,
+            "h": 80.60799999999999
+          },
+          "crop": {
+            "x": 0.05815799920603415,
+            "y": 0.0,
+            "w": 0.8836840015879317,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_9",
+          "role": "pageNumber",
+          "text": "10",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p11",
+      "templateId": "chapter_opener",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [],
+      "texts": [
+        {
+          "id": "label",
+          "role": "label",
+          "text": "6 јули 2026",
+          "fontFamily": "Manrope",
+          "sizePt": 8.5,
+          "weight": 600,
+          "italic": false,
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 68.624,
+            "w": 254.39999999999998,
+            "h": 6.0
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "title",
+          "role": "chapter",
+          "text": "Нунгви",
+          "fontFamily": "Manrope",
+          "sizePt": 26.416,
+          "weight": 700,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 77.624,
+            "w": 254.39999999999998,
+            "h": 32.416
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.12,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 14.528800000000002,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "intro",
+          "role": "body",
+          "text": "Нашите денови во Нунгви: плажа, море и вечерна светлина.",
+          "fontFamily": "Lora",
+          "sizePt": 10.5,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 45.52799999999999,
+            "y": 118.03999999999999,
+            "w": 193.344,
+            "h": 71.16
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 6,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_10",
+          "role": "pageNumber",
+          "text": "11",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "circle",
+          "params": {
+            "cx": 142.2,
+            "cy": 112.03999999999999,
+            "r": 2.2
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        },
+        {
+          "type": "line",
+          "params": {
+            "x1": 142.2,
+            "y1": 108.52,
+            "x2": 142.2,
+            "y2": 111.16
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.6,
+          "fill": false
+        },
+        {
+          "type": "line",
+          "params": {
+            "x1": 142.2,
+            "y1": 112.91999999999999,
+            "x2": 142.2,
+            "y2": 114.89999999999999
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.3,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p12",
+      "templateId": "hero_centered",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p12_f0",
+          "photoId": "t14",
+          "rectMm": {
+            "x": 38.27199999999999,
+            "y": 35.647999999999996,
+            "w": 197.856,
+            "h": 131.904
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_11",
+          "role": "pageNumber",
+          "text": "12",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p13",
+      "templateId": "two_side_by_side",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p13_f0",
+          "photoId": "t18",
+          "rectMm": {
+            "x": 15.0,
+            "y": 10.0,
+            "w": 124.40599999999999,
+            "h": 183.2
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.9817318564485099
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p13_f1",
+          "photoId": "t33",
+          "rectMm": {
+            "x": 144.994,
+            "y": 10.0,
+            "w": 124.40599999999999,
+            "h": 171.2
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.9174262763317953
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_1",
+          "role": "caption",
+          "text": "Нунгви, четврти ден",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 144.994,
+            "y": 184.2,
+            "w": 124.40599999999999,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_12",
+          "role": "pageNumber",
+          "text": "13",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p14",
+      "templateId": "two_offset",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p14_f0",
+          "photoId": "t17",
+          "rectMm": {
+            "x": 10.0,
+            "y": 10.0,
+            "w": 172.992,
+            "h": 91.6
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.08956340910099886,
+            "w": 1.0,
+            "h": 0.7942563817980023
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p14_f1",
+          "photoId": "t15",
+          "rectMm": {
+            "x": 157.552,
+            "y": 112.592,
+            "w": 106.84799999999998,
+            "h": 80.60799999999999
+          },
+          "crop": {
+            "x": 0.05815799920603415,
+            "y": 0.0,
+            "w": 0.8836840015879317,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_13",
+          "role": "pageNumber",
+          "text": "14",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p15",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p15_f0",
+          "photoId": "t19",
+          "rectMm": {
+            "x": 50.599999999999994,
+            "y": 10.0,
+            "w": 183.2,
+            "h": 183.2
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_14",
+          "role": "pageNumber",
+          "text": "15",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p16",
+      "templateId": "hero_centered",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p16_f0",
+          "photoId": "t16",
+          "rectMm": {
+            "x": 41.27679999999998,
+            "y": 35.647999999999996,
+            "w": 191.84640000000002,
+            "h": 119.904
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.6666666666666667,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "Нунгви попладне",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 41.27679999999998,
+            "y": 158.552,
+            "w": 191.84640000000002,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_15",
+          "role": "pageNumber",
+          "text": "16",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p17",
+      "templateId": "hero_centered",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p17_f0",
+          "photoId": "t31",
+          "rectMm": {
+            "x": 43.27199999999999,
+            "y": 35.647999999999996,
+            "w": 197.856,
+            "h": 131.904
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_16",
+          "role": "pageNumber",
+          "text": "17",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p18",
+      "templateId": "full_bleed",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p18_f0",
+          "photoId": "t32",
+          "rectMm": {
+            "x": -4.0,
+            "y": -4.0,
+            "w": 287.4,
+            "h": 211.2
+          },
+          "crop": {
+            "x": 0.046351515151515144,
+            "y": 0.0,
+            "w": 0.9071969696969697,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p19",
+      "templateId": "two_offset",
+      "mirrored": true,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p19_f0",
+          "photoId": "t20",
+          "rectMm": {
+            "x": 96.40799999999999,
+            "y": 10.0,
+            "w": 172.992,
+            "h": 91.6
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.10287180910099886,
+            "w": 1.0,
+            "h": 0.7942563817980023
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p19_f1",
+          "photoId": "t34",
+          "rectMm": {
+            "x": 15.0,
+            "y": 112.592,
+            "w": 106.84799999999998,
+            "h": 80.60799999999999
+          },
+          "crop": {
+            "x": 0.05815799920603415,
+            "y": 0.0,
+            "w": 0.8836840015879317,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_18",
+          "role": "pageNumber",
+          "text": "19",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p20",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p20_f0",
+          "photoId": "t35",
+          "rectMm": {
+            "x": 77.28,
+            "y": 10.0,
+            "w": 119.83999999999999,
+            "h": 171.2
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.010501123809523782,
+            "w": 1.0,
+            "h": 0.9523809523809524
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "Нунгви, седми ден",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 77.28,
+            "y": 184.2,
+            "w": 119.83999999999999,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_19",
+          "role": "pageNumber",
+          "text": "20",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p21",
+      "templateId": "two_offset",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p21_f0",
+          "photoId": "t21",
+          "rectMm": {
+            "x": 15.0,
+            "y": 10.0,
+            "w": 172.992,
+            "h": 91.6
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.10287180910099886,
+            "w": 1.0,
+            "h": 0.7942563817980023
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p21_f1",
+          "photoId": "t36",
+          "rectMm": {
+            "x": 162.552,
+            "y": 112.592,
+            "w": 106.84799999999998,
+            "h": 80.60799999999999
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.8836840015879317,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_20",
+          "role": "pageNumber",
+          "text": "21",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p22",
+      "templateId": "three_one_big_two_small",
+      "mirrored": true,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p22_f0",
+          "photoId": "t24",
+          "rectMm": {
+            "x": 115.1128,
+            "y": 10.0,
+            "w": 149.28719999999998,
+            "h": 183.2
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.5432576419213974,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p22_f1",
+          "photoId": "t25",
+          "rectMm": {
+            "x": 10.0,
+            "y": 10.0,
+            "w": 99.5248,
+            "h": 88.806
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.8923002106007748
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p22_f2",
+          "photoId": "t37",
+          "rectMm": {
+            "x": 10.0,
+            "y": 104.39399999999999,
+            "w": 99.5248,
+            "h": 88.806
+          },
+          "crop": {
+            "x": 0.12689364937804487,
+            "y": 0.0,
+            "w": 0.7471327012439101,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_21",
+          "role": "pageNumber",
+          "text": "22",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p23",
+      "templateId": "chapter_opener",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [],
+      "texts": [
+        {
+          "id": "label",
+          "role": "label",
+          "text": "11 јули 2026",
+          "fontFamily": "Manrope",
+          "sizePt": 8.5,
+          "weight": 600,
+          "italic": false,
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 68.624,
+            "w": 254.39999999999998,
+            "h": 6.0
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "title",
+          "role": "chapter",
+          "text": "Шумата Јозани",
+          "fontFamily": "Manrope",
+          "sizePt": 26.416,
+          "weight": 700,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 77.624,
+            "w": 254.39999999999998,
+            "h": 32.416
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.12,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 14.528800000000002,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "intro",
+          "role": "body",
+          "text": "Нашите денови во Шумата Јозани: шума, животни и вода.",
+          "fontFamily": "Lora",
+          "sizePt": 10.5,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 45.52799999999999,
+            "y": 118.03999999999999,
+            "w": 193.344,
+            "h": 71.16
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 6,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_22",
+          "role": "pageNumber",
+          "text": "23",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "circle",
+          "params": {
+            "cx": 142.2,
+            "cy": 112.03999999999999,
+            "r": 2.2
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        },
+        {
+          "type": "line",
+          "params": {
+            "x1": 142.2,
+            "y1": 108.52,
+            "x2": 142.2,
+            "y2": 111.16
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.6,
+          "fill": false
+        },
+        {
+          "type": "line",
+          "params": {
+            "x1": 142.2,
+            "y1": 112.91999999999999,
+            "x2": 142.2,
+            "y2": 114.89999999999999
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.3,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p24",
+      "templateId": "hero_centered",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [
+        {
+          "id": "p24_f0",
+          "photoId": "t10",
+          "rectMm": {
+            "x": 93.232,
+            "y": 35.647999999999996,
+            "w": 87.93599999999999,
+            "h": 131.904
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_23",
+          "role": "pageNumber",
+          "text": "24",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p25",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [
+        {
+          "id": "p25_f0",
+          "photoId": "t11",
+          "rectMm": {
+            "x": 15.0,
+            "y": 15.439999999999998,
+            "w": 254.39999999999998,
+            "h": 169.6
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_24",
+          "role": "pageNumber",
+          "text": "25",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p26",
+      "templateId": "photo_with_text_below",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [
+        {
+          "id": "p26_f0",
+          "photoId": "t13",
+          "rectMm": {
+            "x": 38.27199999999999,
+            "y": 10.0,
+            "w": 197.856,
+            "h": 131.904
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "Шумата Јозани, деветти ден",
+          "fontFamily": "Lora",
+          "sizePt": 10.5,
+          "weight": 400,
+          "italic": true,
+          "color": "#173B45",
+          "opacity": 1.0,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 150.286,
+            "w": 183.16799999999998,
+            "h": 42.913999999999994
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_25",
+          "role": "pageNumber",
+          "text": "26",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p27",
+      "templateId": "two_side_by_side",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [
+        {
+          "id": "p27_f0",
+          "photoId": "t38",
+          "rectMm": {
+            "x": 15.0,
+            "y": 10.0,
+            "w": 124.40599999999999,
+            "h": 183.2
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.009134071775745045,
+            "w": 1.0,
+            "h": 0.9817318564485099
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p27_f1",
+          "photoId": "t39",
+          "rectMm": {
+            "x": 144.994,
+            "y": 10.0,
+            "w": 124.40599999999999,
+            "h": 171.2
+          },
+          "crop": {
+            "x": 0.13666471962616822,
+            "y": 0.0,
+            "w": 0.7266705607476636,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_1",
+          "role": "caption",
+          "text": "Шумата Јозани попладне",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 144.994,
+            "y": 184.2,
+            "w": 124.40599999999999,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_26",
+          "role": "pageNumber",
+          "text": "27",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p28",
+      "templateId": "two_offset",
+      "mirrored": true,
+      "chapterId": "ch3",
+      "frames": [
+        {
+          "id": "p28_f0",
+          "photoId": "t12",
+          "rectMm": {
+            "x": 91.40799999999999,
+            "y": 10.0,
+            "w": 172.992,
+            "h": 91.6
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.10287180910099886,
+            "w": 1.0,
+            "h": 0.7942563817980023
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p28_f1",
+          "photoId": "t40",
+          "rectMm": {
+            "x": 10.0,
+            "y": 112.592,
+            "w": 106.84799999999998,
+            "h": 80.60799999999999
+          },
+          "crop": {
+            "x": 0.05815799920603415,
+            "y": 0.0,
+            "w": 0.8836840015879317,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_27",
+          "role": "pageNumber",
+          "text": "28",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p29",
+      "templateId": "two_side_by_side",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [
+        {
+          "id": "p29_f0",
+          "photoId": "t26",
+          "rectMm": {
+            "x": 15.0,
+            "y": 10.0,
+            "w": 124.40599999999999,
+            "h": 171.2
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.9174262763317953
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p29_f1",
+          "photoId": "t41",
+          "rectMm": {
+            "x": 144.994,
+            "y": 10.0,
+            "w": 124.40599999999999,
+            "h": 183.2
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.009134071775745045,
+            "w": 1.0,
+            "h": 0.9817318564485099
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "Песокот во Шумата Јозани",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 184.2,
+            "w": 124.40599999999999,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_28",
+          "role": "pageNumber",
+          "text": "29",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 251.39999999999998,
+            "y": 190.2,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    },
+    {
+      "id": "p30",
+      "templateId": "colophon",
+      "mirrored": false,
+      "frames": [],
+      "texts": [
+        {
+          "id": "colophon",
+          "role": "colophon",
+          "text": "Изработено со Memoria · печатено по нарачка · 2026",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#173B45",
+          "opacity": 0.8,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 152.896,
+            "w": 254.39999999999998,
+            "h": 8.0
+          },
+          "trackingPct": 4.0,
+          "lineHeight": 1.3,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "line",
+          "params": {
+            "x1": 132.2,
+            "y1": 147.896,
+            "x2": 142.2,
+            "y2": 147.896
+          },
+          "color": "#1F6F8A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#F3EFE6"
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Стоун Таун",
+      "intro": "Нашите денови во Стоун Таун: стари улици, море и пазари.",
+      "startPageIndex": 2,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "lat": -6.163305454545454,
+      "lng": 39.19267272727272,
+      "dateRange": {
+        "start": "2026-07-03T10:15:00.000Z",
+        "end": "2026-07-05T18:00:00.000Z"
+      }
+    },
+    {
+      "id": "ch2",
+      "title": "Нунгви",
+      "intro": "Нашите денови во Нунгви: плажа, море и вечерна светлина.",
+      "startPageIndex": 10,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "lat": -5.726918823529411,
+      "lng": 39.2974894117647,
+      "dateRange": {
+        "start": "2026-07-06T11:30:00.000Z",
+        "end": "2026-07-10T10:00:00.000Z"
+      }
+    },
+    {
+      "id": "ch3",
+      "title": "Шумата Јозани",
+      "intro": "Нашите денови во Шумата Јозани: шума, животни и вода.",
+      "startPageIndex": 22,
+      "placeName": "Jozani Forest",
+      "placeId": "jozani",
+      "lat": -6.265756666666667,
+      "lng": 39.41784,
+      "dateRange": {
+        "start": "2026-07-11T10:00:00.000Z",
+        "end": "2026-07-12T17:00:00.000Z"
+      }
+    }
+  ],
+  "photos": {
+    "t01": {
+      "id": "t01",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-07-03T10:15:00.000Z",
+      "lat": -6.16543,
+      "lng": 39.18892,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "door",
+          "confidence": 0.92
+        },
+        {
+          "text": "building",
+          "confidence": 0.9
+        }
+      ],
+      "quality": {
+        "sharpness": 0.5897435897435898,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.6858974358974359,
+        "laplacian": 109.1381278874513
+      },
+      "hash": "e8e5856585658767",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 23.012400895816132,
+      "focusX": 0.5,
+      "focusY": 0.8333333333333334
+    },
+    "t02": {
+      "id": "t02",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-07-03T11:02:00.000Z",
+      "lat": -6.1618,
+      "lng": 39.18883,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "building",
+          "confidence": 0.9
+        },
+        {
+          "text": "street",
+          "confidence": 0.86
+        }
+      ],
+      "quality": {
+        "sharpness": 1.0,
+        "exposure": 0.8256048387096774,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.8151209677419355,
+        "laplacian": 841.8383603494568
+      },
+      "hash": "e295ca9d352236b5",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 35.695191453799744,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t03": {
+      "id": "t03",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-03T12:30:00.000Z",
+      "lat": -6.16484,
+      "lng": 39.19553,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "market",
+          "confidence": 0.88
+        },
+        {
+          "text": "food",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.7692307692307693,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.7576923076923077,
+        "laplacian": 314.26023614815205
+      },
+      "hash": "d01f6c6c2fe01fd0",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 24.824201588309233,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t27": {
+      "id": "t27",
+      "width": 2400,
+      "height": 2400,
+      "takenAt": "2026-07-04T08:30:00.000Z",
+      "lat": -6.16135,
+      "lng": 39.19463,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "drink",
+          "confidence": 0.8
+        },
+        {
+          "text": "building",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.3333333333333333,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5833333333333334,
+        "laplacian": 80.1266431233199
+      },
+      "hash": "e659196671996666",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 197.92043952408127,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t06": {
+      "id": "t06",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-07-04T09:40:00.000Z",
+      "lat": -6.16252,
+      "lng": 39.18929,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [
+        {
+          "x": 0.2097,
+          "y": 0.2,
+          "w": 0.2805,
+          "h": 0.187,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.548,
+          "y": 0.25,
+          "w": 0.264,
+          "h": 0.176,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "building",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.8205128205128205,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.8857051282051281,
+        "laplacian": 395.88278041117917
+      },
+      "hash": "bbc4cf6d39c04646",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 197.94896158265635,
+      "focusX": 0.8333333333333334,
+      "focusY": 0.5
+    },
+    "t05": {
+      "id": "t05",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-04T16:20:00.000Z",
+      "lat": -6.16234,
+      "lng": 39.19598,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "building",
+          "confidence": 0.92
+        },
+        {
+          "text": "sky",
+          "confidence": 0.86
+        },
+        {
+          "text": "sea",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.8974358974358975,
+        "exposure": 0.9845353739002932,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.8058814337544177,
+        "laplacian": 500.6467855724998
+      },
+      "hash": "d2782f07f8b80778",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 197.20525170104165,
+      "focusX": 0.5,
+      "focusY": 0.8333333333333334
+    },
+    "t09": {
+      "id": "t09",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-04T16:21:00.000Z",
+      "lat": -6.15951,
+      "lng": 39.19165,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "building",
+          "confidence": 0.92
+        },
+        {
+          "text": "sky",
+          "confidence": 0.86
+        }
+      ],
+      "quality": {
+        "sharpness": 0.8717948717948718,
+        "exposure": 0.9840771627565983,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.7955333812692684,
+        "laplacian": 499.41480920593733
+      },
+      "hash": "d2782d07f8f80778",
+      "isExcluded": true,
+      "excludedReason": "duplicate",
+      "userPinned": false,
+      "dominantHue": 196.04733676703086,
+      "focusX": 0.5,
+      "focusY": 0.8333333333333334
+    },
+    "t04": {
+      "id": "t04",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-04T18:30:00.000Z",
+      "lat": -6.16574,
+      "lng": 39.19495,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "sea",
+          "confidence": 0.9
+        },
+        {
+          "text": "sky",
+          "confidence": 0.9
+        },
+        {
+          "text": "boat",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.23076923076923078,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5423076923076924,
+        "laplacian": 41.220765595595196
+      },
+      "hash": "c7f2383cc3433c96",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 28.06512513450341,
+      "focusX": 0.8333333333333334,
+      "focusY": 0.5
+    },
+    "t28": {
+      "id": "t28",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-04T20:00:00.000Z",
+      "lat": -6.16067,
+      "lng": 39.19426,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "market",
+          "confidence": 0.9
+        },
+        {
+          "text": "food",
+          "confidence": 0.84
+        },
+        {
+          "text": "night",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.7948717948717948,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.7679487179487179,
+        "laplacian": 369.39614624208855
+      },
+      "hash": "807f7f805e7f80e0",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 248.28986581436038,
+      "focusX": 0.5,
+      "focusY": 0.16666666666666666
+    },
+    "t08": {
+      "id": "t08",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-05T08:45:00.000Z",
+      "lat": -6.16452,
+      "lng": 39.19527,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "boat",
+          "confidence": 0.92
+        },
+        {
+          "text": "sea",
+          "confidence": 0.88
+        }
+      ],
+      "quality": {
+        "sharpness": 0.358974358974359,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5935897435897436,
+        "laplacian": 80.69552015778817
+      },
+      "hash": "95ea6a15caea154b",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 197.9228088031761,
+      "focusX": 0.8333333333333334,
+      "focusY": 0.8333333333333334
+    },
+    "t30": {
+      "id": "t30",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-05T11:00:00.000Z",
+      "lat": -6.161,
+      "lng": 39.19329,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "building",
+          "confidence": 0.92
+        },
+        {
+          "text": "sky",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.46153846153846156,
+        "exposure": 0.804412573313783,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5954978992781412,
+        "laplacian": 93.75806406492913
+      },
+      "hash": "85fb4450fa2f05ab",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 29.437368997545562,
+      "focusX": 0.8333333333333334,
+      "focusY": 0.8333333333333334
+    },
+    "t29": {
+      "id": "t29",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-05T18:00:00.000Z",
+      "lat": -6.16615,
+      "lng": 39.18845,
+      "placeName": "Stone Town",
+      "placeId": "stone_town",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "boat",
+          "confidence": 0.9
+        },
+        {
+          "text": "sea",
+          "confidence": 0.86
+        },
+        {
+          "text": "sky",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.41025641025641024,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.6141025641025641,
+        "laplacian": 82.88047980716036
+      },
+      "hash": "e1ea3e1dc0e0351f",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 28.471332608688076,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t14": {
+      "id": "t14",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-06T11:30:00.000Z",
+      "lat": -5.72399,
+      "lng": 39.29853,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "beach",
+          "confidence": 0.95
+        },
+        {
+          "text": "sea",
+          "confidence": 0.94
+        },
+        {
+          "text": "sky",
+          "confidence": 0.92
+        }
+      ],
+      "quality": {
+        "sharpness": 0.07692307692307693,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.4807692307692308,
+        "laplacian": 23.221205835114947
+      },
+      "hash": "be40bd2ac1bf40b5",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 197.83340302892225,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.8333333333333334
+    },
+    "t18": {
+      "id": "t18",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-07-06T13:10:00.000Z",
+      "lat": -5.72896,
+      "lng": 39.29516,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "beach",
+          "confidence": 0.8
+        },
+        {
+          "text": "tree",
+          "confidence": 0.84
+        }
+      ],
+      "quality": {
+        "sharpness": 0.9487179487179487,
+        "exposure": 0.4677648460410557,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.7230401486953906,
+        "laplacian": 682.5801752487379
+      },
+      "hash": "a9c59e0ed12b43b9",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 197.48549631425473,
+      "focusX": 0.5,
+      "focusY": 0.16666666666666666
+    },
+    "t33": {
+      "id": "t33",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-07-06T13:40:00.000Z",
+      "lat": -5.72933,
+      "lng": 39.29859,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "beach",
+          "confidence": 0.9
+        },
+        {
+          "text": "tree",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.9230769230769231,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.8192307692307692,
+        "laplacian": 591.7603434918176
+      },
+      "hash": "9e13e163c7be481c",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 198.00526158401394,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.16666666666666666
+    },
+    "t17": {
+      "id": "t17",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-06T16:00:00.000Z",
+      "lat": -5.72979,
+      "lng": 39.29779,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [
+        {
+          "x": 0.3797,
+          "y": 0.45,
+          "w": 0.0807,
+          "h": 0.121,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5275,
+          "y": 0.42,
+          "w": 0.0851,
+          "h": 0.1276,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "beach",
+          "confidence": 0.9
+        },
+        {
+          "text": "sea",
+          "confidence": 0.86
+        }
+      ],
+      "quality": {
+        "sharpness": 0.5384615384615384,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.7728846153846154,
+        "laplacian": 104.90056003739235
+      },
+      "hash": "e619e60cf3b84cb1",
+      "burstGroupId": "burst1",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 198.12543070710356,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t23": {
+      "id": "t23",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-06T16:00:01.000Z",
+      "lat": -5.72966,
+      "lng": 39.30113,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [
+        {
+          "x": 0.3897,
+          "y": 0.45,
+          "w": 0.0807,
+          "h": 0.121,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5375,
+          "y": 0.42,
+          "w": 0.0851,
+          "h": 0.1276,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "beach",
+          "confidence": 0.9
+        }
+      ],
+      "quality": {
+        "sharpness": 0.5128205128205128,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.7626282051282051,
+        "laplacian": 104.81575101457477
+      },
+      "hash": "e41be60cf3b84cb1",
+      "burstGroupId": "burst1",
+      "isExcluded": true,
+      "excludedReason": "burst",
+      "userPinned": false,
+      "dominantHue": 197.84137471566186,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t15": {
+      "id": "t15",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-06T18:40:00.000Z",
+      "lat": -5.72425,
+      "lng": 39.29925,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "boat",
+          "confidence": 0.9
+        },
+        {
+          "text": "sea",
+          "confidence": 0.88
+        },
+        {
+          "text": "sky",
+          "confidence": 0.9
+        }
+      ],
+      "quality": {
+        "sharpness": 0.3076923076923077,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.573076923076923,
+        "laplacian": 61.4410149571911
+      },
+      "hash": "b3cccc23f39c4866",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 28.75377275083826,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t19": {
+      "id": "t19",
+      "width": 2400,
+      "height": 2400,
+      "takenAt": "2026-07-07T10:30:00.000Z",
+      "lat": -5.7262,
+      "lng": 39.29844,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "water",
+          "confidence": 0.9
+        },
+        {
+          "text": "fish",
+          "confidence": 0.82
+        }
+      ],
+      "quality": {
+        "sharpness": 0.38461538461538464,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.6038461538461539,
+        "laplacian": 80.86867635543317
+      },
+      "hash": "bfc4ae4cd12bc524",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 195.83483048356618,
+      "focusX": 0.5,
+      "focusY": 0.8333333333333334
+    },
+    "t16": {
+      "id": "t16",
+      "width": 4200,
+      "height": 1750,
+      "takenAt": "2026-07-07T12:00:00.000Z",
+      "lat": -5.72338,
+      "lng": 39.29815,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "beach",
+          "confidence": 0.94
+        },
+        {
+          "text": "sea",
+          "confidence": 0.92
+        },
+        {
+          "text": "sky",
+          "confidence": 0.9
+        }
+      ],
+      "quality": {
+        "sharpness": 0.9743589743589743,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.8397435897435898,
+        "laplacian": 807.9277760052335
+      },
+      "hash": "8f1ef071f0b3401f",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 197.83496429368455,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.16666666666666666
+    },
+    "t22": {
+      "id": "t22",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-07T12:05:00.000Z",
+      "lat": -5.7275,
+      "lng": 39.29689,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "sea",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.0,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.45,
+        "laplacian": 0.7975224364094182
+      },
+      "hash": "bf40bd2ac0bf40b5",
+      "isExcluded": true,
+      "excludedReason": "blur",
+      "userPinned": false,
+      "dominantHue": 197.5061832738974,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.8333333333333334
+    },
+    "t31": {
+      "id": "t31",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-07T17:00:00.000Z",
+      "lat": -5.72719,
+      "lng": 39.29498,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "building",
+          "confidence": 0.8
+        },
+        {
+          "text": "sea",
+          "confidence": 0.84
+        },
+        {
+          "text": "sky",
+          "confidence": 0.9
+        }
+      ],
+      "quality": {
+        "sharpness": 0.1282051282051282,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5012820512820513,
+        "laplacian": 30.71312959019515
+      },
+      "hash": "b6cb693496bb14a4",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 28.628210180648725,
+      "focusX": 0.8333333333333334,
+      "focusY": 0.8333333333333334
+    },
+    "t32": {
+      "id": "t32",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-08T16:30:00.000Z",
+      "lat": -5.72311,
+      "lng": 39.29909,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [
+        {
+          "x": 0.1721,
+          "y": 0.57,
+          "w": 0.0557,
+          "h": 0.0836,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.3721,
+          "y": 0.52,
+          "w": 0.0557,
+          "h": 0.0836,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5721,
+          "y": 0.57,
+          "w": 0.0557,
+          "h": 0.0836,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.7721,
+          "y": 0.52,
+          "w": 0.0557,
+          "h": 0.0836,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "beach",
+          "confidence": 0.9
+        },
+        {
+          "text": "sport",
+          "confidence": 0.84
+        }
+      ],
+      "quality": {
+        "sharpness": 0.6923076923076923,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 4,
+        "overall": 0.8344230769230769,
+        "laplacian": 136.31099486692767
+      },
+      "hash": "aed1ae3bc4aa443a",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 198.1962240108835,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t20": {
+      "id": "t20",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-08T18:50:00.000Z",
+      "lat": -5.72773,
+      "lng": 39.30058,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "beach",
+          "confidence": 0.84
+        },
+        {
+          "text": "sky",
+          "confidence": 0.9
+        }
+      ],
+      "quality": {
+        "sharpness": 0.6153846153846154,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.6961538461538461,
+        "laplacian": 127.81932124950634
+      },
+      "hash": "b3d96626d3994866",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 27.12243560749275,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t34": {
+      "id": "t34",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-09T08:00:00.000Z",
+      "lat": -5.7272,
+      "lng": 39.2986,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "boat",
+          "confidence": 0.9
+        },
+        {
+          "text": "beach",
+          "confidence": 0.9
+        }
+      ],
+      "quality": {
+        "sharpness": 0.4358974358974359,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.6243589743589744,
+        "laplacian": 89.17710749920602
+      },
+      "hash": "bb44533e01cbb43b",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 196.9344692316102,
+      "focusX": 0.5,
+      "focusY": 0.8333333333333334
+    },
+    "t35": {
+      "id": "t35",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-07-09T18:30:00.000Z",
+      "lat": -5.72622,
+      "lng": 39.29947,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [
+        {
+          "x": 0.3292,
+          "y": 0.45,
+          "w": 0.1815,
+          "h": 0.121,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.4743,
+          "y": 0.42,
+          "w": 0.1914,
+          "h": 0.1276,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "beach",
+          "confidence": 0.9
+        },
+        {
+          "text": "sky",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.6666666666666666,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.8241666666666666,
+        "laplacian": 134.5440244715191
+      },
+      "hash": "e699e50ef1a14eb0",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 197.70009304516918,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t21": {
+      "id": "t21",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-09T19:30:00.000Z",
+      "lat": -5.72636,
+      "lng": 39.29515,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "beach",
+          "confidence": 0.8
+        },
+        {
+          "text": "drink",
+          "confidence": 0.6
+        }
+      ],
+      "quality": {
+        "sharpness": 0.1794871794871795,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5217948717948718,
+        "laplacian": 32.710152400790086
+      },
+      "hash": "9fcce02199be4ce4",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 29.047532474971256,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.5
+    },
+    "t36": {
+      "id": "t36",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-09T20:30:00.000Z",
+      "lat": -5.72802,
+      "lng": 39.29692,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "food",
+          "confidence": 0.94
+        }
+      ],
+      "quality": {
+        "sharpness": 0.7435897435897436,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.7474358974358974,
+        "laplacian": 195.52748123776786
+      },
+      "hash": "9778688585da9e69",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 36.34786482658272,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.5
+    },
+    "t24": {
+      "id": "t24",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-10T09:00:00.000Z",
+      "lat": -5.73027,
+      "lng": 39.29502,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "beach",
+          "confidence": 0.92
+        },
+        {
+          "text": "tree",
+          "confidence": 0.86
+        },
+        {
+          "text": "sea",
+          "confidence": 0.9
+        }
+      ],
+      "quality": {
+        "sharpness": 0.8461538461538461,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.7884615384615385,
+        "laplacian": 480.47349476019343
+      },
+      "hash": "9f1fe060c0a3479f",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 196.8599826702504,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.16666666666666666
+    },
+    "t25": {
+      "id": "t25",
+      "width": 2400,
+      "height": 2400,
+      "takenAt": "2026-07-10T09:30:00.000Z",
+      "lat": -5.72937,
+      "lng": 39.29487,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "sand",
+          "confidence": 0.9
+        },
+        {
+          "text": "beach",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.717948717948718,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.7371794871794872,
+        "laplacian": 136.5829995526612
+      },
+      "hash": "faaeebea0b8021b4",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 39.34611074277022,
+      "focusX": 0.8333333333333334,
+      "focusY": 0.16666666666666666
+    },
+    "t37": {
+      "id": "t37",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-10T10:00:00.000Z",
+      "lat": -5.72625,
+      "lng": 39.29673,
+      "placeName": "Nungwi",
+      "placeId": "nungwi",
+      "countryCode": "TZ",
+      "faces": [
+        {
+          "x": 0.4612,
+          "y": 0.51,
+          "w": 0.0176,
+          "h": 0.0264,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5205,
+          "y": 0.5,
+          "w": 0.0191,
+          "h": 0.0286,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "boat",
+          "confidence": 0.9
+        },
+        {
+          "text": "sea",
+          "confidence": 0.9
+        }
+      ],
+      "quality": {
+        "sharpness": 0.48717948717948717,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.7523717948717948,
+        "laplacian": 99.86561008733655
+      },
+      "hash": "b34c8c33d9ac6699",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 182.42207287753573,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t10": {
+      "id": "t10",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-07-11T10:00:00.000Z",
+      "lat": -6.26373,
+      "lng": 39.41678,
+      "placeName": "Jozani Forest",
+      "placeId": "jozani",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "forest",
+          "confidence": 0.94
+        },
+        {
+          "text": "tree",
+          "confidence": 0.92
+        }
+      ],
+      "quality": {
+        "sharpness": 0.02564102564102564,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.4602564102564103,
+        "laplacian": 19.53792911205423
+      },
+      "hash": "d4d26aaa2b65b325",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 102.53026058047466,
+      "focusX": 0.5,
+      "focusY": 0.8333333333333334
+    },
+    "t11": {
+      "id": "t11",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-11T10:40:00.000Z",
+      "lat": -6.26207,
+      "lng": 39.41811,
+      "placeName": "Jozani Forest",
+      "placeId": "jozani",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "animal",
+          "confidence": 0.9
+        },
+        {
+          "text": "monkey",
+          "confidence": 0.86
+        }
+      ],
+      "quality": {
+        "sharpness": 0.05128205128205128,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.4705128205128205,
+        "laplacian": 23.08654983844744
+      },
+      "hash": "b0e3a69a59cda42b",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 110.30556817608156,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t13": {
+      "id": "t13",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-11T11:20:00.000Z",
+      "lat": -6.26789,
+      "lng": 39.41785,
+      "placeName": "Jozani Forest",
+      "placeId": "jozani",
+      "countryCode": "TZ",
+      "faces": [
+        {
+          "x": 0.3833,
+          "y": 0.48,
+          "w": 0.0733,
+          "h": 0.11,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5404,
+          "y": 0.44,
+          "w": 0.0792,
+          "h": 0.1188,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "forest",
+          "confidence": 0.9
+        },
+        {
+          "text": "tree",
+          "confidence": 0.84
+        }
+      ],
+      "quality": {
+        "sharpness": 0.28205128205128205,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.6703205128205129,
+        "laplacian": 60.247378381586906
+      },
+      "hash": "8cfbcaa0dbe300ce",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 105.34627895586172,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t38": {
+      "id": "t38",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-07-11T11:40:00.000Z",
+      "lat": -6.26921,
+      "lng": 39.41738,
+      "placeName": "Jozani Forest",
+      "placeId": "jozani",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "tree",
+          "confidence": 0.84
+        },
+        {
+          "text": "water",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.20512820512820512,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.532051282051282,
+        "laplacian": 34.41115021719551
+      },
+      "hash": "81aad5d53f802a7e",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 119.75238217478521,
+      "focusX": 0.8333333333333334,
+      "focusY": 0.5
+    },
+    "t39": {
+      "id": "t39",
+      "width": 2400,
+      "height": 2400,
+      "takenAt": "2026-07-11T12:10:00.000Z",
+      "lat": -6.26725,
+      "lng": 39.42025,
+      "placeName": "Jozani Forest",
+      "placeId": "jozani",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "flower",
+          "confidence": 0.9
+        },
+        {
+          "text": "animal",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.5641025641025641,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.6756410256410257,
+        "laplacian": 108.08791497118413
+      },
+      "hash": "c3ac3cd2648f9939",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 13.797660774713956,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t12": {
+      "id": "t12",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-12T09:15:00.000Z",
+      "lat": -6.26424,
+      "lng": 39.41736,
+      "placeName": "Jozani Forest",
+      "placeId": "jozani",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "tree",
+          "confidence": 0.84
+        },
+        {
+          "text": "water",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.2564102564102564,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5525641025641026,
+        "laplacian": 59.30598225832755
+      },
+      "hash": "84fb94d13a453b74",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 119.61193227350716,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "t40": {
+      "id": "t40",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-07-12T10:00:00.000Z",
+      "lat": -6.26868,
+      "lng": 39.41605,
+      "placeName": "Jozani Forest",
+      "placeId": "jozani",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "forest",
+          "confidence": 0.8
+        },
+        {
+          "text": "food",
+          "confidence": 0.6
+        }
+      ],
+      "quality": {
+        "sharpness": 0.15384615384615385,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5115384615384615,
+        "laplacian": 30.73624108734707
+      },
+      "hash": "84e6ccb4f5b4b2c1",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 104.60313054672194,
+      "focusX": 0.5,
+      "focusY": 0.8333333333333334
+    },
+    "t26": {
+      "id": "t26",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-07-12T12:00:00.000Z",
+      "lat": -6.26208,
+      "lng": 39.41843,
+      "placeName": "Jozani Forest",
+      "placeId": "jozani",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "sand",
+          "confidence": 0.9
+        },
+        {
+          "text": "beach",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.6410256410256411,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.7064102564102565,
+        "laplacian": 133.39295579636138
+      },
+      "hash": "b3cccccc89cc9999",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 39.34696531255443,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.16666666666666666
+    },
+    "t41": {
+      "id": "t41",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-07-12T17:00:00.000Z",
+      "lat": -6.26666,
+      "lng": 39.41835,
+      "placeName": "Jozani Forest",
+      "placeId": "jozani",
+      "countryCode": "TZ",
+      "faces": [],
+      "labels": [
+        {
+          "text": "window",
+          "confidence": 0.8
+        },
+        {
+          "text": "sea",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.10256410256410256,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.49102564102564106,
+        "laplacian": 24.959070872790747
+      },
+      "hash": "b9e4c6b364ce9b20",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 194.0378323913533,
+      "focusX": 0.5,
+      "focusY": 0.5
+    }
+  },
+  "story": {
+    "names": "Mia & Luka",
+    "title": "Zanzibar 2026",
+    "tone": "warm"
+  },
+  "flags": {
+    "illustrated": false,
+    "vectorText": false,
+    "blankPagesAdded": 0
+  }
+}

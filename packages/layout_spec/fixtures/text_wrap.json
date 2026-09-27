@@ -1,0 +1,121 @@
+[
+  {
+    "family": "Lora",
+    "weight": 400,
+    "sizePt": 9.0,
+    "maxWidthPt": 120.0,
+    "trackingPct": 0.0,
+    "text": "Stone Town, day two — the alleys were quieter than we expected",
+    "widthPt": 272.178,
+    "lines": [
+      "Stone Town, day two — the",
+      "alleys were quieter than we",
+      "expected"
+    ]
+  },
+  {
+    "family": "Lora",
+    "weight": 400,
+    "sizePt": 10.5,
+    "maxWidthPt": 360.0,
+    "trackingPct": 0.0,
+    "text": "Our days in Stone Town: old streets, sea and evening light.",
+    "widthPt": 285.18,
+    "lines": [
+      "Our days in Stone Town: old streets, sea and evening light."
+    ]
+  },
+  {
+    "family": "CormorantGaramond",
+    "weight": 500,
+    "sizePt": 26.0,
+    "maxWidthPt": 300.0,
+    "trackingPct": 0.0,
+    "text": "Aleksandar & Elena said yes in Ohrid, by the lake",
+    "widthPt": 502.866,
+    "lines": [
+      "Aleksandar & Elena said yes",
+      "in Ohrid, by the lake"
+    ]
+  },
+  {
+    "family": "Manrope",
+    "weight": 600,
+    "sizePt": 8.5,
+    "maxWidthPt": 140.0,
+    "trackingPct": 20.0,
+    "text": "15 AUGUST 2026 · OHRID · NORTH MACEDONIA",
+    "widthPt": 252.89625,
+    "lines": [
+      "15 AUGUST 2026 · OHRID",
+      "· NORTH MACEDONIA"
+    ]
+  },
+  {
+    "family": "Manrope",
+    "weight": 700,
+    "sizePt": 30.0,
+    "maxWidthPt": 200.0,
+    "trackingPct": 40.0,
+    "text": "ZANZIBAR",
+    "widthPt": 244.725,
+    "lines": [
+      "ZANZIB",
+      "AR"
+    ]
+  },
+  {
+    "family": "Lora",
+    "weight": 400,
+    "sizePt": 10.5,
+    "maxWidthPt": 200.0,
+    "trackingPct": 0.0,
+    "text": "Александар и Елена си рекоа „да“ во Охрид, покрај езерото.",
+    "widthPt": 305.4555,
+    "lines": [
+      "Александар и Елена си рекоа „да“ во",
+      "Охрид, покрај езерото."
+    ]
+  },
+  {
+    "family": "Nunito",
+    "weight": 700,
+    "sizePt": 28.0,
+    "maxWidthPt": 180.0,
+    "trackingPct": 0.0,
+    "text": "Mia turns one\nand the cake was bigger than her",
+    "widthPt": 177.604,
+    "lines": [
+      "Mia turns one",
+      "and the cake",
+      "was bigger",
+      "than her"
+    ]
+  },
+  {
+    "family": "GreatVibes",
+    "weight": 400,
+    "sizePt": 44.0,
+    "maxWidthPt": 150.0,
+    "trackingPct": 0.0,
+    "text": "A & E",
+    "widthPt": 109.428,
+    "lines": [
+      "A & E"
+    ]
+  },
+  {
+    "family": "Lora",
+    "weight": 400,
+    "sizePt": 9.0,
+    "maxWidthPt": 60.0,
+    "trackingPct": 0.0,
+    "text": "Unabhängigkeitserklärungsentwurf",
+    "widthPt": 147.906,
+    "lines": [
+      "Unabhängigke",
+      "itserklärungse",
+      "ntwurf"
+    ]
+  }
+]

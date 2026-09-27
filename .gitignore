@@ -1,0 +1,39 @@
+# Secrets
+.env
+*.env
+!*.env.example
+!.env.example
+
+# Flutter / Dart
+apps/mobile/.dart_tool/
+apps/mobile/build/
+apps/mobile/.flutter-plugins
+apps/mobile/.flutter-plugins-dependencies
+apps/mobile/**/*.g.dart
+apps/mobile/**/*.freezed.dart
+apps/mobile/lib/l10n/app_localizations*.dart
+apps/mobile/test/**/failures/
+apps/mobile/ios/Pods/
+apps/mobile/ios/Flutter/Generated.xcconfig
+apps/mobile/ios/Flutter/flutter_export_environment.sh
+apps/mobile/android/.gradle/
+apps/mobile/android/local.properties
+apps/mobile/android/app/*.jks
+apps/mobile/*.iml
+apps/mobile/android/*.iml
+
+# Node
+node_modules/
+services/render/dist/
+services/render/out/
+services/render/test/__output__/
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+*.swp

@@ -1,0 +1,14 @@
+{
+  "bleedMm": 4,
+  "safeOuterMm": 10,
+  "safeGutterMm": 15,
+  "providerSafeMm": 4,
+  "formats": [
+    { "id": "mini_14", "trimWMm": 140, "trimHMm": 140, "binding": "softcover", "minPages": 30, "maxPages": 60, "hidden": false },
+    { "id": "classic_20", "trimWMm": 200, "trimHMm": 200, "binding": "hardcover", "minPages": 30, "maxPages": 100, "hidden": false },
+    { "id": "landscape_28", "trimWMm": 279.4, "trimHMm": 203.2, "binding": "hardcover", "minPages": 30, "maxPages": 100, "hidden": false },
+    { "id": "signature_30", "trimWMm": 300, "trimHMm": 300, "binding": "layflat", "minPages": 20, "maxPages": 60, "hidden": true }
+  ],
+  "defaultFormatId": "classic_20",
+  "travelDefaultFormatId": "landscape_28"
+}

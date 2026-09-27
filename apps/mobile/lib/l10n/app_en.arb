@@ -1,0 +1,738 @@
+{
+  "@@locale": "en",
+  "appTitle": "Memoria",
+  "@appTitle": {
+    "description": "App name. Also defined in AppConfig.brandName; keep both in sync when renaming."
+  },
+  "commonContinue": "Continue",
+  "commonBack": "Back",
+  "commonSkip": "Skip",
+  "commonDone": "Done",
+  "commonCancel": "Cancel",
+  "commonSave": "Save",
+  "commonRetry": "Try again",
+  "commonClose": "Close",
+  "commonDelete": "Delete",
+  "commonEdit": "Edit",
+  "commonComingSoon": "Coming soon",
+  "commonMore": "More",
+  "errorGenericTitle": "Something went wrong",
+  "errorGenericBody": "We couldn't finish that. Your book is safe — please try again.",
+  "errorOfflineTitle": "You're offline",
+  "errorOfflineBody": "Connect to the internet to continue. Your work is saved on this phone.",
+  "devBanner": "DEV",
+  "onboardingHeroTitle": "Your moments, bound beautifully.",
+  "onboardingHeroBody": "Turn the photos on your phone into a designed book you can hold.",
+  "onboardingGetStarted": "Get started",
+  "onboardingArrangeTitle": "We arrange. You decide.",
+  "onboardingStepPick": "Pick your photos",
+  "onboardingStepDesign": "We design every page",
+  "onboardingStepPrint": "You print and hold it",
+  "onboardingPrivacyTitle": "Your photos stay yours",
+  "onboardingPrivacyBody": "Your photos stay on your phone while we design. We only upload what goes into your book.",
+  "onboardingPrivacyTraining": "We never use your photos to train AI models.",
+  "settingsUsePhotosForCaptions": "Use photos to write better captions",
+  "settingsUsePhotosForCaptionsHint": "Sends one small preview per chapter so captions match what's in the picture.",
+  "onboardingLanguageTitle": "Choose your language",
+  "onboardingLanguageBody": "You can change it any time in Settings.",
+  "onboardingPageIndicator": "Step {current} of {total}",
+  "@onboardingPageIndicator": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "permissionTitle": "Let's find your photos",
+  "permissionBody": "Memoria needs access to your photo library to design your book. You can share only some photos if you prefer.",
+  "permissionAllow": "Allow access",
+  "permissionLater": "Not now",
+  "permissionLimitedBody": "You've shared some of your photos with Memoria.",
+  "permissionSelectMore": "Select more photos",
+  "permissionDeniedBody": "Photo access is off. Turn it on in Settings, or try a sample book first.",
+  "permissionOpenSettings": "Open Settings",
+  "navHome": "Home",
+  "navOrders": "Orders",
+  "navSettings": "Settings",
+  "homeGreetingMorning": "Good morning, {name}",
+  "@homeGreetingMorning": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingAfternoon": "Good afternoon, {name}",
+  "@homeGreetingAfternoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingEvening": "Good evening, {name}",
+  "@homeGreetingEvening": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreetingDefault": "Your books",
+  "homeCreateTitle": "Create a new book",
+  "homeCreateBody": "Choose your photos. We'll design the pages.",
+  "homeTrySample": "Try a sample book",
+  "homeYourBooks": "Your books",
+  "homeStartFromOccasion": "Start from an occasion",
+  "homeEmptyTitle": "Your first book is a few taps away.",
+  "homeEmptyBody": "Start with a trip, a wedding or a whole year.",
+  "occasionWedding": "Wedding",
+  "occasionTravel": "Trip",
+  "occasionBaby": "Baby",
+  "occasionBirthday": "Birthday",
+  "occasionFamily": "Year",
+  "occasionOther": "Something else",
+  "statusDraft": "Draft",
+  "statusOrdered": "Ordered",
+  "statusDelivered": "Delivered",
+  "statusArchived": "Archived",
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsAppearance": "Appearance",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "settingsBookSection": "Book and preview",
+  "settingsPageTurnSound": "Page-turn sound",
+  "settingsAccount": "Account",
+  "settingsSignedOut": "Not signed in. You'll be asked at checkout.",
+  "settingsSignedInAs": "Signed in as {email}",
+  "@settingsSignedInAs": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSignOut": "Sign out",
+  "settingsPrivacy": "Privacy and data",
+  "settingsExportData": "Export my data",
+  "settingsExportDone": "Your data is ready to share.",
+  "settingsDeleteData": "Delete my account and uploads",
+  "settingsDeleteConfirmTitle": "Delete everything?",
+  "settingsDeleteConfirmBody": "This removes your account, your books and every uploaded photo. Orders already at the bindery will still arrive. This can't be undone.",
+  "settingsDeleteDone": "Your data has been deleted.",
+  "settingsPrivacyNote": "Originals are deleted 90 days after delivery. We never use your photos for training.",
+  "settingsAbout": "About and licences",
+  "settingsVersion": "Version {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsNaturalEarth": "Maps made with Natural Earth — free vector map data, naturalearthdata.com.",
+  "settingsFontLicences": "Fonts: Inter, Cormorant Garamond, Lora, Manrope, Nunito and Great Vibes, under the SIL Open Font License 1.1.",
+  "settingsOpenSourceLicences": "Open-source licences",
+  "ordersEmptyTitle": "No orders yet",
+  "ordersEmptyBody": "When you order a book, you can follow it here from the bindery to your door.",
+  "homeSampleWedding": "A wedding in Ohrid",
+  "homeSampleTravel": "A trip to Zanzibar",
+  "homeSampleBody": "See how it works with photos we brought along.",
+  "homeBookPages": "{count, plural, one{1 page} other{{count} pages}}",
+  "@homeBookPages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeOpenBook": "Open {title}",
+  "@homeOpenBook": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "homeDeleteBook": "Delete book",
+  "homeDeleteBookConfirm": "Delete “{title}”? This can't be undone.",
+  "@homeDeleteBookConfirm": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "homeLoadingBooks": "Opening your shelf…",
+  "importTitle": "Choose your photos",
+  "importSelectedCount": "{count, plural, =0{Nothing selected} one{1 selected} other{{count} selected}}",
+  "@importSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "importSelectDay": "Select day",
+  "importClearDay": "Clear day",
+  "importSuggestionTrip": "A trip? {count} photos from {place}, {range}",
+  "@importSuggestionTrip": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "place": {
+        "type": "String"
+      },
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "importSuggestionDay": "A special day? {count} photos from {date}",
+  "@importSuggestionDay": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "importSuggestionSelect": "Select these",
+  "importAllPhotos": "All photos",
+  "importAlbums": "Albums",
+  "importDates": "Dates",
+  "importClearDates": "Any date",
+  "importEmptyTitle": "No photos here yet",
+  "importEmptyBody": "Take a few pictures, or try a sample book first.",
+  "importMinPhotos": "Choose at least {count} photos for a book.",
+  "@importMinPhotos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "photoSemantics": "Photo, {date}",
+  "@photoSemantics": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "photoPeople": "{count, plural, one{1 person} other{{count} people}}",
+  "@photoPeople": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "photoSelected": "Selected",
+  "progressReading": "Reading your photos… {done} of {total}",
+  "@progressReading": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "progressCurating": "Choosing the best ones…",
+  "progressBody": "This stays on your phone.",
+  "curationTitle": "We picked {picked} of {total} photos.",
+  "@curationTitle": {
+    "placeholders": {
+      "picked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "curationSetAside": "{count, plural, =0{Nothing set aside.} one{We set aside 1 similar or blurry photo.} other{We set aside {count} similar or blurry photos.}}",
+  "@curationSetAside": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "curationTabIn": "In your book ({count})",
+  "@curationTabIn": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "curationTabOut": "Set aside ({count})",
+  "@curationTabOut": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "curationHint": "Tap a photo to move it. Press and hold to make it a favourite — favourites get a big frame.",
+  "curationReasonBurst": "Similar shot",
+  "curationReasonDuplicate": "Near duplicate",
+  "curationReasonBlur": "Soft focus",
+  "curationReasonUser": "Set aside by you",
+  "curationFavourite": "Favourite",
+  "curationLooksGood": "Looks good",
+  "progressReviewPhotos": "Review photos",
+  "occasionAskTravelPlace": "Looks like a trip to {place} — right?",
+  "@occasionAskTravelPlace": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "occasionAskTravel": "Looks like a trip — right?",
+  "occasionAskWedding": "Looks like a wedding — right?",
+  "occasionAskBaby": "Looks like a little one's first days — right?",
+  "occasionAskBirthday": "Looks like a birthday — right?",
+  "occasionAskFamily": "Looks like a whole year of moments — right?",
+  "occasionAskOther": "What are these photos about?",
+  "occasionConfirm": "Yes, that's it",
+  "occasionSomethingElse": "It's something else",
+  "occasionPickLook": "Pick a look",
+  "occasionLookHint": "You can change it any time while editing.",
+  "themeName_wedding_ivory": "Ivory, gold tone",
+  "themeName_wedding_blush": "Blush linen",
+  "themeName_wedding_midnight": "Midnight",
+  "themeName_travel_lagoon": "Lagoon",
+  "themeName_travel_terracotta": "Terracotta road",
+  "themeName_travel_alpine": "Alpine",
+  "themeName_baby_cloud": "Cloud",
+  "themeName_birthday_confetti": "Confetti",
+  "themeName_family_heirloom": "Heirloom",
+  "themeName_minimal_gallery": "Gallery",
+  "storyStep": "Question {current} of {total}",
+  "@storyStep": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "storyOptional": "Skip it if you like.",
+  "storyNamesWedding": "Who is getting married?",
+  "storyNamesWeddingHint": "Aleksandar & Elena",
+  "storyWhenWedding": "When was the wedding?",
+  "storyWhere": "Where was it?",
+  "storyWhereHint": "A town, a venue, a lake…",
+  "storyMomentWedding": "One moment you never want to forget?",
+  "storyMomentHint": "In your own words — we'll use them as they are.",
+  "storyTone": "How should the words feel?",
+  "storyWhoTravelled": "Who travelled?",
+  "storyWhoTravelledHint": "Mia & Luka, the four of us…",
+  "storyTripName": "What should we call the trip?",
+  "storyMomentTravel": "Your favourite moment?",
+  "storyWhoseBook": "Whose book is it?",
+  "storyBabyName": "What's the little one's name?",
+  "storyBirthdayName": "Whose birthday is it?",
+  "storyKeyDate": "Which date matters most?",
+  "storyBookTitle": "A title for the book?",
+  "storyPickDate": "Pick a date",
+  "storyDesign": "Design my book",
+  "toneWarm": "Warm",
+  "tonePoetic": "Poetic",
+  "tonePlayful": "Playful",
+  "toneMinimal": "Minimal",
+  "toneExampleWarm": "“Our days in Stone Town: old streets, sea and evening light.”",
+  "toneExamplePoetic": "“In Stone Town, the days were made of sea and evening light.”",
+  "toneExamplePlayful": "“Stone Town, as promised: old streets and the sea.”",
+  "toneExampleMinimal": "“Stone Town. 3 July 2026.”",
+  "designingTitle": "Designing your book…",
+  "designingChapters": "Arranging the chapters",
+  "designingWords": "Writing a few words",
+  "designingPages": "Laying out the pages",
+  "designingDone": "Your book is ready to hold.",
+  "editorPreview": "Preview",
+  "editorUndo": "Undo",
+  "editorRedo": "Redo",
+  "editorBookTitle": "Book title",
+  "editorPrintGuides": "Print guides",
+  "editorGuidesLegend": "Hairline: trim · Red: trimmed away · Dashed: keep text inside",
+  "editorPrintCheck": "Print check",
+  "editorShuffle": "Shuffle design",
+  "editorShuffleDone": "A fresh arrangement. Undo brings the last one back.",
+  "editorSaved": "Saved",
+  "editorSaving": "Saving…",
+  "editorIssues": "{count, plural, =0{Print-ready} one{1 print check} other{{count} print checks}}",
+  "@editorIssues": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "editorCover": "Cover",
+  "editorPage": "Page {number}",
+  "@editorPage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "editorPages": "Pages {left}–{right}",
+  "@editorPages": {
+    "placeholders": {
+      "left": {
+        "type": "int"
+      },
+      "right": {
+        "type": "int"
+      }
+    }
+  },
+  "editorBlankNotice": "{count, plural, one{We added 1 note page to reach the minimum. Add photos to replace it.} other{We added {count} note pages to reach the minimum. Add photos to replace them.}}",
+  "@editorBlankNotice": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tabPages": "Pages",
+  "tabPhotos": "Photos",
+  "tabTheme": "Theme",
+  "tabCover": "Cover",
+  "tabFormat": "Format",
+  "photoReplace": "Replace",
+  "photoCrop": "Crop & zoom",
+  "photoSwap": "Swap",
+  "photoRemove": "Remove",
+  "photoMakeHero": "Make hero",
+  "photoCaption": "Caption",
+  "photoSwapHint": "Now tap the photo to swap with.",
+  "photoReplaceTitle": "Choose a photo",
+  "photoAllUsed": "Every photo is already in the book.",
+  "photoTrayHint": "Drag a photo onto a page, or tap it to give it a page of its own.",
+  "photoLowDpi": "This photo may print soft at this size.",
+  "layoutsTitle": "Layouts",
+  "layoutMirror": "Mirror",
+  "pageAdd": "Add page",
+  "pageRemove": "Remove page",
+  "pagesHint": "Press and hold a page to move it.",
+  "textEdit": "Edit text",
+  "textSize": "Size",
+  "textSizeValue": "{size} pt",
+  "@textSizeValue": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "textSmaller": "Smaller",
+  "textLarger": "Larger",
+  "textAlignLeft": "Align left",
+  "textAlignCenter": "Centre",
+  "textAlignRight": "Align right",
+  "textRewrite": "Rewrite",
+  "textRewriteHint": "Pick a tone. You can undo it.",
+  "cropDpi": "{dpi} dpi",
+  "@cropDpi": {
+    "placeholders": {
+      "dpi": {
+        "type": "int"
+      }
+    }
+  },
+  "cropSharp": "Sharp in print",
+  "cropSoft": "May print soft",
+  "cropTooSoft": "Too soft to print at this zoom",
+  "cropReset": "Reset",
+  "cropHint": "Pinch to zoom, drag to move.",
+  "themeAccent": "Accent colour",
+  "themeAccentReset": "Theme colour",
+  "coverDesign": "Cover design",
+  "coverTitle": "Title",
+  "coverSubtitle": "Subtitle",
+  "coverDate": "Date",
+  "coverPlace": "Place",
+  "coverNames": "Names",
+  "coverMonogram": "Monogram letters",
+  "coverApply": "Update cover",
+  "bookLanguage": "Book language",
+  "bookLanguageHint": "Dates, chapter names and small print in the book use this language.",
+  "formatName_mini_14": "Mini",
+  "formatName_classic_20": "Classic",
+  "formatName_landscape_28": "Landscape",
+  "formatName_signature_30": "Signature",
+  "formatSize": "{size} cm · {binding}",
+  "@formatSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "binding": {
+        "type": "String"
+      }
+    }
+  },
+  "bindingSoftcover": "Softcover",
+  "bindingHardcover": "Hardcover",
+  "bindingLayflat": "Layflat",
+  "coverFinish": "Cover finish",
+  "finishMatte": "Matte",
+  "finishGloss": "Gloss",
+  "formatPagesPrice": "{pages} · from {price}",
+  "@formatPagesPrice": {
+    "placeholders": {
+      "pages": {
+        "type": "String"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "formatChangeNote": "Changing the size re-arranges the pages.",
+  "checkTitle": "Print check",
+  "checkFixAll": "Fix all automatically",
+  "checkReady": "Print-ready",
+  "checkReadyBody": "Everything looks right for print.",
+  "checkBlockers": "Needs fixing",
+  "checkWarnings": "Worth a look",
+  "checkInfo": "For your information",
+  "checkFix": "Fix",
+  "checkShow": "Show",
+  "checkWholeBook": "Whole book",
+  "checkBackCover": "Back cover",
+  "checkSpine": "Spine",
+  "checkLowDpiWarn": "This photo may print soft at this size ({dpi} dpi).",
+  "@checkLowDpiWarn": {
+    "placeholders": {
+      "dpi": {
+        "type": "int"
+      }
+    }
+  },
+  "checkLowDpiBlock": "This photo is too small to print sharply here ({dpi} dpi). Try a smaller frame or another photo.",
+  "@checkLowDpiBlock": {
+    "placeholders": {
+      "dpi": {
+        "type": "int"
+      }
+    }
+  },
+  "checkFaceGutter": "A face is close to the fold in the middle of the book.",
+  "checkTextSafe": "Some text is close to the edge and could be trimmed.",
+  "checkTextSmall": "This text is smaller than 8 pt and may be hard to read.",
+  "checkTextOverflow": "This text doesn't fit its space.",
+  "checkEmptyFrame": "A photo frame is empty.",
+  "checkEmptyText": "A title is empty.",
+  "checkPageCount": "The book needs an even number of pages between {min} and {max} (now {count}).",
+  "@checkPageCount": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "checkDuplicate": "This photo appears twice in the book.",
+  "checkGlyphs": "Some characters can't be printed in this font: {chars}",
+  "@checkGlyphs": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
+  "checkCoverTitle": "The cover title is longer than its space.",
+  "checkThinLine": "A line is too thin to print reliably.",
+  "checkOrderAnyway": "Warnings won't stop your order.",
+  "previewTitle": "Preview",
+  "previewOrder": "Order this book — {price}",
+  "@previewOrder": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "previewSoftProof": "Print preview (approximate)",
+  "previewTable": "Size on a table",
+  "previewBook": "Book",
+  "previewOpen": "Tap to open",
+  "previewClose": "Close the book",
+  "previewTurnOver": "Turn over",
+  "previewTurnHint": "Drag the page corners, or tap the edges to turn.",
+  "previewNextPage": "Next page",
+  "previewPreviousPage": "Previous page",
+  "previewCupHint": "Shown next to a coffee cup for scale.",
+  "editionTitle": "Choose your edition",
+  "editionIntro": "Every edition starts from your book. You can add the others later.",
+  "editionAlbumName": "Classic Album",
+  "editionAlbumBody": "A printed, hand-finished photo book with your story in it.",
+  "editionMostLoved": "Most loved",
+  "editionVideoName": "Living Memories",
+  "editionVideoBody": "A 20–30 second film of your book, made for sharing.",
+  "editionCartoonName": "Cartoon & Comic Edition",
+  "editionCartoonBody": "Your album, redrawn in an illustrated style.",
+  "editionContinue": "Continue with {name}",
+  "@editionContinue": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "editionBefore": "Before",
+  "editionAfter": "After",
+  "editionsButton": "Editions",
+  "editionsSheetTitle": "Make more from this book",
+  "editionOpen": "Open",
+  "editionYouAreHere": "You're editing this",
+  "editionAlsoPrint": "Also print this as a book",
+  "coverStudioTitle": "Choose your cover",
+  "coverStudioIntro": "Made from your photos. Swipe to compare, and change the words on any of them.",
+  "coverVariantPhoto": "Photo",
+  "coverVariantMonogram": "Monogram",
+  "coverVariantStamp": "Stamp",
+  "coverVariantMap": "Map",
+  "coverVariantIllustrated": "Illustrated",
+  "coverPainting": "Painting your cover…",
+  "coverEditWords": "Edit the words",
+  "coverVariantOf": "Cover {current} of {total}: {name}",
+  "@coverVariantOf": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeSampleBadge": "Sample",
+  "memoriesPreparing": "Getting your book ready",
+  "memoriesIntro": "A short film of your book: the cover, a few pages turning and your best photos brought to life.",
+  "memoriesFormat": "Format",
+  "memoriesStories": "Stories 9:16",
+  "memoriesSquare": "Square 1:1",
+  "memoriesMusic": "Music",
+  "memoriesTrackWarm": "Warm piano",
+  "memoriesTrackWander": "Wanderlust guitar",
+  "memoriesTrackLight": "Music box",
+  "memoriesMake": "Make my video",
+  "memoriesRendering": "Making your video · {percent} %",
+  "@memoriesRendering": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "memoriesShare": "Share",
+  "memoriesShareHint": "TikTok, Reels, Stories or WhatsApp",
+  "memoriesSave": "Save to gallery",
+  "memoriesSaved": "Saved to your gallery.",
+  "memoriesSaveFailed": "The video couldn't be saved. Allow access to photos and try again.",
+  "memoriesFreeNote": "Free: 720p with a small watermark.",
+  "memoriesMadeWith": "Made with {brand}",
+  "@memoriesMadeWith": {
+    "placeholders": {
+      "brand": {
+        "type": "String"
+      }
+    }
+  },
+  "memoriesFailed": "The video couldn't be made. Try again.",
+  "memoriesMakeAgain": "Make a new version",
+  "memoriesPlay": "Play",
+  "memoriesPause": "Pause",
+  "memoriesPreviewLabel": "Preview of your video",
+  "illustratedIntro": "Pick a style. We redraw your photos and keep everyone looking like themselves on every page.",
+  "illustratedPreparing": "Preparing the styles",
+  "styleWatercolor": "Watercolour storybook",
+  "styleInkSketch": "Ink sketch",
+  "styleComic": "Comic",
+  "styleCaricature": "Playful caricature",
+  "styleAnimated3d": "3D animated look",
+  "characterSheetTitle": "Character sheet",
+  "characterSheetBody": "Your main people, drawn once. Every page uses the same colours, so they look the same throughout.",
+  "illustratedScope": "What to redraw",
+  "illustratedScopeWhole": "The whole album",
+  "illustratedScopeHybrid": "Just the cover + one illustrated page per chapter",
+  "illustratedConsent": "I have the right to use these photos, and the people in them are happy to be redrawn.",
+  "illustratedMake": "Redraw my album",
+  "illustratedProgress": "Redrawing {done} of {total}",
+  "@illustratedProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "illustratedFailed": "The album couldn't be redrawn. Try again.",
+  "illustratedPrintNote": "Every drawing is made at print resolution (at least 200 dpi).",
+  "finishLinen": "Linen",
+  "finishLeather": "Leather-look",
+  "finishIncluded": "included",
+  "finishNeedsHardcover": "Linen and leather-look need a hardcover size.",
+  "finishDragHint": "Drag the book to turn it",
+  "revealReady": "Your book is ready",
+  "revealSkip": "Tap to continue",
+  "enhanceAction": "Enhance for print",
+  "enhanceTitle": "Enhance for print",
+  "enhanceBody": "We add detail so this photo prints sharp. Drag to compare.",
+  "enhanceWorking": "Enhancing your photo",
+  "enhanceUse": "Use the enhanced photo",
+  "enhanceFailed": "This photo couldn't be enhanced.",
+  "dedicationMenu": "Handwritten dedication",
+  "dedicationTitle": "Write a dedication",
+  "dedicationBody": "Write with your finger in the frame. It prints in ink on the first page.",
+  "dedicationArea": "Writing area",
+  "dedicationClear": "Clear",
+  "dedicationSave": "Add to my book",
+  "dedicationRemove": "Remove the dedication",
+  "seriesTitle": "Part of a series",
+  "seriesNone": "Not in a series",
+  "seriesValue": "{series} · Volume {volume}",
+  "@seriesValue": {
+    "placeholders": {
+      "series": {
+        "type": "String"
+      },
+      "volume": {
+        "type": "int"
+      }
+    }
+  },
+  "seriesHint": "Books in a series share one spine design, so they line up on the shelf as a set.",
+  "seriesName": "Series name",
+  "seriesRemove": "Remove from series"
+}

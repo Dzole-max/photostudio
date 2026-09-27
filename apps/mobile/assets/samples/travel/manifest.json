@@ -1,0 +1,960 @@
+{
+ "set": "travel",
+ "photos": [
+  {
+   "id": "t01",
+   "file": "assets/samples/travel/t01.jpg",
+   "width": 2000,
+   "height": 3000,
+   "takenAt": "2026-07-03T10:15:00",
+   "lat": -6.16543,
+   "lng": 39.18892,
+   "faces": [],
+   "labels": [
+    {
+     "text": "door",
+     "confidence": 0.92
+    },
+    {
+     "text": "building",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "id": "t02",
+   "file": "assets/samples/travel/t02.jpg",
+   "width": 2000,
+   "height": 3000,
+   "takenAt": "2026-07-03T11:02:00",
+   "lat": -6.1618,
+   "lng": 39.18883,
+   "faces": [],
+   "labels": [
+    {
+     "text": "building",
+     "confidence": 0.9
+    },
+    {
+     "text": "street",
+     "confidence": 0.86
+    }
+   ]
+  },
+  {
+   "id": "t03",
+   "file": "assets/samples/travel/t03.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-03T12:30:00",
+   "lat": -6.16484,
+   "lng": 39.19553,
+   "faces": [],
+   "labels": [
+    {
+     "text": "market",
+     "confidence": 0.88
+    },
+    {
+     "text": "food",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t06",
+   "file": "assets/samples/travel/t06.jpg",
+   "width": 2000,
+   "height": 3000,
+   "takenAt": "2026-07-04T09:40:00",
+   "lat": -6.16252,
+   "lng": 39.18929,
+   "faces": [
+    {
+     "x": 0.2097,
+     "y": 0.2,
+     "w": 0.2805,
+     "h": 0.187,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    },
+    {
+     "x": 0.548,
+     "y": 0.25,
+     "w": 0.264,
+     "h": 0.176,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "text": "building",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "id": "t05",
+   "file": "assets/samples/travel/t05.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-04T16:20:00",
+   "lat": -6.16234,
+   "lng": 39.19598,
+   "faces": [],
+   "labels": [
+    {
+     "text": "building",
+     "confidence": 0.92
+    },
+    {
+     "text": "sky",
+     "confidence": 0.86
+    },
+    {
+     "text": "sea",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t09",
+   "file": "assets/samples/travel/t09.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-04T16:21:00",
+   "lat": -6.15951,
+   "lng": 39.19165,
+   "faces": [],
+   "labels": [
+    {
+     "text": "building",
+     "confidence": 0.92
+    },
+    {
+     "text": "sky",
+     "confidence": 0.86
+    }
+   ]
+  },
+  {
+   "id": "t04",
+   "file": "assets/samples/travel/t04.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-04T18:30:00",
+   "lat": -6.16574,
+   "lng": 39.19495,
+   "faces": [],
+   "labels": [
+    {
+     "text": "sea",
+     "confidence": 0.9
+    },
+    {
+     "text": "sky",
+     "confidence": 0.9
+    },
+    {
+     "text": "boat",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t08",
+   "file": "assets/samples/travel/t08.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-05T08:45:00",
+   "lat": -6.16452,
+   "lng": 39.19527,
+   "faces": [],
+   "labels": [
+    {
+     "text": "boat",
+     "confidence": 0.92
+    },
+    {
+     "text": "sea",
+     "confidence": 0.88
+    }
+   ]
+  },
+  {
+   "id": "t14",
+   "file": "assets/samples/travel/t14.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-06T11:30:00",
+   "lat": -5.72399,
+   "lng": 39.29853,
+   "faces": [],
+   "labels": [
+    {
+     "text": "beach",
+     "confidence": 0.95
+    },
+    {
+     "text": "sea",
+     "confidence": 0.94
+    },
+    {
+     "text": "sky",
+     "confidence": 0.92
+    }
+   ]
+  },
+  {
+   "id": "t18",
+   "file": "assets/samples/travel/t18.jpg",
+   "width": 2000,
+   "height": 3000,
+   "takenAt": "2026-07-06T13:10:00",
+   "lat": -5.72896,
+   "lng": 39.29516,
+   "faces": [],
+   "labels": [
+    {
+     "text": "beach",
+     "confidence": 0.8
+    },
+    {
+     "text": "tree",
+     "confidence": 0.84
+    }
+   ]
+  },
+  {
+   "id": "t17",
+   "file": "assets/samples/travel/t17.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-06T16:00:00",
+   "lat": -5.72979,
+   "lng": 39.29779,
+   "faces": [
+    {
+     "x": 0.3797,
+     "y": 0.45,
+     "w": 0.0807,
+     "h": 0.121,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    },
+    {
+     "x": 0.5275,
+     "y": 0.42,
+     "w": 0.0851,
+     "h": 0.1276,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "text": "beach",
+     "confidence": 0.9
+    },
+    {
+     "text": "sea",
+     "confidence": 0.86
+    }
+   ]
+  },
+  {
+   "id": "t23",
+   "file": "assets/samples/travel/t23.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-06T16:00:01",
+   "lat": -5.72966,
+   "lng": 39.30113,
+   "faces": [
+    {
+     "x": 0.3897,
+     "y": 0.45,
+     "w": 0.0807,
+     "h": 0.121,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    },
+    {
+     "x": 0.5375,
+     "y": 0.42,
+     "w": 0.0851,
+     "h": 0.1276,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "text": "beach",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "id": "t15",
+   "file": "assets/samples/travel/t15.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-06T18:40:00",
+   "lat": -5.72425,
+   "lng": 39.29925,
+   "faces": [],
+   "labels": [
+    {
+     "text": "boat",
+     "confidence": 0.9
+    },
+    {
+     "text": "sea",
+     "confidence": 0.88
+    },
+    {
+     "text": "sky",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "id": "t19",
+   "file": "assets/samples/travel/t19.jpg",
+   "width": 2400,
+   "height": 2400,
+   "takenAt": "2026-07-07T10:30:00",
+   "lat": -5.7262,
+   "lng": 39.29844,
+   "faces": [],
+   "labels": [
+    {
+     "text": "water",
+     "confidence": 0.9
+    },
+    {
+     "text": "fish",
+     "confidence": 0.82
+    }
+   ]
+  },
+  {
+   "id": "t16",
+   "file": "assets/samples/travel/t16.jpg",
+   "width": 4200,
+   "height": 1750,
+   "takenAt": "2026-07-07T12:00:00",
+   "lat": -5.72338,
+   "lng": 39.29815,
+   "faces": [],
+   "labels": [
+    {
+     "text": "beach",
+     "confidence": 0.94
+    },
+    {
+     "text": "sea",
+     "confidence": 0.92
+    },
+    {
+     "text": "sky",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "id": "t22",
+   "file": "assets/samples/travel/t22.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-07T12:05:00",
+   "lat": -5.7275,
+   "lng": 39.29689,
+   "faces": [],
+   "labels": [
+    {
+     "text": "sea",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t20",
+   "file": "assets/samples/travel/t20.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-08T18:50:00",
+   "lat": -5.72773,
+   "lng": 39.30058,
+   "faces": [],
+   "labels": [
+    {
+     "text": "beach",
+     "confidence": 0.84
+    },
+    {
+     "text": "sky",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "id": "t21",
+   "file": "assets/samples/travel/t21.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-09T19:30:00",
+   "lat": -5.72636,
+   "lng": 39.29515,
+   "faces": [],
+   "labels": [
+    {
+     "text": "beach",
+     "confidence": 0.8
+    },
+    {
+     "text": "drink",
+     "confidence": 0.6
+    }
+   ]
+  },
+  {
+   "id": "t24",
+   "file": "assets/samples/travel/t24.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-10T09:00:00",
+   "lat": -5.73027,
+   "lng": 39.29502,
+   "faces": [],
+   "labels": [
+    {
+     "text": "beach",
+     "confidence": 0.92
+    },
+    {
+     "text": "tree",
+     "confidence": 0.86
+    },
+    {
+     "text": "sea",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "id": "t25",
+   "file": "assets/samples/travel/t25.jpg",
+   "width": 2400,
+   "height": 2400,
+   "takenAt": "2026-07-10T09:30:00",
+   "lat": -5.72937,
+   "lng": 39.29487,
+   "faces": [],
+   "labels": [
+    {
+     "text": "sand",
+     "confidence": 0.9
+    },
+    {
+     "text": "beach",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "file": "assets/samples/travel/t10.jpg",
+   "width": 2000,
+   "height": 3000,
+   "takenAt": "2026-07-11T10:00:00",
+   "lat": -6.26373,
+   "lng": 39.41678,
+   "faces": [],
+   "labels": [
+    {
+     "text": "forest",
+     "confidence": 0.94
+    },
+    {
+     "text": "tree",
+     "confidence": 0.92
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "file": "assets/samples/travel/t11.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-11T10:40:00",
+   "lat": -6.26207,
+   "lng": 39.41811,
+   "faces": [],
+   "labels": [
+    {
+     "text": "animal",
+     "confidence": 0.9
+    },
+    {
+     "text": "monkey",
+     "confidence": 0.86
+    }
+   ]
+  },
+  {
+   "id": "t13",
+   "file": "assets/samples/travel/t13.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-11T11:20:00",
+   "lat": -6.26789,
+   "lng": 39.41785,
+   "faces": [
+    {
+     "x": 0.3833,
+     "y": 0.48,
+     "w": 0.0733,
+     "h": 0.11,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    },
+    {
+     "x": 0.5404,
+     "y": 0.44,
+     "w": 0.0792,
+     "h": 0.1188,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "text": "forest",
+     "confidence": 0.9
+    },
+    {
+     "text": "tree",
+     "confidence": 0.84
+    }
+   ]
+  },
+  {
+   "id": "t12",
+   "file": "assets/samples/travel/t12.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-12T09:15:00",
+   "lat": -6.26424,
+   "lng": 39.41736,
+   "faces": [],
+   "labels": [
+    {
+     "text": "tree",
+     "confidence": 0.84
+    },
+    {
+     "text": "water",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t26",
+   "file": "assets/samples/travel/t26.jpg",
+   "width": 2000,
+   "height": 3000,
+   "takenAt": "2026-07-12T12:00:00",
+   "lat": -6.26208,
+   "lng": 39.41843,
+   "faces": [],
+   "labels": [
+    {
+     "text": "sand",
+     "confidence": 0.9
+    },
+    {
+     "text": "beach",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "id": "t27",
+   "file": "assets/samples/travel/t27.jpg",
+   "width": 2400,
+   "height": 2400,
+   "takenAt": "2026-07-04T08:30:00",
+   "lat": -6.16135,
+   "lng": 39.19463,
+   "faces": [],
+   "labels": [
+    {
+     "text": "drink",
+     "confidence": 0.8
+    },
+    {
+     "text": "building",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "id": "t28",
+   "file": "assets/samples/travel/t28.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-04T20:00:00",
+   "lat": -6.16067,
+   "lng": 39.19426,
+   "faces": [],
+   "labels": [
+    {
+     "text": "market",
+     "confidence": 0.9
+    },
+    {
+     "text": "food",
+     "confidence": 0.84
+    },
+    {
+     "text": "night",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t30",
+   "file": "assets/samples/travel/t30.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-05T11:00:00",
+   "lat": -6.161,
+   "lng": 39.19329,
+   "faces": [],
+   "labels": [
+    {
+     "text": "building",
+     "confidence": 0.92
+    },
+    {
+     "text": "sky",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t29",
+   "file": "assets/samples/travel/t29.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-05T18:00:00",
+   "lat": -6.16615,
+   "lng": 39.18845,
+   "faces": [],
+   "labels": [
+    {
+     "text": "boat",
+     "confidence": 0.9
+    },
+    {
+     "text": "sea",
+     "confidence": 0.86
+    },
+    {
+     "text": "sky",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t33",
+   "file": "assets/samples/travel/t33.jpg",
+   "width": 2000,
+   "height": 3000,
+   "takenAt": "2026-07-06T13:40:00",
+   "lat": -5.72933,
+   "lng": 39.29859,
+   "faces": [],
+   "labels": [
+    {
+     "text": "beach",
+     "confidence": 0.9
+    },
+    {
+     "text": "tree",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t31",
+   "file": "assets/samples/travel/t31.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-07T17:00:00",
+   "lat": -5.72719,
+   "lng": 39.29498,
+   "faces": [],
+   "labels": [
+    {
+     "text": "building",
+     "confidence": 0.8
+    },
+    {
+     "text": "sea",
+     "confidence": 0.84
+    },
+    {
+     "text": "sky",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "id": "t32",
+   "file": "assets/samples/travel/t32.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-08T16:30:00",
+   "lat": -5.72311,
+   "lng": 39.29909,
+   "faces": [
+    {
+     "x": 0.1721,
+     "y": 0.57,
+     "w": 0.0557,
+     "h": 0.0836,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    },
+    {
+     "x": 0.3721,
+     "y": 0.52,
+     "w": 0.0557,
+     "h": 0.0836,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    },
+    {
+     "x": 0.5721,
+     "y": 0.57,
+     "w": 0.0557,
+     "h": 0.0836,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    },
+    {
+     "x": 0.7721,
+     "y": 0.52,
+     "w": 0.0557,
+     "h": 0.0836,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "text": "beach",
+     "confidence": 0.9
+    },
+    {
+     "text": "sport",
+     "confidence": 0.84
+    }
+   ]
+  },
+  {
+   "id": "t34",
+   "file": "assets/samples/travel/t34.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-09T08:00:00",
+   "lat": -5.7272,
+   "lng": 39.2986,
+   "faces": [],
+   "labels": [
+    {
+     "text": "boat",
+     "confidence": 0.9
+    },
+    {
+     "text": "beach",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "id": "t35",
+   "file": "assets/samples/travel/t35.jpg",
+   "width": 2000,
+   "height": 3000,
+   "takenAt": "2026-07-09T18:30:00",
+   "lat": -5.72622,
+   "lng": 39.29947,
+   "faces": [
+    {
+     "x": 0.3292,
+     "y": 0.45,
+     "w": 0.1815,
+     "h": 0.121,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    },
+    {
+     "x": 0.4743,
+     "y": 0.42,
+     "w": 0.1914,
+     "h": 0.1276,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "text": "beach",
+     "confidence": 0.9
+    },
+    {
+     "text": "sky",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t36",
+   "file": "assets/samples/travel/t36.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-09T20:30:00",
+   "lat": -5.72802,
+   "lng": 39.29692,
+   "faces": [],
+   "labels": [
+    {
+     "text": "food",
+     "confidence": 0.94
+    }
+   ]
+  },
+  {
+   "id": "t37",
+   "file": "assets/samples/travel/t37.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-10T10:00:00",
+   "lat": -5.72625,
+   "lng": 39.29673,
+   "faces": [
+    {
+     "x": 0.4612,
+     "y": 0.51,
+     "w": 0.0176,
+     "h": 0.0264,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    },
+    {
+     "x": 0.5205,
+     "y": 0.5,
+     "w": 0.0191,
+     "h": 0.0286,
+     "eyesOpen": 0.95,
+     "smile": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "text": "boat",
+     "confidence": 0.9
+    },
+    {
+     "text": "sea",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "id": "t38",
+   "file": "assets/samples/travel/t38.jpg",
+   "width": 2000,
+   "height": 3000,
+   "takenAt": "2026-07-11T11:40:00",
+   "lat": -6.26921,
+   "lng": 39.41738,
+   "faces": [],
+   "labels": [
+    {
+     "text": "tree",
+     "confidence": 0.84
+    },
+    {
+     "text": "water",
+     "confidence": 0.8
+    }
+   ]
+  },
+  {
+   "id": "t39",
+   "file": "assets/samples/travel/t39.jpg",
+   "width": 2400,
+   "height": 2400,
+   "takenAt": "2026-07-11T12:10:00",
+   "lat": -6.26725,
+   "lng": 39.42025,
+   "faces": [],
+   "labels": [
+    {
+     "text": "flower",
+     "confidence": 0.9
+    },
+    {
+     "text": "animal",
+     "confidence": 0.7
+    }
+   ]
+  },
+  {
+   "id": "t40",
+   "file": "assets/samples/travel/t40.jpg",
+   "width": 3000,
+   "height": 2000,
+   "takenAt": "2026-07-12T10:00:00",
+   "lat": -6.26868,
+   "lng": 39.41605,
+   "faces": [],
+   "labels": [
+    {
+     "text": "forest",
+     "confidence": 0.8
+    },
+    {
+     "text": "food",
+     "confidence": 0.6
+    }
+   ]
+  },
+  {
+   "id": "t41",
+   "file": "assets/samples/travel/t41.jpg",
+   "width": 2000,
+   "height": 3000,
+   "takenAt": "2026-07-12T17:00:00",
+   "lat": -6.26666,
+   "lng": 39.41835,
+   "faces": [],
+   "labels": [
+    {
+     "text": "window",
+     "confidence": 0.8
+    },
+    {
+     "text": "sea",
+     "confidence": 0.7
+    }
+   ]
+  }
+ ]
+}

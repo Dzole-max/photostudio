@@ -1,0 +1,3 @@
+tags:
+  golden:
+    description: Golden image tests (re-record with `make goldens`).

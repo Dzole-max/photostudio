@@ -1,0 +1,4981 @@
+{
+  "schemaVersion": 1,
+  "id": "sample_wedding",
+  "title": "Aleksandar & Elena",
+  "subtitle": "15 August 2026 · Ohrid",
+  "occasion": "wedding",
+  "themeId": "wedding_ivory",
+  "formatId": "classic_20",
+  "coverFinish": "matte",
+  "language": "en",
+  "createdAt": "2026-09-01T12:00:00.000Z",
+  "updatedAt": "2026-09-01T12:00:00.000Z",
+  "status": "draft",
+  "seed": 1,
+  "accentColor": "#B88D5A",
+  "cover": {
+    "templateId": "cover_wedding_monogram",
+    "slots": {
+      "title": "Aleksandar & Elena",
+      "subtitle": "15 August 2026 · Ohrid",
+      "date": "15 August 2026",
+      "location": "Ohrid",
+      "names": "Aleksandar & Elena",
+      "monogram": "A & E",
+      "coordinates": "41.1160° N, 20.7990° E",
+      "heroPhotoId": "w10",
+      "photoIds": [
+        "w29",
+        "w09",
+        "w10",
+        "w32",
+        "w34",
+        "w13",
+        "w18",
+        "w20",
+        "w40"
+      ]
+    },
+    "spineText": "Aleksandar & Elena",
+    "backText": "“The quiet minute on the pier before the party”",
+    "spineMm": 3.92,
+    "front": {
+      "id": "cover_front",
+      "templateId": "cover_wedding_monogram",
+      "mirrored": false,
+      "frames": [],
+      "texts": [
+        {
+          "id": "monogram",
+          "role": "monogram",
+          "text": "A & E",
+          "fontFamily": "GreatVibes",
+          "sizePt": 44.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#B8955A",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "middle",
+          "rectMm": {
+            "x": 74.8,
+            "y": 60.8,
+            "w": 50.4,
+            "h": 36.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.1,
+          "uppercase": false,
+          "maxLines": 1,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "names",
+          "role": "title",
+          "text": "Aleksandar & Elena",
+          "fontFamily": "Manrope",
+          "sizePt": 11.0,
+          "weight": 600,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 16.0,
+            "y": 124.0,
+            "w": 168.0,
+            "h": 5.4447222222222225
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "date",
+          "role": "date",
+          "text": "15 August 2026",
+          "fontFamily": "Manrope",
+          "sizePt": 8.5,
+          "weight": 600,
+          "italic": false,
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 20.0,
+            "y": 140.44472222222223,
+            "w": 160.0,
+            "h": 4.298194444444444
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "monogramRing",
+          "params": {
+            "cx": 100.0,
+            "cy": 80.0,
+            "r": 30.0
+          },
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "strokePt": 0.5,
+          "fill": false
+        },
+        {
+          "type": "line",
+          "params": {
+            "x1": 93.0,
+            "y1": 134.94472222222223,
+            "x2": 107.0,
+            "y2": 134.94472222222223
+          },
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    "back": {
+      "id": "cover_back",
+      "templateId": "back",
+      "mirrored": false,
+      "frames": [],
+      "texts": [
+        {
+          "id": "back_text",
+          "role": "body",
+          "text": "“The quiet minute on the pier before the party”",
+          "fontFamily": "Lora",
+          "sizePt": 11.0,
+          "weight": 400,
+          "italic": true,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 40.0,
+            "y": 68.0,
+            "w": 120.0,
+            "h": 60.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 6,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "back_mark",
+          "role": "colophon",
+          "text": "MEMORIA",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 600,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.6,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 60.0,
+            "y": 182.0,
+            "w": 80.0,
+            "h": 5.0
+          },
+          "trackingPct": 30.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "line",
+          "params": {
+            "x1": 96.0,
+            "y1": 178.0,
+            "x2": 104.0,
+            "y2": 178.0
+          },
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    "spine": {
+      "id": "cover_spine",
+      "templateId": "spine",
+      "mirrored": false,
+      "frames": [],
+      "texts": [],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "p1",
+      "templateId": "title_page",
+      "mirrored": false,
+      "frames": [],
+      "texts": [
+        {
+          "id": "title",
+          "role": "title",
+          "text": "Aleksandar & Elena",
+          "fontFamily": "CormorantGaramond",
+          "sizePt": 34.0,
+          "weight": 500,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 15.0,
+            "y": 71.2,
+            "w": 175.0,
+            "h": 44.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.12,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 18.700000000000003,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "subtitle",
+          "role": "subtitle",
+          "text": "15 August 2026 · Ohrid",
+          "fontFamily": "Lora",
+          "sizePt": 12.0,
+          "weight": 400,
+          "italic": true,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 32.5,
+            "y": 121.2,
+            "w": 140.0,
+            "h": 14.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "date",
+          "role": "date",
+          "text": "15 August 2026",
+          "fontFamily": "Manrope",
+          "sizePt": 8.5,
+          "weight": 600,
+          "italic": false,
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 139.2,
+            "w": 175.0,
+            "h": 6.0
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "line",
+          "params": {
+            "x1": 90.5,
+            "y1": 61.2,
+            "x2": 114.5,
+            "y2": 61.2
+          },
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p2",
+      "templateId": "chapter_opener",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [],
+      "texts": [
+        {
+          "id": "label",
+          "role": "label",
+          "text": "09:30",
+          "fontFamily": "Manrope",
+          "sizePt": 8.5,
+          "weight": 600,
+          "italic": false,
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 67.6,
+            "w": 175.0,
+            "h": 6.0
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "title",
+          "role": "chapter",
+          "text": "Getting ready",
+          "fontFamily": "CormorantGaramond",
+          "sizePt": 26.0,
+          "weight": 500,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 76.6,
+            "w": 175.0,
+            "h": 32.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.12,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 14.3,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "intro",
+          "role": "body",
+          "text": "The morning in Ohrid, before everything began.",
+          "fontFamily": "Lora",
+          "sizePt": 10.5,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 31.0,
+            "y": 116.6,
+            "w": 133.0,
+            "h": 69.4
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 6,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_1",
+          "role": "pageNumber",
+          "text": "2",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "line",
+          "params": {
+            "x1": 85.5,
+            "y1": 110.6,
+            "x2": 109.5,
+            "y2": 110.6
+          },
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p3",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p3_f0",
+          "photoId": "w25",
+          "rectMm": {
+            "x": 15.0,
+            "y": 35.33333333333333,
+            "w": 175.0,
+            "h": 116.66666666666667
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_2",
+          "role": "pageNumber",
+          "text": "3",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p4",
+      "templateId": "two_side_by_side",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p4_f0",
+          "photoId": "w01",
+          "rectMm": {
+            "x": 10.0,
+            "y": 33.5305,
+            "w": 85.5,
+            "h": 123.975
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.9666666666666666
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p4_f1",
+          "photoId": "w02",
+          "rectMm": {
+            "x": 99.5,
+            "y": 33.5305,
+            "w": 85.5,
+            "h": 123.975
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 0.6896551724137931,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_3",
+          "role": "pageNumber",
+          "text": "4",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p5",
+      "templateId": "hero_centered",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p5_f0",
+          "photoId": "w03",
+          "rectMm": {
+            "x": 58.833333333333336,
+            "y": 34.5,
+            "w": 87.33333333333333,
+            "h": 131.0
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_4",
+          "role": "pageNumber",
+          "text": "5",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p6",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p6_f0",
+          "photoId": "w05",
+          "rectMm": {
+            "x": 34.50000000000001,
+            "y": 10.0,
+            "w": 125.99999999999999,
+            "h": 180.0
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.9523809523809524
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_5",
+          "role": "pageNumber",
+          "text": "6",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p7",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p7_f0",
+          "photoId": "w26",
+          "rectMm": {
+            "x": 15.0,
+            "y": 35.33333333333333,
+            "w": 175.0,
+            "h": 116.66666666666667
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_6",
+          "role": "pageNumber",
+          "text": "7",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p8",
+      "templateId": "photo_with_text_right",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p8_f0",
+          "photoId": "w06",
+          "rectMm": {
+            "x": 10.0,
+            "y": 21.25,
+            "w": 105.0,
+            "h": 157.5
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "The suit, 11:00",
+          "fontFamily": "Lora",
+          "sizePt": 10.5,
+          "weight": 400,
+          "italic": true,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "left",
+          "vAlign": "middle",
+          "rectMm": {
+            "x": 123.0,
+            "y": 64.0,
+            "w": 62.0,
+            "h": 72.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_7",
+          "role": "pageNumber",
+          "text": "8",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p9",
+      "templateId": "three_rows",
+      "mirrored": false,
+      "chapterId": "ch1",
+      "frames": [
+        {
+          "id": "p9_f0",
+          "photoId": "w27",
+          "rectMm": {
+            "x": 15.0,
+            "y": 10.0,
+            "w": 175.0,
+            "h": 57.333333333333336
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.1947977142857143,
+            "w": 1.0,
+            "h": 0.49142857142857144
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p9_f1",
+          "photoId": "w28",
+          "rectMm": {
+            "x": 15.0,
+            "y": 71.33333333333334,
+            "w": 175.0,
+            "h": 57.333333333333336
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0028571428571428636,
+            "w": 1.0,
+            "h": 0.3276190476190476
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p9_f2",
+          "photoId": "w24",
+          "rectMm": {
+            "x": 15.0,
+            "y": 132.66666666666669,
+            "w": 175.0,
+            "h": 57.333333333333336
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.3907936507936508,
+            "w": 1.0,
+            "h": 0.2184126984126984
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_8",
+          "role": "pageNumber",
+          "text": "9",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p10",
+      "templateId": "chapter_opener",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [],
+      "texts": [
+        {
+          "id": "label",
+          "role": "label",
+          "text": "14:10",
+          "fontFamily": "Manrope",
+          "sizePt": 8.5,
+          "weight": 600,
+          "italic": false,
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 67.6,
+            "w": 175.0,
+            "h": 6.0
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "title",
+          "role": "chapter",
+          "text": "The ceremony",
+          "fontFamily": "CormorantGaramond",
+          "sizePt": 26.0,
+          "weight": 500,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 76.6,
+            "w": 175.0,
+            "h": 32.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.12,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 14.3,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "intro",
+          "role": "body",
+          "text": "Aleksandar & Elena said yes in Ohrid.",
+          "fontFamily": "Lora",
+          "sizePt": 10.5,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 31.0,
+            "y": 116.6,
+            "w": 133.0,
+            "h": 69.4
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 6,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_9",
+          "role": "pageNumber",
+          "text": "10",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "line",
+          "params": {
+            "x1": 85.5,
+            "y1": 110.6,
+            "x2": 109.5,
+            "y2": 110.6
+          },
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p11",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p11_f0",
+          "photoId": "w29",
+          "rectMm": {
+            "x": 15.0,
+            "y": 35.33333333333333,
+            "w": 175.0,
+            "h": 116.66666666666667
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_10",
+          "role": "pageNumber",
+          "text": "11",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p12",
+      "templateId": "hero_centered",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p12_f0",
+          "photoId": "w07",
+          "rectMm": {
+            "x": 34.5,
+            "y": 54.239999999999995,
+            "w": 126.0,
+            "h": 84.0
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_11",
+          "role": "pageNumber",
+          "text": "12",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p13",
+      "templateId": "two_offset",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p13_f0",
+          "photoId": "w08",
+          "rectMm": {
+            "x": 15.0,
+            "y": 10.0,
+            "w": 119.00000000000001,
+            "h": 90.0
+          },
+          "crop": {
+            "x": 0.060945259259259144,
+            "y": 0.0,
+            "w": 0.8814814814814816,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p13_f1",
+          "photoId": "w30",
+          "rectMm": {
+            "x": 116.5,
+            "y": 110.8,
+            "w": 73.5,
+            "h": 79.2
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.7183673469387755
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_12",
+          "role": "pageNumber",
+          "text": "13",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p14",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p14_f0",
+          "photoId": "w09",
+          "rectMm": {
+            "x": 10.0,
+            "y": 35.33333333333333,
+            "w": 175.0,
+            "h": 116.66666666666667
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_13",
+          "role": "pageNumber",
+          "text": "14",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p15",
+      "templateId": "two_stacked",
+      "mirrored": false,
+      "chapterId": "ch2",
+      "frames": [
+        {
+          "id": "p15_f0",
+          "photoId": "w10",
+          "rectMm": {
+            "x": 15.0,
+            "y": 10.0,
+            "w": 175.0,
+            "h": 76.0
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.1282977142857143,
+            "w": 1.0,
+            "h": 0.6514285714285714
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p15_f1",
+          "photoId": "w32",
+          "rectMm": {
+            "x": 15.0,
+            "y": 102.0,
+            "w": 175.0,
+            "h": 76.0
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.2953497142857144,
+            "w": 1.0,
+            "h": 0.6514285714285714
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "The dress, 15:20",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 89.0,
+            "w": 175.0,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "cap_1",
+          "role": "caption",
+          "text": "Everyone together, 15:40",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 181.0,
+            "w": 175.0,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_14",
+          "role": "pageNumber",
+          "text": "15",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p16",
+      "templateId": "chapter_opener",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [],
+      "texts": [
+        {
+          "id": "label",
+          "role": "label",
+          "text": "16:30",
+          "fontFamily": "Manrope",
+          "sizePt": 8.5,
+          "weight": 600,
+          "italic": false,
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 67.6,
+            "w": 175.0,
+            "h": 6.0
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "title",
+          "role": "chapter",
+          "text": "Portraits",
+          "fontFamily": "CormorantGaramond",
+          "sizePt": 26.0,
+          "weight": 500,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 76.6,
+            "w": 175.0,
+            "h": 32.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.12,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 14.3,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "intro",
+          "role": "body",
+          "text": "Just the two of us, and the light over Ohrid.",
+          "fontFamily": "Lora",
+          "sizePt": 10.5,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 31.0,
+            "y": 116.6,
+            "w": 133.0,
+            "h": 69.4
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 6,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_15",
+          "role": "pageNumber",
+          "text": "16",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "line",
+          "params": {
+            "x1": 85.5,
+            "y1": 110.6,
+            "x2": 109.5,
+            "y2": 110.6
+          },
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p17",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [
+        {
+          "id": "p17_f0",
+          "photoId": "w33",
+          "rectMm": {
+            "x": 15.0,
+            "y": 35.33333333333333,
+            "w": 175.0,
+            "h": 116.66666666666667
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_16",
+          "role": "pageNumber",
+          "text": "17",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p18",
+      "templateId": "hero_centered",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [
+        {
+          "id": "p18_f0",
+          "photoId": "w23",
+          "rectMm": {
+            "x": 53.833333333333336,
+            "y": 34.5,
+            "w": 87.33333333333333,
+            "h": 131.0
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_17",
+          "role": "pageNumber",
+          "text": "18",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p19",
+      "templateId": "two_side_by_side",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [
+        {
+          "id": "p19_f0",
+          "photoId": "w11",
+          "rectMm": {
+            "x": 15.0,
+            "y": 28.4905,
+            "w": 85.5,
+            "h": 135.975
+          },
+          "crop": {
+            "x": 0.26708864754550465,
+            "y": 0.0,
+            "w": 0.41919470490899063,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p19_f1",
+          "photoId": "w34",
+          "rectMm": {
+            "x": 104.5,
+            "y": 28.4905,
+            "w": 85.5,
+            "h": 123.975
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.03333333333333344,
+            "w": 1.0,
+            "h": 0.9666666666666666
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_1",
+          "role": "caption",
+          "text": "The old streets, 17:20",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 104.5,
+            "y": 155.4655,
+            "w": 85.5,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_18",
+          "role": "pageNumber",
+          "text": "19",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p20",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [
+        {
+          "id": "p20_f0",
+          "photoId": "w13",
+          "rectMm": {
+            "x": 38.7,
+            "y": 10.0,
+            "w": 117.6,
+            "h": 168.0
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.9523809523809524
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "The dress, 17:30",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 38.7,
+            "y": 181.0,
+            "w": 117.6,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_19",
+          "role": "pageNumber",
+          "text": "20",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p21",
+      "templateId": "three_rows",
+      "mirrored": false,
+      "chapterId": "ch3",
+      "frames": [
+        {
+          "id": "p21_f0",
+          "photoId": "w14",
+          "rectMm": {
+            "x": 15.0,
+            "y": 10.0,
+            "w": 175.0,
+            "h": 57.333333333333336
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.10685714285714287,
+            "w": 1.0,
+            "h": 0.7862857142857143
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p21_f1",
+          "photoId": "w35",
+          "rectMm": {
+            "x": 15.0,
+            "y": 71.33333333333334,
+            "w": 175.0,
+            "h": 57.333333333333336
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.2542857142857143,
+            "w": 1.0,
+            "h": 0.49142857142857144
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p21_f2",
+          "photoId": "w15",
+          "rectMm": {
+            "x": 15.0,
+            "y": 132.66666666666669,
+            "w": 175.0,
+            "h": 57.333333333333336
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.2825401142857143,
+            "w": 1.0,
+            "h": 0.49142857142857144
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_20",
+          "role": "pageNumber",
+          "text": "21",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p22",
+      "templateId": "chapter_opener",
+      "mirrored": false,
+      "chapterId": "ch4",
+      "frames": [],
+      "texts": [
+        {
+          "id": "label",
+          "role": "label",
+          "text": "19:10",
+          "fontFamily": "Manrope",
+          "sizePt": 8.5,
+          "weight": 600,
+          "italic": false,
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 67.6,
+            "w": 175.0,
+            "h": 6.0
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "title",
+          "role": "chapter",
+          "text": "The celebration",
+          "fontFamily": "CormorantGaramond",
+          "sizePt": 26.0,
+          "weight": 500,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 76.6,
+            "w": 175.0,
+            "h": 32.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.12,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 14.3,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "intro",
+          "role": "body",
+          "text": "Then the music started, and everyone joined in.",
+          "fontFamily": "Lora",
+          "sizePt": 10.5,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 31.0,
+            "y": 116.6,
+            "w": 133.0,
+            "h": 69.4
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 6,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_21",
+          "role": "pageNumber",
+          "text": "22",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "line",
+          "params": {
+            "x1": 85.5,
+            "y1": 110.6,
+            "x2": 109.5,
+            "y2": 110.6
+          },
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p23",
+      "templateId": "hero_centered",
+      "mirrored": false,
+      "chapterId": "ch4",
+      "frames": [
+        {
+          "id": "p23_f0",
+          "photoId": "w36",
+          "rectMm": {
+            "x": 39.5,
+            "y": 36.6,
+            "w": 126.0,
+            "h": 126.0
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_22",
+          "role": "pageNumber",
+          "text": "23",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p24",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch4",
+      "frames": [
+        {
+          "id": "p24_f0",
+          "photoId": "w17",
+          "rectMm": {
+            "x": 10.0,
+            "y": 35.33333333333333,
+            "w": 175.0,
+            "h": 116.66666666666667
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_23",
+          "role": "pageNumber",
+          "text": "24",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p25",
+      "templateId": "photo_with_text_below",
+      "mirrored": false,
+      "chapterId": "ch4",
+      "frames": [
+        {
+          "id": "p25_f0",
+          "photoId": "w18",
+          "rectMm": {
+            "x": 15.0,
+            "y": 10.0,
+            "w": 175.0,
+            "h": 116.66666666666667
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "On the dance floor, 20:00",
+          "fontFamily": "Lora",
+          "sizePt": 10.5,
+          "weight": 400,
+          "italic": true,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 15.0,
+            "y": 132.66666666666669,
+            "w": 126.0,
+            "h": 57.33333333333333
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_24",
+          "role": "pageNumber",
+          "text": "25",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p26",
+      "templateId": "two_offset",
+      "mirrored": true,
+      "chapterId": "ch4",
+      "frames": [
+        {
+          "id": "p26_f0",
+          "photoId": "w37",
+          "rectMm": {
+            "x": 66.0,
+            "y": 10.0,
+            "w": 119.00000000000001,
+            "h": 90.0
+          },
+          "crop": {
+            "x": 0.05930925925925917,
+            "y": 0.0,
+            "w": 0.8814814814814816,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p26_f1",
+          "photoId": "w19",
+          "rectMm": {
+            "x": 10.0,
+            "y": 110.8,
+            "w": 73.5,
+            "h": 79.2
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.14081632653061227,
+            "w": 1.0,
+            "h": 0.7183673469387755
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_25",
+          "role": "pageNumber",
+          "text": "26",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p27",
+      "templateId": "hero_centered",
+      "mirrored": false,
+      "chapterId": "ch4",
+      "frames": [
+        {
+          "id": "p27_f0",
+          "photoId": "w20",
+          "rectMm": {
+            "x": 39.5,
+            "y": 49.2,
+            "w": 126.0,
+            "h": 84.0
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "On the dance floor, 21:00",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 39.5,
+            "y": 136.2,
+            "w": 126.0,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_26",
+          "role": "pageNumber",
+          "text": "27",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p28",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch4",
+      "frames": [
+        {
+          "id": "p28_f0",
+          "photoId": "w38",
+          "rectMm": {
+            "x": 10.0,
+            "y": 35.33333333333333,
+            "w": 175.0,
+            "h": 116.66666666666667
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_27",
+          "role": "pageNumber",
+          "text": "28",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p29",
+      "templateId": "three_one_big_two_small",
+      "mirrored": false,
+      "chapterId": "ch4",
+      "frames": [
+        {
+          "id": "p29_f0",
+          "photoId": "w21",
+          "rectMm": {
+            "x": 15.0,
+            "y": 10.0,
+            "w": 102.6,
+            "h": 180.0
+          },
+          "crop": {
+            "x": 0.21500000000000002,
+            "y": 0.0,
+            "w": 0.57,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p29_f1",
+          "photoId": "w39",
+          "rectMm": {
+            "x": 121.6,
+            "y": 10.0,
+            "w": 68.4,
+            "h": 88.0
+          },
+          "crop": {
+            "x": 0.4818181818181818,
+            "y": 0.0,
+            "w": 0.5181818181818182,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        },
+        {
+          "id": "p29_f2",
+          "photoId": "w22",
+          "rectMm": {
+            "x": 121.6,
+            "y": 102.0,
+            "w": 68.4,
+            "h": 88.0
+          },
+          "crop": {
+            "x": 0.24759109090909087,
+            "y": 0.0,
+            "w": 0.5181818181818182,
+            "h": 1.0
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "pn_28",
+          "role": "pageNumber",
+          "text": "29",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p30",
+      "templateId": "hero_bordered",
+      "mirrored": false,
+      "chapterId": "ch4",
+      "frames": [
+        {
+          "id": "p30_f0",
+          "photoId": "w40",
+          "rectMm": {
+            "x": 38.7,
+            "y": 10.0,
+            "w": 117.6,
+            "h": 168.0
+          },
+          "crop": {
+            "x": 0.0,
+            "y": 0.0,
+            "w": 1.0,
+            "h": 0.9523809523809524
+          },
+          "rotationDeg": 0.0,
+          "borderMm": 0.0,
+          "borderColor": "#FFFFFF",
+          "cornerRadiusMm": 0.0,
+          "userCrop": false
+        }
+      ],
+      "texts": [
+        {
+          "id": "cap_0",
+          "role": "caption",
+          "text": "On the dance floor, 22:40",
+          "fontFamily": "Lora",
+          "sizePt": 9.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.8,
+          "align": "left",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 38.7,
+            "y": 181.0,
+            "w": 117.6,
+            "h": 9.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.45,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_29",
+          "role": "pageNumber",
+          "text": "30",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "left",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 8.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p31",
+      "templateId": "quote_page",
+      "mirrored": false,
+      "frames": [],
+      "texts": [
+        {
+          "id": "quote",
+          "role": "body",
+          "text": "“The quiet minute on the pier before the party”",
+          "fontFamily": "CormorantGaramond",
+          "sizePt": 20.0,
+          "weight": 500,
+          "italic": true,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "middle",
+          "rectMm": {
+            "x": 32.5,
+            "y": 71.0,
+            "w": 140.0,
+            "h": 50.75
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.12,
+          "uppercase": false,
+          "maxLines": 5,
+          "minSizePt": 11.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "attribution",
+          "role": "date",
+          "text": "Aleksandar & Elena",
+          "fontFamily": "Manrope",
+          "sizePt": 8.5,
+          "weight": 600,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 1.0,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 32.5,
+            "y": 126.10000000000001,
+            "w": 140.0,
+            "h": 6.0
+          },
+          "trackingPct": 20.0,
+          "lineHeight": 1.3,
+          "uppercase": true,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        },
+        {
+          "id": "pn_30",
+          "role": "pageNumber",
+          "text": "31",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.7,
+          "align": "right",
+          "vAlign": "bottom",
+          "rectMm": {
+            "x": 172.0,
+            "y": 187.0,
+            "w": 20.0,
+            "h": 5.0
+          },
+          "trackingPct": 0.0,
+          "lineHeight": 1.2,
+          "uppercase": false,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    },
+    {
+      "id": "p32",
+      "templateId": "colophon",
+      "mirrored": false,
+      "frames": [],
+      "texts": [
+        {
+          "id": "colophon",
+          "role": "colophon",
+          "text": "Made with Memoria · printed on demand · 2026",
+          "fontFamily": "Manrope",
+          "sizePt": 8.0,
+          "weight": 400,
+          "italic": false,
+          "color": "#2B2622",
+          "opacity": 0.8,
+          "align": "center",
+          "vAlign": "top",
+          "rectMm": {
+            "x": 10.0,
+            "y": 150.4,
+            "w": 175.0,
+            "h": 8.0
+          },
+          "trackingPct": 4.0,
+          "lineHeight": 1.3,
+          "uppercase": false,
+          "maxLines": 2,
+          "minSizePt": 8.0,
+          "rotationDeg": 0.0,
+          "userStyled": false
+        }
+      ],
+      "ornaments": [
+        {
+          "type": "line",
+          "params": {
+            "x1": 92.5,
+            "y1": 145.4,
+            "x2": 102.5,
+            "y2": 145.4
+          },
+          "color": "#B88D5A",
+          "opacity": 1.0,
+          "strokePt": 0.4,
+          "fill": false
+        }
+      ],
+      "background": {
+        "color": "#FBF8F2"
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch1",
+      "title": "Getting ready",
+      "intro": "The morning in Ohrid, before everything began.",
+      "startPageIndex": 1,
+      "dateRange": {
+        "start": "2026-08-15T09:30:00.000Z",
+        "end": "2026-08-15T13:00:00.000Z"
+      }
+    },
+    {
+      "id": "ch2",
+      "title": "The ceremony",
+      "intro": "Aleksandar & Elena said yes in Ohrid.",
+      "startPageIndex": 9,
+      "dateRange": {
+        "start": "2026-08-15T14:10:00.000Z",
+        "end": "2026-08-15T15:40:00.000Z"
+      }
+    },
+    {
+      "id": "ch3",
+      "title": "Portraits",
+      "intro": "Just the two of us, and the light over Ohrid.",
+      "startPageIndex": 15,
+      "dateRange": {
+        "start": "2026-08-15T16:30:00.000Z",
+        "end": "2026-08-15T18:10:00.000Z"
+      }
+    },
+    {
+      "id": "ch4",
+      "title": "The celebration",
+      "intro": "Then the music started, and everyone joined in.",
+      "startPageIndex": 21,
+      "dateRange": {
+        "start": "2026-08-15T19:10:00.000Z",
+        "end": "2026-08-15T22:40:00.000Z"
+      }
+    }
+  ],
+  "photos": {
+    "w25": {
+      "id": "w25",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T09:30:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "lake",
+          "confidence": 0.84
+        },
+        {
+          "text": "window",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.3157894736842105,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5763157894736842,
+        "laplacian": 112.2541456940921
+      },
+      "hash": "be97c16b9494c9c1",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 203.34253641660064,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w01": {
+      "id": "w01",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T09:40:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.2513,
+          "y": 0.24,
+          "w": 0.2574,
+          "h": 0.1716,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "bride",
+          "confidence": 0.82
+        },
+        {
+          "text": "gown",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.2631578947368421,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 1,
+        "overall": 0.6627631578947368,
+        "laplacian": 88.59765912973812
+      },
+      "hash": "85b148cecf36783a",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 30.375301209716895,
+      "focusX": 0.5,
+      "focusY": 0.16666666666666666
+    },
+    "w02": {
+      "id": "w02",
+      "width": 2400,
+      "height": 2400,
+      "takenAt": "2026-08-15T09:52:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "jewelry",
+          "confidence": 0.9
+        },
+        {
+          "text": "wedding",
+          "confidence": 0.64
+        }
+      ],
+      "quality": {
+        "sharpness": 0.02631578947368421,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.4605263157894737,
+        "laplacian": 38.45031582818417
+      },
+      "hash": "b38cccb233c9cf24",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 30.253388620047758,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.8333333333333334
+    },
+    "w03": {
+      "id": "w03",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T10:05:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "bouquet",
+          "confidence": 0.93
+        },
+        {
+          "text": "flower",
+          "confidence": 0.95
+        }
+      ],
+      "quality": {
+        "sharpness": 0.13157894736842105,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5026315789473684,
+        "laplacian": 49.61130820698236
+      },
+      "hash": "a699d9e68c9e6261",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 33.402600029717334,
+      "focusX": 0.5,
+      "focusY": 0.8333333333333334
+    },
+    "w04": {
+      "id": "w04",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T10:20:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.2379,
+          "y": 0.28,
+          "w": 0.2442,
+          "h": 0.1628,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5711,
+          "y": 0.36,
+          "w": 0.2178,
+          "h": 0.1452,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "bride",
+          "confidence": 0.8
+        },
+        {
+          "text": "veil",
+          "confidence": 0.74
+        }
+      ],
+      "quality": {
+        "sharpness": 0.42105263157894735,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.725921052631579,
+        "laplacian": 153.9693511963042
+      },
+      "hash": "ed9266cdc692382d",
+      "burstGroupId": "burst1",
+      "isExcluded": true,
+      "excludedReason": "burst",
+      "userPinned": false,
+      "dominantHue": 31.588744109161308,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w05": {
+      "id": "w05",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T10:20:02.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.2499,
+          "y": 0.28,
+          "w": 0.2442,
+          "h": 0.1628,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5831,
+          "y": 0.36,
+          "w": 0.2178,
+          "h": 0.1452,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "bride",
+          "confidence": 0.8
+        },
+        {
+          "text": "veil",
+          "confidence": 0.72
+        }
+      ],
+      "quality": {
+        "sharpness": 0.4473684210526316,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.7364473684210526,
+        "laplacian": 154.52681730951846
+      },
+      "hash": "ed9266cd87b23829",
+      "burstGroupId": "burst1",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 24.108754259924595,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w26": {
+      "id": "w26",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T10:40:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.2545,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.4575,
+          "y": 0.39,
+          "w": 0.0851,
+          "h": 0.1276,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.6545,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "bride",
+          "confidence": 0.7
+        },
+        {
+          "text": "dress",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.23684210526315788,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 3,
+        "overall": 0.6522368421052632,
+        "laplacian": 56.78226684843497
+      },
+      "hash": "98b6c7cd303896c7",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 24.98487336777309,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w06": {
+      "id": "w06",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T11:00:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.368,
+          "y": 0.22,
+          "w": 0.264,
+          "h": 0.176,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "suit",
+          "confidence": 0.91
+        }
+      ],
+      "quality": {
+        "sharpness": 0.6842105263157895,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 1,
+        "overall": 0.8311842105263157,
+        "laplacian": 200.03203045505768
+      },
+      "hash": "e79a9967269a9921",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 225.88235294117646,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w27": {
+      "id": "w27",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T11:15:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.2545,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.4575,
+          "y": 0.39,
+          "w": 0.0851,
+          "h": 0.1276,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.6545,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "suit",
+          "confidence": 0.9
+        }
+      ],
+      "quality": {
+        "sharpness": 0.7105263157894737,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 3,
+        "overall": 0.8417105263157895,
+        "laplacian": 214.2098773588407
+      },
+      "hash": "b89669699c966963",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 225.8458546435011,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w28": {
+      "id": "w28",
+      "width": 2400,
+      "height": 2400,
+      "takenAt": "2026-08-15T11:40:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "shoe",
+          "confidence": 0.9
+        },
+        {
+          "text": "wedding",
+          "confidence": 0.62
+        }
+      ],
+      "quality": {
+        "sharpness": 0.15789473684210525,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5131578947368421,
+        "laplacian": 50.77277141849134
+      },
+      "hash": "9ee5619e61619e61",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 30.000000000000515,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.16666666666666666
+    },
+    "w24": {
+      "id": "w24",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T13:00:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "building",
+          "confidence": 0.88
+        },
+        {
+          "text": "street",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 1.0,
+        "exposure": 0.9470995234604106,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.8394199046920822,
+        "laplacian": 1025.4549902750261
+      },
+      "hash": "e394c9b6e26acc49",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 35.84393289310899,
+      "focusX": 0.8333333333333334,
+      "focusY": 0.5
+    },
+    "w29": {
+      "id": "w29",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T14:10:00.000Z",
+      "lat": 41.111,
+      "lng": 20.788,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.1633,
+          "y": 0.5,
+          "w": 0.0733,
+          "h": 0.11,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.3663,
+          "y": 0.51,
+          "w": 0.0675,
+          "h": 0.1012,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5633,
+          "y": 0.5,
+          "w": 0.0733,
+          "h": 0.11,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.7663,
+          "y": 0.51,
+          "w": 0.0675,
+          "h": 0.1012,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "crowd",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.7631578947368421,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 4,
+        "overall": 0.8627631578947369,
+        "laplacian": 257.1984703228987
+      },
+      "hash": "fb845b7b845b8431",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 202.9357032169547,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w07": {
+      "id": "w07",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T14:30:00.000Z",
+      "lat": 41.111,
+      "lng": 20.788,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "ceremony",
+          "confidence": 0.62
+        },
+        {
+          "text": "building",
+          "confidence": 0.9
+        },
+        {
+          "text": "lake",
+          "confidence": 0.86
+        },
+        {
+          "text": "sky",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.10526315789473684,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.4921052631578947,
+        "laplacian": 43.71829738960167
+      },
+      "hash": "a4e45b1b25e4da53",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 205.84815410556124,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w08": {
+      "id": "w08",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T14:45:00.000Z",
+      "lat": 41.111,
+      "lng": 20.788,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.3545,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5516,
+          "y": 0.34,
+          "w": 0.0968,
+          "h": 0.1452,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "wedding",
+          "confidence": 0.88
+        },
+        {
+          "text": "ceremony",
+          "confidence": 0.84
+        },
+        {
+          "text": "gown",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.3684210526315789,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.7048684210526316,
+        "laplacian": 141.40569615710643
+      },
+      "hash": "e49bcec69293c4cc",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 33.55858947012989,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w30": {
+      "id": "w30",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T14:50:00.000Z",
+      "lat": 41.111,
+      "lng": 20.788,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.2439,
+          "y": 0.08,
+          "w": 0.1122,
+          "h": 0.0748,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.6606,
+          "y": 0.06,
+          "w": 0.1188,
+          "h": 0.0792,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "wedding",
+          "confidence": 0.9
+        },
+        {
+          "text": "ceremony",
+          "confidence": 0.8
+        },
+        {
+          "text": "jewelry",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.34210526315789475,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.6943421052631579,
+        "laplacian": 136.18735721693787
+      },
+      "hash": "c9e93496963c49e3",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 31.169405949231027,
+      "focusX": 0.8333333333333334,
+      "focusY": 0.16666666666666666
+    },
+    "w09": {
+      "id": "w09",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T15:05:00.000Z",
+      "lat": 41.111,
+      "lng": 20.788,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.0663,
+          "y": 0.52,
+          "w": 0.0675,
+          "h": 0.1012,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.1771,
+          "y": 0.43,
+          "w": 0.0719,
+          "h": 0.1078,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.2879,
+          "y": 0.46,
+          "w": 0.0763,
+          "h": 0.1144,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.4053,
+          "y": 0.46,
+          "w": 0.0675,
+          "h": 0.1012,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5161,
+          "y": 0.49,
+          "w": 0.0719,
+          "h": 0.1078,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.6269,
+          "y": 0.4,
+          "w": 0.0763,
+          "h": 0.1144,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.7443,
+          "y": 0.52,
+          "w": 0.0675,
+          "h": 0.1012,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.8551,
+          "y": 0.43,
+          "w": 0.0719,
+          "h": 0.1078,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "crowd",
+          "confidence": 0.84
+        },
+        {
+          "text": "suit",
+          "confidence": 0.62
+        }
+      ],
+      "quality": {
+        "sharpness": 0.7368421052631579,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 8,
+        "overall": 0.8522368421052632,
+        "laplacian": 241.97169023563745
+      },
+      "hash": "b7c8b6334cb5c162",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 199.96060413140412,
+      "focusX": 0.8333333333333334,
+      "focusY": 0.5
+    },
+    "w10": {
+      "id": "w10",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T15:20:00.000Z",
+      "lat": 41.111,
+      "lng": 20.788,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.3775,
+          "y": 0.42,
+          "w": 0.0851,
+          "h": 0.1276,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5345,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "wedding",
+          "confidence": 0.86
+        },
+        {
+          "text": "gown",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.9210526315789473,
+        "exposure": 0.9775018328445748,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.921421419200494,
+        "laplacian": 443.7361681455941
+      },
+      "hash": "e69b8cc4bb9b042e",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 32.4252573708432,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w32": {
+      "id": "w32",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T15:40:00.000Z",
+      "lat": 41.111,
+      "lng": 20.788,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.0822,
+          "y": 0.58,
+          "w": 0.0616,
+          "h": 0.0924,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.1711,
+          "y": 0.59,
+          "w": 0.0557,
+          "h": 0.0836,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.2542,
+          "y": 0.58,
+          "w": 0.0616,
+          "h": 0.0924,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.3431,
+          "y": 0.59,
+          "w": 0.0557,
+          "h": 0.0836,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.4262,
+          "y": 0.58,
+          "w": 0.0616,
+          "h": 0.0924,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5151,
+          "y": 0.59,
+          "w": 0.0557,
+          "h": 0.0836,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5982,
+          "y": 0.58,
+          "w": 0.0616,
+          "h": 0.0924,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.6871,
+          "y": 0.59,
+          "w": 0.0557,
+          "h": 0.0836,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.7702,
+          "y": 0.58,
+          "w": 0.0616,
+          "h": 0.0924,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.8591,
+          "y": 0.59,
+          "w": 0.0557,
+          "h": 0.0836,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "crowd",
+          "confidence": 0.9
+        },
+        {
+          "text": "wedding",
+          "confidence": 0.66
+        }
+      ],
+      "quality": {
+        "sharpness": 0.8947368421052632,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 10,
+        "overall": 0.9153947368421053,
+        "laplacian": 369.1079648820964
+      },
+      "hash": "fb846b38857bc03c",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 27.56286057822261,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w33": {
+      "id": "w33",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T16:30:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.4497,
+          "y": 0.59,
+          "w": 0.0205,
+          "h": 0.0308,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.529,
+          "y": 0.58,
+          "w": 0.022,
+          "h": 0.033,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "lake",
+          "confidence": 0.9
+        },
+        {
+          "text": "boat",
+          "confidence": 0.84
+        }
+      ],
+      "quality": {
+        "sharpness": 0.5526315789473685,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.7785526315789474,
+        "laplacian": 173.942829226491
+      },
+      "hash": "99a6661925a6da79",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 202.89394178168155,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w23": {
+      "id": "w23",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T16:50:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.368,
+          "y": 0.22,
+          "w": 0.264,
+          "h": 0.176,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "bride",
+          "confidence": 0.9
+        },
+        {
+          "text": "veil",
+          "confidence": 0.88
+        },
+        {
+          "text": "lake",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.39473684210526316,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 1,
+        "overall": 0.7153947368421053,
+        "laplacian": 153.23321632711713
+      },
+      "hash": "8ea558da0ca4f379",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 28.862822461900137,
+      "focusX": 0.5,
+      "focusY": 0.16666666666666666
+    },
+    "w11": {
+      "id": "w11",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T17:10:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.3545,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5016,
+          "y": 0.34,
+          "w": 0.0968,
+          "h": 0.1452,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "wedding",
+          "confidence": 0.9
+        },
+        {
+          "text": "lake",
+          "confidence": 0.84
+        },
+        {
+          "text": "sky",
+          "confidence": 0.82
+        }
+      ],
+      "quality": {
+        "sharpness": 0.6578947368421053,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.8206578947368421,
+        "laplacian": 189.1556378930495
+      },
+      "hash": "86b9496626b3f26c",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 28.41120817640513,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w12": {
+      "id": "w12",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T17:12:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.3605,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5076,
+          "y": 0.34,
+          "w": 0.0968,
+          "h": 0.1452,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "wedding",
+          "confidence": 0.9
+        },
+        {
+          "text": "lake",
+          "confidence": 0.84
+        },
+        {
+          "text": "sky",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.631578947368421,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.8101315789473684,
+        "laplacian": 188.94913169849042
+      },
+      "hash": "86b9496e26b3e26c",
+      "isExcluded": true,
+      "excludedReason": "duplicate",
+      "userPinned": false,
+      "dominantHue": 28.786207764300638,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w34": {
+      "id": "w34",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T17:20:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.4039,
+          "y": 0.61,
+          "w": 0.1122,
+          "h": 0.0748,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5006,
+          "y": 0.59,
+          "w": 0.1188,
+          "h": 0.0792,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "building",
+          "confidence": 0.8
+        },
+        {
+          "text": "wedding",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.9736842105263158,
+        "exposure": 0.9641907991202346,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.9398118440345734,
+        "laplacian": 993.889692796108
+      },
+      "hash": "e691c8b4f366d948",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 34.697182147102524,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w13": {
+      "id": "w13",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T17:30:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.2032,
+          "y": 0.1,
+          "w": 0.3135,
+          "h": 0.209,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.515,
+          "y": 0.05,
+          "w": 0.33,
+          "h": 0.22,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "bride",
+          "confidence": 0.86
+        },
+        {
+          "text": "veil",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.868421052631579,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.9048684210526315,
+        "laplacian": 353.3357970060711
+      },
+      "hash": "ea9d93b2626cc989",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 29.25902043347914,
+      "focusX": 0.5,
+      "focusY": 0.16666666666666666
+    },
+    "w14": {
+      "id": "w14",
+      "width": 4200,
+      "height": 1750,
+      "takenAt": "2026-08-15T17:45:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "lake",
+          "confidence": 0.93
+        },
+        {
+          "text": "sky",
+          "confidence": 0.9
+        },
+        {
+          "text": "building",
+          "confidence": 0.66
+        }
+      ],
+      "quality": {
+        "sharpness": 0.6052631578947368,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.6921052631578948,
+        "laplacian": 188.585390155256
+      },
+      "hash": "a09b5f74a08b5b74",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 203.37372668996298,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.5
+    },
+    "w35": {
+      "id": "w35",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T17:55:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "lake",
+          "confidence": 0.9
+        },
+        {
+          "text": "sky",
+          "confidence": 0.92
+        }
+      ],
+      "quality": {
+        "sharpness": 0.07894736842105263,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.48157894736842105,
+        "laplacian": 41.33147483024355
+      },
+      "hash": "b6965969a792586c",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 29.184998415176413,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w15": {
+      "id": "w15",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T18:10:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.4653,
+          "y": 0.52,
+          "w": 0.0293,
+          "h": 0.044,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5139,
+          "y": 0.5,
+          "w": 0.0323,
+          "h": 0.0484,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "lake",
+          "confidence": 0.9
+        },
+        {
+          "text": "sky",
+          "confidence": 0.84
+        },
+        {
+          "text": "wedding",
+          "confidence": 0.6
+        }
+      ],
+      "quality": {
+        "sharpness": 0.2894736842105263,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.6732894736842105,
+        "laplacian": 95.00472206183689
+      },
+      "hash": "a69979660d93cc6c",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 29.233774625495467,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w16": {
+      "id": "w16",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T18:20:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.4545,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.6016,
+          "y": 0.34,
+          "w": 0.0968,
+          "h": 0.1452,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "lake",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.0,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.5575,
+        "laplacian": 2.033179635099818
+      },
+      "hash": "8db25a4d25a6c97c",
+      "isExcluded": true,
+      "excludedReason": "blur",
+      "userPinned": false,
+      "dominantHue": 28.675237863796347,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w36": {
+      "id": "w36",
+      "width": 2400,
+      "height": 2400,
+      "takenAt": "2026-08-15T19:10:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "candle",
+          "confidence": 0.9
+        },
+        {
+          "text": "table",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.47368421052631576,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.6394736842105263,
+        "laplacian": 156.49921638092215
+      },
+      "hash": "817e7c817e2c817e",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 35.24084933092853,
+      "focusX": 0.16666666666666666,
+      "focusY": 0.8333333333333334
+    },
+    "w17": {
+      "id": "w17",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T19:30:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "party",
+          "confidence": 0.82
+        },
+        {
+          "text": "table",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.9473684210526315,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.8289473684210527,
+        "laplacian": 527.4720127051642
+      },
+      "hash": "d52a2ad52a3bd52a",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 266.08865861563197,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w18": {
+      "id": "w18",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T20:00:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.4045,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5116,
+          "y": 0.34,
+          "w": 0.0968,
+          "h": 0.1452,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "dance",
+          "confidence": 0.84
+        },
+        {
+          "text": "gown",
+          "confidence": 0.76
+        },
+        {
+          "text": "wedding",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.8157894736842105,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.8838157894736843,
+        "laplacian": 313.9174271093254
+      },
+      "hash": "cc19336633335f4c",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 326.59901667359435,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w37": {
+      "id": "w37",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T20:15:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.4487,
+          "y": 0.32,
+          "w": 0.1027,
+          "h": 0.154,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "party",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.5789473684210527,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 1,
+        "overall": 0.7890789473684211,
+        "laplacian": 181.33547088719254
+      },
+      "hash": "d977775f59480822",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 335.7417244413313,
+      "focusX": 0.5,
+      "focusY": 0.16666666666666666
+    },
+    "w19": {
+      "id": "w19",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T20:30:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "cake",
+          "confidence": 0.95
+        },
+        {
+          "text": "wedding",
+          "confidence": 0.8
+        }
+      ],
+      "quality": {
+        "sharpness": 0.05263157894736842,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.4710526315789474,
+        "laplacian": 38.80425748564164
+      },
+      "hash": "9ee9659678916166",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 26.238017336069145,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w20": {
+      "id": "w20",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T21:00:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.0797,
+          "y": 0.45,
+          "w": 0.0807,
+          "h": 0.121,
+          "eyesOpen": 0.95,
+          "smile": 0.9
+        },
+        {
+          "x": 0.2697,
+          "y": 0.41,
+          "w": 0.0807,
+          "h": 0.121,
+          "eyesOpen": 0.95,
+          "smile": 0.9
+        },
+        {
+          "x": 0.4597,
+          "y": 0.45,
+          "w": 0.0807,
+          "h": 0.121,
+          "eyesOpen": 0.95,
+          "smile": 0.9
+        },
+        {
+          "x": 0.6497,
+          "y": 0.41,
+          "w": 0.0807,
+          "h": 0.121,
+          "eyesOpen": 0.95,
+          "smile": 0.9
+        },
+        {
+          "x": 0.8397,
+          "y": 0.45,
+          "w": 0.0807,
+          "h": 0.121,
+          "eyesOpen": 0.95,
+          "smile": 0.9
+        }
+      ],
+      "labels": [
+        {
+          "text": "dance",
+          "confidence": 0.9
+        },
+        {
+          "text": "party",
+          "confidence": 0.86
+        }
+      ],
+      "quality": {
+        "sharpness": 0.7894736842105263,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 5,
+        "overall": 0.8882894736842106,
+        "laplacian": 278.786396362884
+      },
+      "hash": "8d729c8dc747187c",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 281.9914100501687,
+      "focusX": 0.5,
+      "focusY": 0.16666666666666666
+    },
+    "w38": {
+      "id": "w38",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T21:10:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.3545,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5575,
+          "y": 0.39,
+          "w": 0.0851,
+          "h": 0.1276,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "dance",
+          "confidence": 0.88
+        }
+      ],
+      "quality": {
+        "sharpness": 0.18421052631578946,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.6311842105263158,
+        "laplacian": 55.06216041604765
+      },
+      "hash": "ce1b64649bdb6464",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 326.40354895656105,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w21": {
+      "id": "w21",
+      "width": 2400,
+      "height": 2400,
+      "takenAt": "2026-08-15T21:30:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "drink",
+          "confidence": 0.84
+        },
+        {
+          "text": "party",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.5,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.65,
+        "laplacian": 156.6847658505194
+      },
+      "hash": "c3533c3cc3c36c3c",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 13.94431727959712,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w39": {
+      "id": "w39",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T22:00:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [],
+      "labels": [
+        {
+          "text": "lake",
+          "confidence": 0.8
+        },
+        {
+          "text": "night",
+          "confidence": 0.9
+        }
+      ],
+      "quality": {
+        "sharpness": 0.21052631578947367,
+        "exposure": 1.0,
+        "eyesOpen": 1.0,
+        "faceCount": 0,
+        "overall": 0.5342105263157895,
+        "laplacian": 56.57929577345607
+      },
+      "hash": "ae5550d12ffdd00a",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 226.59432897793366,
+      "focusX": 0.8333333333333334,
+      "focusY": 0.5
+    },
+    "w22": {
+      "id": "w22",
+      "width": 3000,
+      "height": 2000,
+      "takenAt": "2026-08-15T22:15:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.3975,
+          "y": 0.42,
+          "w": 0.0851,
+          "h": 0.1276,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.5245,
+          "y": 0.38,
+          "w": 0.0909,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "wedding",
+          "confidence": 0.7
+        },
+        {
+          "text": "night",
+          "confidence": 0.84
+        }
+      ],
+      "quality": {
+        "sharpness": 0.5263157894736842,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.7680263157894737,
+        "laplacian": 173.24631988222768
+      },
+      "hash": "cc3366cc99336666",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 259.8067314585369,
+      "focusX": 0.5,
+      "focusY": 0.5
+    },
+    "w40": {
+      "id": "w40",
+      "width": 2000,
+      "height": 3000,
+      "takenAt": "2026-08-15T22:40:00.000Z",
+      "lat": 41.1172,
+      "lng": 20.8016,
+      "placeName": "Ohrid",
+      "placeId": "ohrid",
+      "countryCode": "MK",
+      "faces": [
+        {
+          "x": 0.3477,
+          "y": 0.38,
+          "w": 0.2046,
+          "h": 0.1364,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        },
+        {
+          "x": 0.4511,
+          "y": 0.34,
+          "w": 0.2178,
+          "h": 0.1452,
+          "eyesOpen": 0.95,
+          "smile": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "text": "dance",
+          "confidence": 0.86
+        },
+        {
+          "text": "gown",
+          "confidence": 0.7
+        }
+      ],
+      "quality": {
+        "sharpness": 0.8421052631578947,
+        "exposure": 1.0,
+        "eyesOpen": 0.95,
+        "faceCount": 2,
+        "overall": 0.8943421052631578,
+        "laplacian": 331.5308092184057
+      },
+      "hash": "ce1933663e99994c",
+      "isExcluded": false,
+      "userPinned": false,
+      "dominantHue": 266.9383790412717,
+      "focusX": 0.5,
+      "focusY": 0.5
+    }
+  },
+  "story": {
+    "names": "Aleksandar & Elena",
+    "eventDate": "2026-08-15T00:00:00.000Z",
+    "place": "Ohrid",
+    "moment": "The quiet minute on the pier before the party",
+    "tone": "warm"
+  },
+  "flags": {
+    "illustrated": false,
+    "vectorText": false,
+    "blankPagesAdded": 0
+  }
+}
